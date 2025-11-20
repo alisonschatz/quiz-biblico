@@ -2,73 +2,65 @@ const { configure } = require('quasar/wrappers');
 
 module.exports = configure(function (ctx) {
   return {
+    // Arquivos boot
     boot: ['firebase'],
-    
+
+    // CSS global
     css: ['app.scss'],
-    
+
+    // Quasar Extras
     extras: [
       'roboto-font',
       'material-icons',
       'material-icons-outlined'
     ],
-    
+
+    // Build
     build: {
       target: {
-        browser: ['es2019', 'edge88', 'firefox78', 'chrome87', 'safari13.1'],
-        node: 'node16'
+        browser: ['es2019', 'chrome87', 'firefox78', 'safari13.1'],
+        node: 'node18'
       },
-      
+
       vueRouterMode: 'hash',
-      
+
       vitePlugins: []
     },
-    
+
+    // Dev server
     devServer: {
-      open: true
+      open: true,
+      port: 9000
     },
-    
+
+    // Config do Quasar Framework
     framework: {
       config: {},
-      
-      plugins: [
-        'Notify',
-        'Loading',
-        'Dialog'
-      ]
+      plugins: ['Notify', 'Loading', 'Dialog']
     },
-    
+
     animations: 'all',
-    
-    ssr: {
-      pwa: false,
-      prodPort: 3000,
-      maxAge: 1000 * 60 * 60 * 24 * 30,
-      middlewares: [ctx.prod ? 'compression' : '', 'render']
-    },
-    
+
+    // PWA
     pwa: {
       workboxMode: 'generateSW',
       injectPwaMetaTags: true,
       swFilename: 'sw.js',
-      manifestFilename: 'manifest.json',
-      useCredentialsForManifestTag: false
+      manifestFilename: 'manifest.json'
     },
-    
-    cordova: {},
+
+    // Capacitor
     capacitor: {
       hideSplashscreen: true
     },
+
+    // Electron
     electron: {
+      bundler: 'builder',
       inspectPort: 5858,
-      bundler: 'packager',
-      packager: {},
       builder: {
         appId: 'quiz-biblico'
       }
-    },
-    
-    bex: {
-      contentScripts: ['my-content-script']
     }
-  }
+  };
 });

@@ -1,44 +1,117 @@
+###############################
+# SISTEMA OPERACIONAL
+###############################
+# macOS
 .DS_Store
-.thumbs.db
-node_modules
 
-# Quasar core related directories
-.quasar
-/dist
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
 
-# Cordova related directories and files
-/src-cordova/node_modules
-/src-cordova/platforms
-/src-cordova/plugins
-/src-cordova/www
-
-# Capacitor related directories and files
-/src-capacitor/www
-/src-capacitor/node_modules
-
-# BEX related directories and files
-/src-bex/www
-/src-bex/js/core
-
-# Log files
+###############################
+# NODE / NPM / YARN
+###############################
+node_modules/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+pnpm-debug.log*
 
-# Editor directories and files
-.idea
+# Lock files (não versionar em projetos Vue/Quasar multiplataforma)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+###############################
+# QUASAR
+###############################
+.quasar/
+dist/
+dist-spa/
+dist-ssr/
+dist-pwa/
+dist-cordova/
+dist-capacitor/
+
+###############################
+# BUILD E TEMPORÁRIOS
+###############################
+*.log
+*.tmp
+*.temp
+tmp/
+temp/
+.cache/
+vite.config.timestamp-*
+*.local
+
+###############################
+# CONFIG LOCAIS
+###############################
+.env
+.env.*
+!.env.example  # manter arquivo de exemplo versionado
+
+###############################
+# CORDOVA
+###############################
+src-cordova/node_modules/
+src-cordova/platforms/
+src-cordova/plugins/
+src-cordova/www/
+src-cordova/.gradle/
+src-cordova/.idea/
+
+###############################
+# CAPACITOR
+###############################
+src-capacitor/www/
+src-capacitor/node_modules/
+src-capacitor/android/
+src-capacitor/ios/
+
+###############################
+# BROWSER EXTENSION (BEX)
+###############################
+src-bex/www/
+src-bex/js/core/
+
+###############################
+# FIREBASE
+###############################
+.firebase/
+firestore-debug.log
+firebase-debug.log
+.firebaserc
+
+###############################
+# IDEs / EDITORES
+###############################
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
-*.sw?
+*.swp
+*.swa
 
-# local env files
-.env.local
-.env.*.local
-.env
+###############################
+# VERCEL
+###############################
+.vercel/
+.vercel_build_output/
 
-# Firebase
-.firebase
-.firebaserc
-firebase-debug.log
+###############################
+# OUTROS ARQUIVOS DESNECESSÁRIOS
+###############################
+*.tar
+*.zip
+*.7z
+*.bak
+*.old
+*.orig
