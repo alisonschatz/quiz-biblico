@@ -42,6 +42,11 @@ const routes = [
         path: '/ranking', 
         name: 'ranking',
         component: () => import('pages/Ranking.vue') 
+      },
+      { 
+        path: '/profile', 
+        name: 'profile',
+        component: () => import('pages/Profile.vue') 
       }
     ]
   },
