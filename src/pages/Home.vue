@@ -1,278 +1,222 @@
 <template>
-  <div class="home-page q-pa-md">
-    <!-- Loading Overlay -->
-    <div v-if="loading" class="absolute-full flex flex-center">
-      <q-spinner-gears size="50px" color="primary" />
+  <div class="home-page">
+    <div v-if="loading" class="loading-overlay">
+      <div class="loading-spinner"></div>
     </div>
 
-    <template v-else>
-      <!-- Header -->
-      <div class="row items-center q-gutter-md q-mb-lg">
-        <q-avatar size="48px" color="primary" text-color="white">
-          {{ userInitial }}
-        </q-avatar>
-        <div>
-          <h1 class="text-h5 text-weight-bold text-grey-9 q-ma-none">
-            Olá, {{ userName }}!
-          </h1>
-          <p class="text-body2 text-grey-7 q-ma-none">
-            Continue sua jornada bíblica
-          </p>
+    <div v-else class="home-container">
+      <section class="welcome-section">
+        <div class="welcome-header">
+          <div class="user-avatar-small">
+            <img
+              v-if="user?.photoURL"
+              :src="user.photoURL"
+              :alt="userName"
+              class="avatar-img"
+            />
+            <UserIcon v-else class="avatar-icon" />
+          </div>
+          <div class="welcome-info">
+            <h1 class="welcome-title">Olá, {{ userName }}!</h1>
+            <p class="welcome-subtitle">Continue sua jornada bíblica</p>
+          </div>
         </div>
-      </div>
+      </section>
 
-      <!-- Level Progress -->
-      <level-progress
-        v-if="progress"
-        :level="currentLevel"
-        :current-x-p="currentXP"
-        :next-level-x-p="nextLevelXP"
-        class="q-mb-md"
-      />
-
-      <!-- Play Button -->
-      <q-btn
-        to="/quiz"
-        color="primary"
-        size="xl"
-        unelevated
-        no-caps
-        class="full-width play-btn q-mb-md"
-      >
-        <q-icon name="play_circle" size="32px" class="q-mr-sm" />
-        <span class="text-h6">Começar Quiz</span>
-      </q-btn>
-
-      <!-- Stats Grid -->
-      <div class="row q-col-gutter-md q-mb-md">
-        <div class="col-6">
-          <stat-card
-            icon="check_circle"
-            label="Precisão"
-            :value="`${accuracy}%`"
-            gradient="linear-gradient(135deg, #22c55e 0%, #16a34a 100%)"
-          />
+      <section v-if="progress" class="level-card">
+        <div class="level-header">
+          <div class="level-badge">
+            <StarIcon class="level-star" />
+            <span class="level-number">Nível {{ level }}</span>
+          </div>
+          <span class="level-xp">{{ xp }} / {{ xpToNextLevel }} XP</span>
         </div>
-        <div class="col-6">
-          <stat-card
-            icon="emoji_events"
-            label="Acertos"
-            :value="progress?.correctAnswers || 0"
-            gradient="linear-gradient(135deg, #3b82f6 0%, #2563eb 100%)"
-          />
+        <div class="level-progress-bar">
+          <div class="level-progress-fill" :style="{ width: `${xpPercentage}%` }"></div>
         </div>
-        <div class="col-6">
-          <stat-card
-            icon="local_fire_department"
-            label="Sequência"
-            :value="`${progress?.currentStreak || 0} dias`"
-            gradient="linear-gradient(135deg, #f97316 0%, #dc2626 100%)"
-          />
+      </section>
+
+      <button class="action-button" @click="goToQuiz">
+        <div class="action-icon-wrapper">
+          <PlayCircleIcon class="action-icon" />
         </div>
-        <div class="col-6">
-          <stat-card
-            icon="menu_book"
-            label="Perguntas"
-            :value="progress?.questionsAnswered || 0"
-            gradient="linear-gradient(135deg, #8b5cf6 0%, #7c3aed 100%)"
-          />
+        <div class="action-content">
+          <span class="action-title">Começar Quiz</span>
+          <span class="action-subtitle">Teste seus conhecimentos bíblicos</span>
         </div>
-      </div>
+        <ArrowRightIcon class="action-arrow" />
+      </button>
 
-      <!-- Quick Stats -->
-      <q-card class="stats-card">
-        <q-card-section class="q-pa-lg">
-          <h2 class="text-h6 text-weight-bold text-grey-9 q-mb-md row items-center">
-            <q-icon name="trending_up" color="purple-7" size="24px" class="q-mr-sm" />
-            Estatísticas Rápidas
-          </h2>
+      <section class="stats-overview">
+        <h2 class="section-title">
+          <ChartBarIcon class="title-icon" />
+          Suas Estatísticas
+        </h2>
+        <div class="stats-grid">
+          <div class="stat-item stat-success">
+            <div class="stat-icon-box">
+              <CheckCircleIcon class="stat-icon" />
+            </div>
+            <div class="stat-info">
+              <span class="stat-value">{{ accuracy }}%</span>
+              <span class="stat-label">Precisão</span>
+            </div>
+          </div>
+          <div class="stat-item stat-primary">
+            <div class="stat-icon-box">
+              <TrophyIcon class="stat-icon" />
+            </div>
+            <div class="stat-info">
+              <span class="stat-value">{{ correctAnswers }}</span>
+              <span class="stat-label">Acertos</span>
+            </div>
+          </div>
+          <div class="stat-item stat-warning">
+            <div class="stat-icon-box">
+              <FireIcon class="stat-icon" />
+            </div>
+            <div class="stat-info">
+              <span class="stat-value">{{ currentStreak }}</span>
+              <span class="stat-label">Sequência</span>
+            </div>
+          </div>
+          <div class="stat-item stat-info">
+            <div class="stat-icon-box">
+              <BookOpenIcon class="stat-icon" />
+            </div>
+            <div class="stat-info">
+              <span class="stat-value">{{ questionsAnswered }}</span>
+              <span class="stat-label">Perguntas</span>
+            </div>
+          </div>
+        </div>
+      </section>
 
-          <q-list separator>
-            <q-item>
-              <q-item-section>
-                <q-item-label>Total de Perguntas no App</q-item-label>
-              </q-item-section>
-              <q-item-section side>
-                <q-item-label class="text-weight-bold">{{ totalQuestions }}</q-item-label>
-              </q-item-section>
-            </q-item>
-
-            <q-item>
-              <q-item-section>
-                <q-item-label>Melhor Sequência</q-item-label>
-              </q-item-section>
-              <q-item-section side>
-                <q-item-label class="text-weight-bold text-orange-6">
-                  {{ progress?.bestStreak || 0 }} dias
-                </q-item-label>
-              </q-item-section>
-            </q-item>
-
-            <q-item>
-              <q-item-section>
-                <q-item-label>Conquistas Desbloqueadas</q-item-label>
-              </q-item-section>
-              <q-item-section side>
-                <q-item-label class="text-weight-bold text-purple-7">
-                  {{ progress?.achievementsUnlocked?.length || 0 }}
-                </q-item-label>
-              </q-item-section>
-            </q-item>
-
-            <q-item>
-              <q-item-section>
-                <q-item-label>XP Total</q-item-label>
-              </q-item-section>
-              <q-item-section side>
-                <q-item-label class="text-weight-bold text-amber-7 row items-center">
-                  <q-icon name="bolt" size="16px" class="q-mr-xs" />
-                  {{ progress?.totalXp || 0 }}
-                </q-item-label>
-              </q-item-section>
-            </q-item>
-          </q-list>
-        </q-card-section>
-      </q-card>
-    </template>
+      <section class="detailed-stats">
+        <h2 class="section-title">
+          <SparklesIcon class="title-icon" />
+          Estatísticas Detalhadas
+        </h2>
+        <div class="details-card">
+          <div class="detail-row">
+            <div class="detail-left">
+              <BookOpenIcon class="detail-icon" />
+              <span class="detail-label">Total de Perguntas no App</span>
+            </div>
+            <span class="detail-value">{{ totalQuestions }}</span>
+          </div>
+          <div class="detail-separator"></div>
+          <div class="detail-row">
+            <div class="detail-left">
+              <FireIcon class="detail-icon detail-icon-orange" />
+              <span class="detail-label">Melhor Sequência</span>
+            </div>
+            <span class="detail-value detail-value-orange">
+              {{ bestStreak }} dias
+            </span>
+          </div>
+          <div class="detail-separator"></div>
+          <div class="detail-row">
+            <div class="detail-left">
+              <ShieldCheckIcon class="detail-icon detail-icon-purple" />
+              <span class="detail-label">Conquistas Desbloqueadas</span>
+            </div>
+            <span class="detail-value detail-value-purple">
+              {{ achievementsUnlocked }}
+            </span>
+          </div>
+          <div class="detail-separator"></div>
+          <div class="detail-row">
+            <div class="detail-left">
+              <BoltIcon class="detail-icon detail-icon-gold" />
+              <span class="detail-label">XP Total Acumulado</span>
+            </div>
+            <span class="detail-value detail-value-gold">
+              {{ totalXp }} XP
+            </span>
+          </div>
+        </div>
+      </section>
+    </div>
   </div>
 </template>
 
-<script>
+<script setup>
 import { ref, computed, onMounted, onUnmounted } from 'vue';
 import { useRouter } from 'vue-router';
-import authService from '../services/auth.service';
-import quizService from '../services/quiz.service';
-import userService from '../services/user.service'; // ✅ Import direto (não dinâmico)
-import LevelProgress from '../components/LevelProgress.vue';
-import StatCard from '../components/StatCard.vue';
+import authService from '/src/services/auth.service';
+import quizService from '/src/services/quiz.service';
+import userService from '/src/services/user.service';
 
-export default {
-  name: 'HomePage',
+import {
+  UserIcon,
+  StarIcon,
+  PlayCircleIcon,
+  ArrowRightIcon,
+  ChartBarIcon,
+  CheckCircleIcon,
+  TrophyIcon,
+  FireIcon,
+  BookOpenIcon,
+  SparklesIcon,
+  ShieldCheckIcon,
+  BoltIcon
+} from '@heroicons/vue/24/solid';
 
-  components: {
-    LevelProgress,
-    StatCard
-  },
+const router = useRouter();
+const loading = ref(true);
+const totalQuestions = ref(0);
+const user = ref(null);
+const progress = ref(null);
 
-  setup() {
-    const router = useRouter();
-    const loading = ref(true);
-    const totalQuestions = ref(0);
-    const user = ref(null);
-    const progress = ref(null);
+const userName = computed(() => user.value?.displayName?.split(' ')[0] ?? 'Jogador');
 
-    const userName = computed(() => {
-      return user.value?.displayName?.split(' ')[0] || 'Jogador';
-    });
+const level = computed(() => progress.value?.level ?? 1);
+const totalXp = computed(() => progress.value?.totalXp ?? 0);
+const xpToNextLevel = computed(() => level.value * 100);
+const xp = computed(() => totalXp.value % xpToNextLevel.value);
+const xpPercentage = computed(() => Math.round((xp.value / xpToNextLevel.value) * 100));
 
-    const userInitial = computed(() => {
-      return user.value?.displayName?.charAt(0).toUpperCase() || 'U';
-    });
+const questionsAnswered = computed(() => progress.value?.questionsAnswered ?? 0);
+const correctAnswers = computed(() => progress.value?.correctAnswers ?? 0);
+const currentStreak = computed(() => progress.value?.currentStreak ?? 0);
+const bestStreak = computed(() => progress.value?.bestStreak ?? 0);
+const achievementsUnlocked = computed(() => progress.value?.achievementsUnlocked?.length ?? 0);
 
-    const currentLevel = computed(() => progress.value?.level || 1);
+const accuracy = computed(() => {
+  if (questionsAnswered.value === 0) return 0;
+  return Math.round((correctAnswers.value / questionsAnswered.value) * 100);
+});
 
-    const currentXP = computed(() => {
-      if (!progress.value) return 0;
-      const next = nextLevelXP.value;
-      return progress.value.totalXp % next;
-    });
+const goToQuiz = () => router.push('/quiz');
 
-    const nextLevelXP = computed(() => {
-      if (!progress.value) return 100;
-      return progress.value.level * 100;
-    });
+let unsubscribeAuth = null;
 
-    const accuracy = computed(() => {
-      if (!progress.value || progress.value.questionsAnswered === 0) return 0;
-      return Math.round((progress.value.correctAnswers / progress.value.questionsAnswered) * 100);
-    });
-
-    let unsubscribeAuth = null;
-
-    onMounted(async () => {
-      // ✅ Inscreve no estado de autenticação
-      unsubscribeAuth = authService.onAuthStateChanged(async (firebaseUser) => {
-        if (firebaseUser) {
-          try {
-            console.log('✅ Usuário autenticado:', firebaseUser.uid);
-
-            // ✅ Usa userService importado diretamente
-            const userInfo = await userService.getUser(firebaseUser.uid);
-            const userProgressData = await userService.getUserProgress(firebaseUser.uid);
-
-            user.value = userInfo;
-            progress.value = userProgressData;
-
-            console.log('✅ Dados do usuário carregados');
-          } catch (error) {
-            console.error('Erro ao carregar dados do usuário:', error);
-          }
-        } else {
-          // ✅ Redirecionamento mantido (mas ideal: mover para router guard)
-          console.warn('⚠️ Usuário não autenticado — redirecionando para login');
-          router.push('/auth/login');
-        }
-      });
-
-      // Carrega total de perguntas em paralelo
+onMounted(async () => {
+  unsubscribeAuth = authService.onAuthStateChanged(async (firebaseUser) => {
+    if (firebaseUser) {
       try {
-        const questions = await quizService.getAllQuestions();
-        totalQuestions.value = questions.length;
+        user.value = await userService.getUser(firebaseUser.uid);
+        progress.value = await userService.getUserProgress(firebaseUser.uid);
       } catch (error) {
-        console.error('Erro ao carregar perguntas:', error);
-      } finally {
-        loading.value = false;
+        console.error('Erro ao carregar dados do usuário:', error);
       }
-    });
+    } else {
+      router.push('/auth/login');
+    }
+  });
 
-    onUnmounted(() => {
-      // ✅ Evita vazamento de memória
-      if (unsubscribeAuth) {
-        unsubscribeAuth();
-      }
-    });
-
-    return {
-      loading,
-      progress,
-      user,
-      userName,
-      userInitial,
-      totalQuestions,
-      currentLevel,
-      currentXP,
-      nextLevelXP,
-      accuracy
-    };
+  try {
+    const questions = await quizService.getAllQuestions();
+    totalQuestions.value = questions.length;
+  } catch (error) {
+    console.error('Erro ao carregar perguntas:', error);
+  } finally {
+    loading.value = false;
   }
-};
+});
+
+onUnmounted(() => unsubscribeAuth?.());
 </script>
 
-<style scoped lang="scss">
-.home-page {
-  background: linear-gradient(135deg, #faf5ff 0%, #eff6ff 50%, #fef3c7 100%);
-  min-height: calc(100vh - 144px); // header (64px) + bottom-nav (80px)
-  position: relative;
-}
-
-.play-btn {
-  border-radius: 16px;
-  height: 80px;
-  background: linear-gradient(135deg, #9333ea 0%, #3b82f6 50%, #9333ea 100%);
-  box-shadow: 0 8px 32px rgba(147, 51, 234, 0.3);
-  transition: all 0.3s ease;
-
-  &:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 12px 40px rgba(147, 51, 234, 0.4);
-  }
-}
-
-.stats-card {
-  background: rgba(255, 255, 255, 0.8);
-  backdrop-filter: blur(10px);
-  border: none;
-  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.08);
-  border-radius: 16px;
-}
-</style>
+<style src="/src/css/pages/home.scss" scoped></style>
