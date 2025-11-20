@@ -18,11 +18,6 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 
-# Lock files (não versionar em projetos Vue/Quasar multiplataforma)
-package-lock.json
-yarn.lock
-pnpm-lock.yaml
-
 ###############################
 # QUASAR
 ###############################
