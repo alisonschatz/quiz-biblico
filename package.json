@@ -5,26 +5,30 @@
   "productName": "Quiz Bíblico - Sagrado Saber",
   "author": "Alison Schatz",
   "private": true,
+
   "scripts": {
     "dev": "quasar dev",
     "build": "quasar build",
     "build:pwa": "quasar build -m pwa",
     "populate": "node scripts/populate-db.js"
   },
+
   "dependencies": {
-    "@quasar/extras": "^1.16.9",
-    "axios": "^1.7.7",
-    "canvas-confetti": "^1.9.2",
-    "firebase": "^10.12.2",
-    "quasar": "^2.16.6",
-    "vue": "^3.4.38",
-    "vue-router": "^4.4.3"
+    "@quasar/extras": "1.16.9",
+    "axios": "1.7.7",
+    "canvas-confetti": "1.9.2",
+    "firebase": "10.12.2",
+    "quasar": "2.18.6",
+    "vue": "3.4.38",
+    "vue-router": "4.4.3"
   },
+
   "devDependencies": {
-    "@quasar/app-vite": "^1.8.0",
-    "autoprefixer": "^10.4.20",
-    "vite": "^5.4.8"
+    "@quasar/app-vite": "1.11.0",
+    "autoprefixer": "10.4.20",
+    "vite": "5.4.10"
   },
+
   "engines": {
     "node": ">=18",
     "npm": ">=8"
