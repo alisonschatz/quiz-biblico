@@ -1,377 +1,392 @@
 <template>
-  <q-page class="quiz-page">
-    <div class="container q-pa-md">
-      <q-inner-loading :showing="loading">
-        <q-spinner-gears size="50px" color="primary" />
-        <div class="text-center text-grey-7 q-mt-md">Preparando perguntas...</div>
-      </q-inner-loading>
+  <div class="quiz-page">
+    <div v-if="loading" class="loading-overlay">
+      <div class="loading-content">
+        <div class="loading-spinner"></div>
+        <p class="loading-text">Preparando perguntas...</p>
+      </div>
+    </div>
 
-      <template v-if="!loading && !quizComplete">
-        <!-- Header -->
-        <div class="row items-center justify-between q-mb-lg">
-          <q-btn
-            flat
-            round
-            icon="arrow_back"
-            color="grey-8"
-            to="/"
-          />
-          
-          <div class="row q-gutter-sm">
-            <q-chip color="white" text-color="grey-9" icon="emoji_events">
-              {{ score }}
-            </q-chip>
-            <q-chip color="white" text-color="grey-9" icon="bolt">
-              {{ xpEarned }} XP
-            </q-chip>
+    <div v-else-if="!quizComplete" class="quiz-container">
+      <header class="quiz-header">
+        <button class="header-btn back-button" @click="goBack">
+          <ArrowLeftIcon class="btn-icon" />
+        </button>
+        <div class="header-stats">
+          <div class="stat-chip stat-score">
+            <TrophyIcon class="chip-icon" />
+            <span class="chip-value">{{ score }}</span>
+          </div>
+          <div class="stat-chip stat-xp">
+            <BoltIcon class="chip-icon" />
+            <span class="chip-value">{{ xpEarned }}</span>
           </div>
         </div>
+      </header>
 
-        <!-- Question -->
-        <transition
-          appear
-          enter-active-class="animated fadeIn"
-          leave-active-class="animated fadeOut"
-          mode="out-in"
-        >
-          <question-card
-            v-if="currentQuestion"
-            :key="currentQuestionIndex"
-            :question="currentQuestion"
-            :question-number="currentQuestionIndex + 1"
-            :total-questions="questions.length"
-            @answer="handleAnswer"
-          />
-        </transition>
-      </template>
-
-      <!-- Quiz Complete -->
-      <template v-if="quizComplete">
-        <div class="complete-container">
-          <q-card class="complete-card">
-            <q-card-section class="text-center q-pa-xl">
-              <div class="trophy-icon q-mb-lg">
-                <q-icon name="emoji_events" size="80px" color="white" />
-              </div>
-              
-              <h1 class="text-h4 text-weight-bold text-grey-9 q-mb-sm">
-                Quiz Concluído!
-              </h1>
-              <p class="text-body1 text-grey-7 q-mb-xl">
-                Parabéns por completar o desafio
-              </p>
-              
-              <div class="score-box q-mb-lg">
-                <div class="text-caption text-grey-7 q-mb-xs">Pontuação</div>
-                <div class="text-h3 text-weight-bold text-purple-7">
-                  {{ score }} / {{ questions.length }}
-                </div>
-              </div>
-              
-              <div class="row q-col-gutter-md q-mb-xl">
-                <div class="col-6">
-                  <div class="metric-box accuracy">
-                    <q-icon name="check_circle" size="32px" class="q-mb-sm" />
-                    <div class="text-caption">Precisão</div>
-                    <div class="text-h5 text-weight-bold">{{ accuracy }}%</div>
-                  </div>
-                </div>
-                <div class="col-6">
-                  <div class="metric-box xp">
-                    <q-icon name="bolt" size="32px" class="q-mb-sm" />
-                    <div class="text-caption">XP Ganho</div>
-                    <div class="text-h5 text-weight-bold">+{{ xpEarned }}</div>
-                  </div>
-                </div>
-              </div>
-              
-              <div class="q-gutter-md">
-                <q-btn
-                  to="/"
-                  color="primary"
-                  size="lg"
-                  unelevated
-                  no-caps
-                  class="full-width"
-                  style="height: 56px; font-size: 18px;"
-                >
-                  Voltar ao Início
-                </q-btn>
-                
-                <q-btn
-                  outline
-                  color="primary"
-                  size="lg"
-                  no-caps
-                  class="full-width"
-                  style="height: 56px; font-size: 18px;"
-                  @click="restartQuiz"
-                >
-                  <q-icon name="auto_awesome" size="20px" class="q-mr-sm" />
-                  Jogar Novamente
-                </q-btn>
-              </div>
-            </q-card-section>
-          </q-card>
+      <div class="progress-section">
+        <div class="progress-info">
+          <span class="progress-label">Questão {{ currentQuestionIndex + 1 }} de {{ questions.length }}</span>
+          <span class="progress-percentage">{{ progressPercentage }}%</span>
         </div>
-      </template>
+        <div class="progress-track">
+          <div class="progress-fill" :style="{ width: `${progressPercentage}%` }"></div>
+        </div>
+      </div>
+
+      <transition name="question-slide" mode="out-in">
+        <div
+          v-if="currentQuestion"
+          :key="currentQuestionIndex"
+          class="question-section"
+        >
+          <div class="question-card">
+            <div class="difficulty-badge" :class="`difficulty-${currentQuestion.difficulty}`">
+              <SparklesIcon class="difficulty-icon" />
+              <span>{{ difficultyLabel }}</span>
+            </div>
+
+            <h2 class="question-text">{{ currentQuestion.question }}</h2>
+
+            <div class="options-list">
+              <button
+                v-for="(option, index) in currentQuestion.options"
+                :key="index"
+                :class="[
+                  'option-button',
+                  {
+                    selected: selectedOption === index,
+                    correct: showResult && index === currentQuestion.correctAnswer,
+                    incorrect: showResult && selectedOption === index && index !== currentQuestion.correctAnswer,
+                    disabled: showResult
+                  }
+                ]"
+                @click="selectOption(index)"
+                :disabled="showResult"
+              >
+                <span class="option-letter">{{ String.fromCharCode(65 + index) }}</span>
+                <span class="option-text">{{ option }}</span>
+                <transition name="icon-pop">
+                  <CheckCircleIcon
+                    v-if="showResult && index === currentQuestion.correctAnswer"
+                    class="result-icon icon-correct"
+                  />
+                  <XCircleIcon
+                    v-else-if="showResult && selectedOption === index && index !== currentQuestion.correctAnswer"
+                    class="result-icon icon-incorrect"
+                  />
+                </transition>
+              </button>
+            </div>
+
+            <button
+              v-if="!showResult"
+              class="action-btn confirm-btn"
+              :disabled="selectedOption === null || isProcessing"
+              @click="confirmAnswer"
+            >
+              <span>{{ isProcessing ? 'Processando...' : 'Confirmar Resposta' }}</span>
+              <ArrowRightIcon v-if="!isProcessing" class="btn-icon" />
+              <div v-else class="btn-spinner"></div>
+            </button>
+          </div>
+        </div>
+      </transition>
     </div>
-  </q-page>
+
+    <div v-else class="complete-container">
+      <div class="complete-card">
+        <div class="complete-content">
+          <div class="trophy-wrapper">
+            <div class="trophy-circle">
+              <TrophyIcon class="trophy-icon" />
+            </div>
+            <div class="trophy-glow"></div>
+          </div>
+          <h1 class="complete-title">Quiz Concluído!</h1>
+          <p class="complete-subtitle">Parabéns por completar o desafio</p>
+
+          <div class="score-display">
+            <span class="score-label">Pontuação</span>
+            <span class="score-value">{{ score }} / {{ questions.length }}</span>
+          </div>
+
+          <div class="metrics-grid">
+            <div class="metric-card metric-accuracy">
+              <div class="metric-icon-box">
+                <CheckCircleIcon class="metric-icon" />
+              </div>
+              <div class="metric-info">
+                <span class="metric-label">Precisão</span>
+                <span class="metric-value">{{ accuracy }}%</span>
+              </div>
+            </div>
+            <div class="metric-card metric-xp">
+              <div class="metric-icon-box">
+                <BoltIcon class="metric-icon" />
+              </div>
+              <div class="metric-info">
+                <span class="metric-label">XP Ganho</span>
+                <span class="metric-value">+{{ xpEarned }}</span>
+              </div>
+            </div>
+            <div class="metric-card metric-time">
+              <div class="metric-icon-box">
+                <ClockIcon class="metric-icon" />
+              </div>
+              <div class="metric-info">
+                <span class="metric-label">Tempo</span>
+                <span class="metric-value">{{ formattedTime }}</span>
+              </div>
+            </div>
+            <div class="metric-card metric-streak">
+              <div class="metric-icon-box">
+                <FireIcon class="metric-icon" />
+              </div>
+              <div class="metric-info">
+                <span class="metric-label">Sequência</span>
+                <span class="metric-value">{{ currentStreak }}</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="actions-wrapper">
+            <button class="action-btn primary-action" @click="goHome">
+              <HomeIcon class="action-icon" /> Voltar ao Início
+            </button>
+            <button class="action-btn secondary-action" @click="restartQuiz">
+              <ArrowPathIcon class="action-icon" /> Jogar Novamente
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Snackbar -->
+    <transition name="snackbar-slide">
+      <div v-if="snackbar.show" :class="['snackbar', `snackbar-${snackbar.type}`]">
+        <component :is="snackbar.icon" class="snackbar-icon" />
+        <span class="snackbar-message">{{ snackbar.message }}</span>
+        <button class="snackbar-close" @click="hideSnackbar">×</button>
+      </div>
+    </transition>
+  </div>
 </template>
 
-<script>
-import { ref, computed, onMounted } from 'vue';
-import { useQuasar } from 'quasar';
+<script setup>
+import { ref, computed, onMounted, onUnmounted } from 'vue';
 import { useRouter } from 'vue-router';
-import authService from '../services/auth.service';
-import userService from '../services/user.service';
-import quizService from '../services/quiz.service';
-import achievementsService from '../services/achievements.service';
-import QuestionCard from '../components/QuestionCard.vue';
+import authService from '/src/services/auth.service';
+import userService from '/src/services/user.service';
+import quizService from '/src/services/quiz.service';
+import achievementsService from '/src/services/achievements.service';
 import confetti from 'canvas-confetti';
 
-export default {
-  name: 'QuizPage',
-  
-  components: {
-    QuestionCard
-  },
-  
-  setup() {
-    const $q = useQuasar();
-    const router = useRouter();
-    
-    const loading = ref(true);
-    const questions = ref([]);
-    const currentQuestionIndex = ref(0);
-    const score = ref(0);
-    const xpEarned = ref(0);
-    const quizComplete = ref(false);
-    const progress = ref(null);
-    
-    const currentQuestion = computed(() => questions.value[currentQuestionIndex.value]);
-    
-    const accuracy = computed(() => {
-      if (questions.value.length === 0) return 0;
-      return Math.round((score.value / questions.value.length) * 100);
-    });
-    
-    const loadQuiz = async () => {
-      try {
-        // Verifica autenticação
-        const currentUser = authService.getCurrentUser();
-        if (!currentUser) {
-          router.push('/auth/login');
-          return;
-        }
-        
-        loading.value = true;
-        
-        // Carrega progresso do usuário
-        const userProgress = await userService.getUserProgress(currentUser.uid);
-        progress.value = userProgress;
-        
-        const quizQuestions = await quizService.getRandomQuestions(10);
-        questions.value = quizQuestions;
-      } catch (error) {
-        console.error('Erro ao carregar quiz:', error);
-        $q.notify({
-          type: 'negative',
-          message: 'Erro ao carregar perguntas'
-        });
-      } finally {
-        loading.value = false;
-      }
-    };
-    
-    const handleAnswer = async (isCorrect, selectedOption) => {
-      if (isCorrect) {
-        score.value++;
-        const xp = quizService.calculateXP(currentQuestion.value.difficulty);
-        xpEarned.value += xp;
-      }
-      
-      if (currentQuestionIndex.value < questions.value.length - 1) {
-        currentQuestionIndex.value++;
-      } else {
-        await completeQuiz();
-      }
-    };
-    
-    const completeQuiz = async () => {
-      quizComplete.value = true;
-      
-      confetti({
-        particleCount: 100,
-        spread: 70,
-        origin: { y: 0.6 }
-      });
-      
-      try {
-        const currentUser = authService.getCurrentUser();
-        if (!currentUser) return;
-        
-        const currentProgress = progress.value;
-        const newTotalXP = currentProgress.totalXp + xpEarned.value;
-        const newLevel = quizService.calculateLevel(newTotalXP);
-        
-        const today = new Date().toISOString().split('T')[0];
-        const lastPlayed = currentProgress.lastPlayed;
-        let newStreak = currentProgress.currentStreak;
-        
-        if (lastPlayed) {
-          const lastDate = new Date(lastPlayed);
-          const todayDate = new Date(today);
-          const diffTime = todayDate - lastDate;
-          const diffDays = Math.floor(diffTime / (1000 * 60 * 60 * 24));
-          
-          if (diffDays === 1) {
-            newStreak += 1;
-          } else if (diffDays > 1) {
-            newStreak = 1;
-          }
-        } else {
-          newStreak = 1;
-        }
-        
-        const updatedProgress = {
-          totalXp: newTotalXP,
-          level: newLevel,
-          questionsAnswered: currentProgress.questionsAnswered + questions.value.length,
-          correctAnswers: currentProgress.correctAnswers + score.value,
-          currentStreak: newStreak,
-          bestStreak: Math.max(currentProgress.bestStreak, newStreak),
-          lastPlayed: today
-        };
-        
-        await userService.updateUserProgress(currentUser.uid, updatedProgress);
-        progress.value = { ...currentProgress, ...updatedProgress };
-        
-        if (newLevel > currentProgress.level) {
-          confetti({
-            particleCount: 150,
-            spread: 100,
-            origin: { y: 0.5 }
-          });
-          
-          $q.notify({
-            type: 'positive',
-            message: `🎉 Parabéns! Você subiu para o nível ${newLevel}!`,
-            timeout: 3000
-          });
-        }
-        
-        // Check achievements
-        const achievements = await achievementsService.getAllAchievements();
-        const newUnlocked = achievementsService.checkAchievements(
-          { ...currentProgress, totalXp: newTotalXP, level: newLevel },
-          achievements
-        );
-        
-        if (newUnlocked.length > 0) {
-          const updatedAchievements = [...currentProgress.achievementsUnlocked, ...newUnlocked];
-          await userService.updateUserProgress(currentUser.uid, {
-            achievementsUnlocked: updatedAchievements
-          });
-          
-          progress.value = { ...progress.value, achievementsUnlocked: updatedAchievements };
-          
-          $q.notify({
-            type: 'positive',
-            message: `🏆 Nova conquista desbloqueada!`,
-            timeout: 3000
-          });
-        }
-      } catch (error) {
-        console.error('Erro ao salvar progresso:', error);
-      }
-    };
-    
-    const restartQuiz = () => {
-      currentQuestionIndex.value = 0;
-      score.value = 0;
-      xpEarned.value = 0;
-      quizComplete.value = false;
-      loadQuiz();
-    };
-    
-    onMounted(() => {
-      loadQuiz();
-    });
-    
-    return {
-      loading,
-      questions,
-      currentQuestionIndex,
-      currentQuestion,
-      score,
-      xpEarned,
-      quizComplete,
-      accuracy,
-      handleAnswer,
-      restartQuiz
-    };
+import {
+  ArrowLeftIcon,
+  ArrowRightIcon,
+  TrophyIcon,
+  BoltIcon,
+  CheckCircleIcon,
+  XCircleIcon,
+  SparklesIcon,
+  ExclamationCircleIcon,
+  ClockIcon,
+  FireIcon,
+  HomeIcon,
+  ArrowPathIcon
+} from '@heroicons/vue/24/solid';
+
+const router = useRouter();
+
+const loading = ref(true);
+const questions = ref([]);
+const currentQuestionIndex = ref(0);
+const score = ref(0);
+const xpEarned = ref(0);
+const quizComplete = ref(false);
+const progress = ref(null);
+const selectedOption = ref(null);
+const showResult = ref(false);
+const isProcessing = ref(false);
+const startTime = ref(null);
+const elapsedTime = ref(0);
+const timerInterval = ref(null);
+const currentStreak = ref(0);
+
+const snackbar = ref({
+  show: false,
+  message: '',
+  type: 'success',
+  icon: CheckCircleIcon
+});
+
+const currentQuestion = computed(() => questions.value[currentQuestionIndex.value]);
+const progressPercentage = computed(() =>
+  questions.value.length ? Math.round(((currentQuestionIndex.value + 1) / questions.value.length) * 100) : 0
+);
+const accuracy = computed(() =>
+  questions.value.length ? Math.round((score.value / questions.value.length) * 100) : 0
+);
+const difficultyLabel = computed(() =>
+  ({ easy: 'Fácil', medium: 'Médio', hard: 'Difícil' }[currentQuestion.value?.difficulty] || 'Médio')
+);
+const isLastQuestion = computed(() => currentQuestionIndex.value === questions.value.length - 1);
+const formattedTime = computed(() => {
+  const mins = Math.floor(elapsedTime.value / 60);
+  const secs = elapsedTime.value % 60;
+  return `${mins}:${secs.toString().padStart(2, '0')}`;
+});
+
+const showSnackbar = (message, type = 'success') => {
+  const icons = { success: CheckCircleIcon, error: ExclamationCircleIcon, info: CheckCircleIcon };
+  snackbar.value = { show: true, message, type, icon: icons[type] ?? CheckCircleIcon };
+  setTimeout(hideSnackbar, 3000);
+};
+
+const hideSnackbar = () => (snackbar.value.show = false);
+
+const startTimer = () => {
+  startTime.value = Date.now();
+  timerInterval.value = setInterval(() => {
+    elapsedTime.value = Math.floor((Date.now() - startTime.value) / 1000);
+  }, 1000);
+};
+
+const stopTimer = () => {
+  if (timerInterval.value) clearInterval(timerInterval.value);
+  timerInterval.value = null;
+};
+
+const loadQuiz = async () => {
+  try {
+    const user = authService.getCurrentUser();
+    if (!user) return router.push('/auth/login');
+
+    loading.value = true;
+
+    const userProgress = await userService.getUserProgress(user.uid);
+    progress.value = userProgress;
+    currentStreak.value = userProgress.currentStreak || 0;
+
+    questions.value = await quizService.getRandomQuestions(10);
+    startTimer();
+  } catch (error) {
+    console.error('Erro ao carregar quiz:', error);
+    showSnackbar('Erro ao carregar perguntas', 'error');
+  } finally {
+    loading.value = false;
   }
 };
+
+const selectOption = (index) => {
+  if (!showResult.value) selectedOption.value = index;
+};
+
+const confirmAnswer = () => {
+  if (selectedOption.value === null || showResult.value || isProcessing.value) return;
+
+  isProcessing.value = true;
+  showResult.value = true;
+  const correct = selectedOption.value === currentQuestion.value.correctAnswer;
+
+  if (correct) {
+    score.value++;
+    const xp = quizService.calculateXP(currentQuestion.value.difficulty);
+    xpEarned.value += xp;
+    confetti({ particleCount: 80, spread: 70, origin: { y: 0.6 } });
+  }
+
+  setTimeout(() => {
+    isProcessing.value = false;
+    if (isLastQuestion.value) {
+      completeQuiz();
+    } else {
+      currentQuestionIndex.value++;
+      selectedOption.value = null;
+      showResult.value = false;
+    }
+  }, 1500);
+};
+
+const completeQuiz = async () => {
+  stopTimer();
+  quizComplete.value = true;
+  confetti({ particleCount: 150, spread: 100, origin: { y: 0.6 } });
+
+  try {
+    const user = authService.getCurrentUser();
+    if (!user) return;
+
+    const p = progress.value;
+    const newTotalXP = p.totalXp + xpEarned.value;
+    const newLevel = quizService.calculateLevel(newTotalXP);
+    const today = new Date().toISOString().split('T')[0];
+    const lastPlayed = p.lastPlayed;
+    let newStreak = p.currentStreak || 1;
+
+    if (lastPlayed) {
+      const diffDays = Math.floor((new Date(today) - new Date(lastPlayed)) / 864e5);
+      newStreak = diffDays === 1 ? p.currentStreak + 1 : diffDays > 1 ? 1 : p.currentStreak;
+    }
+
+    currentStreak.value = newStreak;
+    const updated = {
+      totalXp: newTotalXP,
+      level: newLevel,
+      questionsAnswered: p.questionsAnswered + questions.value.length,
+      correctAnswers: p.correctAnswers + score.value,
+      currentStreak: newStreak,
+      bestStreak: Math.max(p.bestStreak, newStreak),
+      lastPlayed: today
+    };
+
+    await userService.updateUserProgress(user.uid, updated);
+    progress.value = { ...p, ...updated };
+
+    if (newLevel > p.level) {
+      confetti({ particleCount: 200, spread: 120, origin: { y: 0.5 } });
+      showSnackbar(`🎉 Parabéns! Você subiu para o nível ${newLevel}!`, 'success');
+    }
+
+    const achievements = await achievementsService.getAllAchievements();
+    const newUnlocked = achievementsService.checkAchievements(
+      { ...p, totalXp: newTotalXP, level: newLevel },
+      achievements
+    );
+
+    if (newUnlocked.length) {
+      const updatedAchievements = [...p.achievementsUnlocked, ...newUnlocked];
+      await userService.updateUserProgress(user.uid, { achievementsUnlocked: updatedAchievements });
+      progress.value = { ...progress.value, achievementsUnlocked: updatedAchievements };
+      showSnackbar('🏆 Nova conquista desbloqueada!', 'success');
+    }
+  } catch (error) {
+    console.error('Erro ao salvar progresso:', error);
+  }
+};
+
+const restartQuiz = () => {
+  currentQuestionIndex.value = 0;
+  score.value = 0;
+  xpEarned.value = 0;
+  quizComplete.value = false;
+  selectedOption.value = null;
+  showResult.value = false;
+  isProcessing.value = false;
+  elapsedTime.value = 0;
+  loadQuiz();
+};
+
+const goBack = () => {
+  stopTimer();
+  router.push('/');
+};
+
+const goHome = () => router.push('/');
+
+onMounted(() => loadQuiz());
+onUnmounted(() => stopTimer());
 </script>
 
-<style scoped lang="scss">
-.quiz-page {
-  background: linear-gradient(135deg, #faf5ff 0%, #eff6ff 50%, #fef3c7 100%);
-  min-height: 100vh;
-  padding-bottom: 80px;
-}
-
-.container {
-  max-width: 768px;
-  margin: 0 auto;
-}
-
-.complete-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 80vh;
-}
-
-.complete-card {
-  border: none;
-  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15);
-  border-radius: 24px;
-  max-width: 500px;
-  width: 100%;
-}
-
-.trophy-icon {
-  width: 120px;
-  height: 120px;
-  border-radius: 50%;
-  background: linear-gradient(135deg, #fbbf24 0%, #f59e0b 100%);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 0 auto;
-}
-
-.score-box {
-  padding: 24px;
-  background: linear-gradient(135deg, rgba(147, 51, 234, 0.1) 0%, rgba(59, 130, 246, 0.1) 100%);
-  border-radius: 16px;
-}
-
-.metric-box {
-  padding: 20px;
-  border-radius: 12px;
-  text-align: center;
-  
-  &.accuracy {
-    background: rgba(34, 197, 94, 0.1);
-    color: #16a34a;
-  }
-  
-  &.xp {
-    background: rgba(245, 158, 11, 0.1);
-    color: #d97706;
-  }
-}
-</style>
+<style src="/src/css/pages/quiz.scss" scoped></style>
