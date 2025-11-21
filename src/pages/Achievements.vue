@@ -1,7 +1,6 @@
 <template>
   <div class="achievements-page">
-    <div class="achievements-container">
-      <!-- Header -->
+    <div class="achievements-container">      
       <section class="header-section">
         <div class="header-content">
           <div class="header-icon-box">
@@ -14,7 +13,6 @@
         </div>
       </section>
 
-      <!-- Progress Card -->
       <section class="progress-section">
         <div class="progress-card">
           <div class="progress-card-content">
@@ -37,7 +35,6 @@
         </div>
       </section>
 
-      <!-- Filters -->
       <section class="filter-section">
         <div class="filter-tabs">
           <button
@@ -53,7 +50,6 @@
         </div>
       </section>
 
-      <!-- Achievements Grid -->
       <section class="content-section">
         <div v-if="!filteredAchievements.length" class="empty-state">
           <TrophyIcon class="empty-icon" />
@@ -112,7 +108,6 @@
         </div>
       </section>
 
-      <!-- Category Progress -->
       <section class="content-section">
         <div class="section-header">
           <h2 class="section-title">
@@ -142,7 +137,6 @@
       </section>
     </div>
 
-    <!-- Modal -->
     <transition name="modal-fade">
       <div v-if="selectedAchievement" class="modal-overlay" @click="closeDetails">
         <transition name="modal-slide">
@@ -210,7 +204,6 @@
       </div>
     </transition>
 
-    <!-- Loading -->
     <transition name="fade">
       <div v-if="loading" class="loading-overlay">
         <div class="loading-spinner"></div>
@@ -226,7 +219,6 @@ import authService from '/src/services/auth.service';
 import userService from '/src/services/user.service';
 import achievementsService from '/src/services/achievements.service';
 
-// Icons
 import {
   TrophyIcon,
   StarIcon,
@@ -247,7 +239,6 @@ const activeFilter = ref('all');
 const selectedAchievement = ref(null);
 const achievements = ref([]);
 
-// Computed
 const unlockedCount = computed(() => achievements.value.filter(a => a.unlocked).length);
 const totalCount = computed(() => achievements.value.length);
 const progressPercentage = computed(() => totalCount.value ? Math.round((unlockedCount.value / totalCount.value) * 100) : 0);
@@ -273,7 +264,6 @@ const filteredAchievements = computed(() => {
   return achievements.value;
 });
 
-// Methods
 const openDetails = (a) => {
   selectedAchievement.value = a;
   document.body.style.overflow = 'hidden';
@@ -284,14 +274,12 @@ const closeDetails = () => {
   document.body.style.overflow = '';
 };
 
-// Utils
 const formatDate = (daysAgo) => {
   if (daysAgo === 0) return 'Hoje';
   if (daysAgo === 1) return 'Ontem';
   return `Há ${daysAgo} dias`;
 };
 
-// Data load
 const loadData = async () => {
   try {
     const user = authService.getCurrentUser();

@@ -1,10 +1,7 @@
 <template>
   <q-page class="auth-page">
-    <!-- Background Pattern -->
-    <div class="bg-pattern"></div>
-    
+    <div class="bg-pattern"></div>    
     <div class="auth-container">
-      <!-- Logo Section -->
       <div class="logo-section">
         <div class="logo-wrapper">
           <q-icon name="menu_book" class="logo-icon" />
@@ -14,14 +11,12 @@
         <p class="app-subtitle">Teste seu conhecimento das Escrituras</p>
       </div>
 
-      <!-- Auth Card -->
       <div class="auth-card">
         <div class="card-header">
           <h2 class="card-title">Bem-vindo</h2>
           <p class="card-subtitle">Entre ou crie sua conta para começar</p>
         </div>
 
-        <!-- Google Sign In Button -->
         <q-btn
           unelevated
           no-caps
@@ -40,7 +35,6 @@
           </div>
         </q-btn>
 
-        <!-- Benefits Section -->
         <div class="benefits-section">
           <div class="benefit-item">
             <q-icon name="check_circle" class="benefit-icon" />
@@ -56,7 +50,6 @@
           </div>
         </div>
 
-        <!-- Privacy Note -->
         <div class="privacy-note">
           <q-icon name="lock" class="privacy-icon" />
           <p class="privacy-text">
@@ -65,7 +58,6 @@
         </div>
       </div>
 
-      <!-- Decorative Elements -->
       <div class="decorative-cross decorative-cross-1"></div>
       <div class="decorative-cross decorative-cross-2"></div>
     </div>
@@ -139,332 +131,4 @@ export default {
 };
 </script>
 
-<style scoped lang="scss">
-.auth-page {
-  min-height: 100vh;
-  position: relative;
-  overflow: hidden;
-  background: var(--gradient-bg);
-}
-
-.bg-pattern {
-  position: absolute;
-  inset: 0;
-  background-image: 
-    radial-gradient(circle at 20% 50%, rgba(139, 92, 46, 0.03) 0%, transparent 50%),
-    radial-gradient(circle at 80% 80%, rgba(101, 67, 33, 0.02) 0%, transparent 50%);
-  pointer-events: none;
-}
-
-.auth-container {
-  position: relative;
-  min-height: 100vh;
-  padding: var(--spacing-2xl) var(--spacing-lg);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: var(--spacing-3xl);
-  z-index: 1;
-}
-
-// Logo Section
-.logo-section {
-  text-align: center;
-  animation: fadeInDown 0.6s ease-out;
-}
-
-.logo-wrapper {
-  position: relative;
-  width: 88px;
-  height: 88px;
-  margin: 0 auto var(--spacing-xl);
-}
-
-.logo-icon {
-  font-size: 48px;
-  color: var(--primary);
-  position: relative;
-  z-index: 2;
-  filter: drop-shadow(0 4px 12px rgba(139, 94, 52, 0.3));
-  animation: float 3s ease-in-out infinite;
-}
-
-.logo-glow {
-  position: absolute;
-  inset: -8px;
-  background: radial-gradient(circle, rgba(139, 94, 52, 0.15) 0%, transparent 70%);
-  border-radius: var(--radius-full);
-  animation: pulse 2s ease-in-out infinite;
-}
-
-.app-title {
-  font-size: 32px;
-  font-weight: 700;
-  color: var(--text-dark);
-  margin: 0 0 var(--spacing-sm) 0;
-  letter-spacing: -0.5px;
-}
-
-.app-subtitle {
-  font-size: 15px;
-  color: var(--text-medium);
-  margin: 0;
-  font-weight: 500;
-}
-
-// Auth Card
-.auth-card {
-  width: 100%;
-  max-width: 440px;
-  background: var(--bg-overlay);
-  backdrop-filter: blur(20px);
-  border-radius: var(--radius-2xl);
-  border: 1px solid rgba(139, 94, 52, 0.1);
-  box-shadow: var(--shadow-lg), var(--shadow-sm);
-  padding: var(--spacing-3xl) var(--spacing-2xl);
-  animation: fadeInUp 0.6s ease-out 0.2s both;
-}
-
-.card-header {
-  margin-bottom: 32px;
-  text-align: center;
-}
-
-.card-title {
-  font-size: 28px;
-  font-weight: 700;
-  color: var(--text-dark);
-  margin: 0 0 var(--spacing-sm) 0;
-}
-
-.card-subtitle {
-  font-size: 15px;
-  color: var(--text-medium);
-  margin: 0;
-}
-
-// Google Button
-.google-btn {
-  width: 100%;
-  height: 56px;
-  background: var(--white);
-  border: 2px solid rgba(139, 94, 52, 0.15);
-  border-radius: var(--radius-lg);
-  font-size: 16px;
-  font-weight: 600;
-  color: var(--text-dark);
-  transition: all var(--transition-base);
-  margin-bottom: var(--spacing-2xl);
-
-  &:hover {
-    border-color: rgba(139, 94, 52, 0.3);
-    box-shadow: var(--shadow-lg);
-    transform: translateY(-2px);
-  }
-
-  &:active {
-    transform: translateY(0);
-  }
-}
-
-.google-btn-content {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: var(--spacing-md);
-}
-
-.google-icon {
-  width: 24px;
-  height: 24px;
-  flex-shrink: 0;
-}
-
-// Benefits Section
-.benefits-section {
-  display: flex;
-  flex-direction: column;
-  gap: var(--spacing-md);
-  padding: var(--spacing-xl) 0;
-  border-top: 1px solid rgba(139, 94, 52, 0.1);
-  border-bottom: 1px solid rgba(139, 94, 52, 0.1);
-  margin-bottom: var(--spacing-xl);
-}
-
-.benefit-item {
-  display: flex;
-  align-items: center;
-  gap: var(--spacing-md);
-}
-
-.benefit-icon {
-  color: var(--primary);
-  font-size: 20px;
-  flex-shrink: 0;
-}
-
-.benefit-text {
-  font-size: 14px;
-  color: var(--text-dark);
-  font-weight: 500;
-}
-
-// Privacy Note
-.privacy-note {
-  display: flex;
-  gap: var(--spacing-md);
-  padding: var(--spacing-lg);
-  background: rgba(139, 94, 52, 0.03);
-  border-radius: var(--radius-md);
-  border: 1px solid rgba(139, 94, 52, 0.1);
-}
-
-.privacy-icon {
-  color: var(--text-medium);
-  font-size: 20px;
-  flex-shrink: 0;
-  margin-top: 2px;
-}
-
-.privacy-text {
-  font-size: 12px;
-  color: var(--text-medium);
-  line-height: 1.5;
-  margin: 0;
-}
-
-// Decorative Crosses
-.decorative-cross {
-  position: absolute;
-  width: 40px;
-  height: 40px;
-  opacity: 0.08;
-  pointer-events: none;
-
-  &::before,
-  &::after {
-    content: '';
-    position: absolute;
-    background: var(--primary);
-  }
-
-  &::before {
-    width: 8px;
-    height: 100%;
-    left: 50%;
-    transform: translateX(-50%);
-  }
-
-  &::after {
-    width: 100%;
-    height: 8px;
-    top: 50%;
-    transform: translateY(-50%);
-  }
-}
-
-.decorative-cross-1 {
-  top: 10%;
-  right: 10%;
-  animation: float 4s ease-in-out infinite;
-}
-
-.decorative-cross-2 {
-  bottom: 15%;
-  left: 8%;
-  animation: float 5s ease-in-out infinite 1s;
-}
-
-// Animations
-@keyframes fadeInDown {
-  from {
-    opacity: 0;
-    transform: translateY(-20px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-@keyframes fadeInUp {
-  from {
-    opacity: 0;
-    transform: translateY(20px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-@keyframes float {
-  0%, 100% {
-    transform: translateY(0px);
-  }
-  50% {
-    transform: translateY(-10px);
-  }
-}
-
-@keyframes pulse {
-  0%, 100% {
-    opacity: 0.15;
-  }
-  50% {
-    opacity: 0.25;
-  }
-}
-
-// Mobile Responsive
-@media (max-width: 480px) {
-  .auth-container {
-    padding: var(--spacing-xl) var(--spacing-lg);
-    gap: var(--spacing-2xl);
-  }
-
-  .logo-wrapper {
-    width: 72px;
-    height: 72px;
-  }
-
-  .logo-icon {
-    font-size: 40px;
-  }
-
-  .app-title {
-    font-size: 28px;
-  }
-
-  .app-subtitle {
-    font-size: 14px;
-  }
-
-  .auth-card {
-    padding: 28px var(--spacing-xl);
-  }
-
-  .card-title {
-    font-size: 24px;
-  }
-
-  .google-btn {
-    height: 52px;
-  }
-
-  .benefit-text {
-    font-size: 13px;
-  }
-}
-
-@media (min-width: 768px) {
-  .auth-container {
-    padding: var(--spacing-4xl) var(--spacing-2xl);
-  }
-
-  .auth-card {
-    padding: var(--spacing-4xl) var(--spacing-3xl);
-  }
-}
-</style>
+<style src="/src/css/pages/auth/auth.scss" scoped></style>
