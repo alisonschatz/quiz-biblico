@@ -295,7 +295,7 @@ const formatDate = (daysAgo) => {
 const loadData = async () => {
   try {
     const user = authService.getCurrentUser();
-    if (!user) return router.push('/auth/login');
+    if (!user) return router.push('/auth');
 
     const [userProgress, data] = await Promise.all([
       userService.getUserProgress(user.uid),

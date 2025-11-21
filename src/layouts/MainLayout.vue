@@ -181,7 +181,7 @@ const confirmLogout = async () => {
   try {
     await authService.logout();
     showSnackbar('Logout realizado com sucesso', 'success');
-    setTimeout(() => router.push('/auth/login'), 500);
+    setTimeout(() => router.push('/auth'), 500);
   } catch (error) {
     console.error('Erro no logout:', error);
     showSnackbar('Erro ao fazer logout', 'error');

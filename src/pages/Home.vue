@@ -202,7 +202,7 @@ onMounted(async () => {
         console.error('Erro ao carregar dados do usuário:', error);
       }
     } else {
-      router.push('/auth/login');
+      router.push('/auth');
     }
   });
 

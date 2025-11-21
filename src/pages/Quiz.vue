@@ -261,7 +261,7 @@ const stopTimer = () => {
 const loadQuiz = async () => {
   try {
     const user = authService.getCurrentUser();
-    if (!user) return router.push('/auth/login');
+    if (!user) return router.push('/auth');
 
     loading.value = true;
 

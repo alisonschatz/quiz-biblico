@@ -298,7 +298,7 @@ const loadUserData = async () => {
     const user = authService.getCurrentUser();
     
     if (!user) {
-      router.push('/auth/login');
+      router.push('/auth');
       return;
     }
 
