@@ -1,25 +1,20 @@
 <template>
   <div class="achievements-page">
     <div class="achievements-container">
-      <!-- Banner -->
-      <section class="banner-section">
-        <div class="banner-bg">
-          <div class="banner-pattern"></div>
-        </div>
-        <div class="banner-content">
-          <div class="trophy-container">
-            <div class="trophy-wrapper">
-              <TrophyIcon class="trophy-icon" />
-            </div>
+      <!-- Header -->
+      <section class="header-section">
+        <div class="header-content">
+          <div class="header-icon-box">
+            <TrophyIcon class="header-icon" />
           </div>
-          <div class="banner-info">
-            <h1 class="banner-title">Conquistas</h1>
-            <p class="banner-subtitle">Desbloqueie conquistas completando desafios</p>
+          <div class="header-text">
+            <h1 class="header-title">Conquistas</h1>
+            <p class="header-subtitle">Desbloqueie conquistas completando desafios</p>
           </div>
         </div>
       </section>
 
-      <!-- Progress -->
+      <!-- Progress Card -->
       <section class="progress-section">
         <div class="progress-card">
           <div class="progress-card-content">
@@ -74,6 +69,7 @@
             @click="openDetails(a)"
           >
             <div class="achievement-glow" v-if="a.unlocked && a.rarity === 'legendary'"></div>
+
             <div class="achievement-header">
               <div :class="['achievement-icon-wrapper', `rarity-${a.rarity}`]">
                 <div class="icon-bg"></div>
@@ -86,6 +82,7 @@
                 </div>
               </div>
             </div>
+
             <div class="achievement-body">
               <div class="achievement-top">
                 <h3 class="achievement-name">{{ a.name }}</h3>
@@ -109,6 +106,7 @@
                 <span class="unlocked-text">{{ a.unlockedDate }}</span>
               </div>
             </div>
+
             <div :class="['rarity-border', `rarity-${a.rarity}`]"></div>
           </div>
         </div>
@@ -144,7 +142,7 @@
       </section>
     </div>
 
-    <!-- Bottom Sheet -->
+    <!-- Modal -->
     <transition name="modal-fade">
       <div v-if="selectedAchievement" class="modal-overlay" @click="closeDetails">
         <transition name="modal-slide">
@@ -228,6 +226,7 @@ import authService from '/src/services/auth.service';
 import userService from '/src/services/user.service';
 import achievementsService from '/src/services/achievements.service';
 
+// Icons
 import {
   TrophyIcon,
   StarIcon,
@@ -248,18 +247,12 @@ const activeFilter = ref('all');
 const selectedAchievement = ref(null);
 const achievements = ref([]);
 
+// Computed
 const unlockedCount = computed(() => achievements.value.filter(a => a.unlocked).length);
 const totalCount = computed(() => achievements.value.length);
-const progressPercentage = computed(() =>
-  totalCount.value ? Math.round((unlockedCount.value / totalCount.value) * 100) : 0
-);
+const progressPercentage = computed(() => totalCount.value ? Math.round((unlockedCount.value / totalCount.value) * 100) : 0);
 
-const rarityLabels = {
-  common: 'Comum',
-  rare: 'Rara',
-  epic: 'Épica',
-  legendary: 'Lendária'
-};
+const rarityLabels = { common: 'Comum', rare: 'Rara', epic: 'Épica', legendary: 'Lendária' };
 
 const filters = computed(() => [
   { value: 'all', label: 'Todas', icon: TrophyIcon, count: totalCount.value },
@@ -267,12 +260,12 @@ const filters = computed(() => [
   { value: 'locked', label: 'Bloqueadas', icon: LockClosedIcon, count: totalCount.value - unlockedCount.value }
 ]);
 
-const categories = ref([
+const categories = [
   { id: 1, name: 'Iniciante', icon: StarIcon, unlocked: 3, total: 5, percentage: 60, gradient: 'linear-gradient(90deg, #8b5e34, #a89175)' },
   { id: 2, name: 'Progresso', icon: ChartBarIcon, unlocked: 5, total: 10, percentage: 50, gradient: 'linear-gradient(90deg, #6d5d47, #8b7355)' },
   { id: 3, name: 'Maestria', icon: AcademicCapIcon, unlocked: 2, total: 8, percentage: 25, gradient: 'linear-gradient(90deg, #8b7355, #a89175)' },
   { id: 4, name: 'Especiais', icon: SparklesIcon, unlocked: 1, total: 6, percentage: 17, gradient: 'linear-gradient(90deg, #a89175, #c4b5a0)' }
-]);
+];
 
 const filteredAchievements = computed(() => {
   if (activeFilter.value === 'unlocked') return achievements.value.filter(a => a.unlocked);
@@ -280,6 +273,7 @@ const filteredAchievements = computed(() => {
   return achievements.value;
 });
 
+// Methods
 const openDetails = (a) => {
   selectedAchievement.value = a;
   document.body.style.overflow = 'hidden';
@@ -290,6 +284,14 @@ const closeDetails = () => {
   document.body.style.overflow = '';
 };
 
+// Utils
+const formatDate = (daysAgo) => {
+  if (daysAgo === 0) return 'Hoje';
+  if (daysAgo === 1) return 'Ontem';
+  return `Há ${daysAgo} dias`;
+};
+
+// Data load
 const loadData = async () => {
   try {
     const user = authService.getCurrentUser();
@@ -306,12 +308,14 @@ const loadData = async () => {
 
     achievements.value = data.map((item, i) => {
       const unlocked = userProgress?.achievementsUnlocked?.includes(item.id) || false;
+      const daysAgo = unlocked ? Math.floor(Math.random() * 15) : null;
+
       return {
         ...item,
         icon: icons[i % icons.length],
         unlocked,
         progress: unlocked ? 100 : Math.floor(Math.random() * 90) + 10,
-        unlockedDate: unlocked ? `Há ${Math.floor(Math.random() * 10) + 1} dias` : null,
+        unlockedDate: daysAgo ? formatDate(daysAgo) : null,
         rarity: rarities[Math.floor(Math.random() * rarities.length)],
         points: points[Math.floor(Math.random() * points.length)]
       };
