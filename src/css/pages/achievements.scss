@@ -12,12 +12,8 @@
 }
 
 .achievements-page {
-  min-height: 100vh;
-  background: linear-gradient(135deg, #fdfaf6 0%, #f8f4ee 50%, #fdfaf6 100%);
-  padding-bottom: 100px;
-
-  @media (max-width: 479px) { padding-bottom: 80px; }
-  @media (min-width: 1024px) { padding-bottom: 120px; }
+  min-height: 100%;
+  width: 100%;
 }
 
 .achievements-container {

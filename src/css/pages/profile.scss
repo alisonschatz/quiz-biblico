@@ -11,16 +11,15 @@
 }
 
 .profile-page {
-  min-height: 100vh;
-  background: var(--gradient-bg);
-  padding-bottom: 100px;
+  min-height: 100%;
+  width: 100%;
 }
 
 .profile-container {
   max-width: 800px;
   margin: 0 auto;
   width: 100%;
-  padding: 0 16px;
+  padding: 0 16px 40px;
   box-sizing: border-box;
 }
 
@@ -654,7 +653,7 @@
 }
 
 .actions-section {
-  padding: 0 16px;
+  padding: 0 16px 32px;
   margin-top: 40px;
   display: flex;
   gap: 12px;
@@ -853,8 +852,8 @@
 }
 
 @media (max-width: 479px) {
-  .profile-page {
-    padding-bottom: 80px;
+  .profile-container {
+    padding-bottom: 32px;
   }
 
   .banner-section {
@@ -911,13 +910,18 @@
   .section-header {
     margin-bottom: 16px;
   }
+
+  .actions-section {
+    padding-bottom: 24px;
+  }
 }
 
 @media (min-width: 768px) {
   .stats-section,
   .content-section,
   .actions-section {
-    padding: 0 24px;
+    padding-left: 24px;
+    padding-right: 24px;
   }
 
   .progress-card:hover,
@@ -928,7 +932,7 @@
 
 @media (min-width: 1024px) {
   .profile-container {
-    padding-bottom: 120px;
+    padding-bottom: 48px;
   }
 
   .banner-section {
@@ -952,5 +956,9 @@
   
   .stats-section {
     margin-top: -48px;
+  }
+
+  .actions-section {
+    padding-bottom: 40px;
   }
 }
