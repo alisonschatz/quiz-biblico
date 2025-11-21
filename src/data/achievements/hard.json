@@ -1,0 +1,142 @@
+[
+  {
+    "title": "Mestre das Escrituras",
+    "description": "Acerte todas as 300 perguntas do jogo",
+    "rarity": "lendaria",
+    "xpReward": 1000,
+    "condition": { "type": "all_questions_correct", "value": 300 }
+  },
+  {
+    "title": "Perfeição Divina",
+    "description": "Complete uma rodada de 20 perguntas difíceis com 100% de acerto",
+    "rarity": "epica",
+    "xpReward": 800,
+    "condition": { "type": "perfect_round_difficulty", "difficulty": "dificil", "value": 20 }
+  },
+  {
+    "title": "Doutor em Antigo Testamento",
+    "description": "Acerte todas as 60 perguntas de 'antigo_testamento' (20×3 dificuldades)",
+    "rarity": "epica",
+    "xpReward": 500,
+    "condition": { "type": "category_master_complete", "category": "antigo_testamento", "value": 60 }
+  },
+  {
+    "title": "Doutor em Novo Testamento",
+    "description": "Acerte todas as 60 perguntas de 'novo_testamento'",
+    "rarity": "epica",
+    "xpReward": 500,
+    "condition": { "type": "category_master_complete", "category": "novo_testamento", "value": 60 }
+  },
+  {
+    "title": "Doutor em Milagres",
+    "description": "Acerte todas as 60 perguntas de 'milagres'",
+    "rarity": "epica",
+    "xpReward": 500,
+    "condition": { "type": "category_master_complete", "category": "milagres", "value": 60 }
+  },
+  {
+    "title": "Doutor em Profetas",
+    "description": "Acerte todas as 60 perguntas de 'profetas'",
+    "rarity": "epica",
+    "xpReward": 500,
+    "condition": { "type": "category_master_complete", "category": "profetas", "value": 60 }
+  },
+  {
+    "title": "Doutor em Salmos",
+    "description": "Acerte todas as 60 perguntas de 'salmos'",
+    "rarity": "epica",
+    "xpReward": 500,
+    "condition": { "type": "category_master_complete", "category": "salmos", "value": 60 }
+  },
+  {
+    "title": "Mestre das Dificuldades",
+    "description": "Acerte todas as 100 perguntas difíceis (5 categorias × 20)",
+    "rarity": "epica",
+    "xpReward": 700,
+    "condition": { "type": "difficulty_master", "difficulty": "dificil", "value": 100 }
+  },
+  {
+    "title": "Nível 20",
+    "description": "Alcance o nível máximo (20)",
+    "rarity": "epica",
+    "xpReward": 600,
+    "condition": { "type": "level_reached", "value": 20 }
+  },
+  {
+    "title": "Sequência Imaculada",
+    "description": "Acerte 100 perguntas seguidas (maior sequência)",
+    "rarity": "epica",
+    "xpReward": 650,
+    "condition": { "type": "streak", "value": 100 }
+  },
+  {
+    "title": "Sábio Bíblico",
+    "description": "Tenha 90% ou mais de acerto em todas as categorias",
+    "rarity": "epica",
+    "xpReward": 550,
+    "condition": { "type": "overall_accuracy", "value": 90 }
+  },
+  {
+    "title": "Conquistador Total",
+    "description": "Desbloqueie todas as 60 conquistas",
+    "rarity": "lendaria",
+    "xpReward": 900,
+    "condition": { "type": "achievements_unlocked", "value": 60 }
+  },
+  {
+    "title": "Teólogo em Formação",
+    "description": "Acerte 50 perguntas difíceis",
+    "rarity": "epica",
+    "xpReward": 400,
+    "condition": { "type": "difficulty_correct", "difficulty": "dificil", "value": 50 }
+  },
+  {
+    "title": "Guardião da Palavra",
+    "description": "Salve 50 versículos favoritos e compartilhe 10",
+    "rarity": "epica",
+    "xpReward": 350,
+    "condition": { "type": "verses_saved_and_shared", "saved": 50, "shared": 10 }
+  },
+  {
+    "title": "Líder da Comunidade",
+    "description": "Tenha sua sugestão implementada pela equipe",
+    "rarity": "epica",
+    "xpReward": 300,
+    "condition": { "type": "suggestion_implemented", "value": 1 }
+  },
+  {
+    "title": "Mestre dos Modos",
+    "description": "Complete todos os modos de jogo (normal, cronometrado, desafio, estudo)",
+    "rarity": "epica",
+    "xpReward": 320,
+    "condition": { "type": "all_modes_completed", "value": 4 }
+  },
+  {
+    "title": "Biblioteca Viva",
+    "description": "Leia todas as 300 explicações completas",
+    "rarity": "epica",
+    "xpReward": 280,
+    "condition": { "type": "explanations_read", "value": 300 }
+  },
+  {
+    "title": "Peregrino",
+    "description": "Complete 50 rodadas no modo 'Peregrinação Bíblica'",
+    "rarity": "epica",
+    "xpReward": 330,
+    "condition": { "type": "pilgrimage_rounds", "value": 50 }
+  },
+  {
+    "title": "Apóstolo Moderno",
+    "description": "Indique 10 amigos que alcancem o nível 5",
+    "rarity": "epica",
+    "xpReward": 400,
+    "condition": { "type": "referrals_reached_level", "count": 10, "level": 5 }
+  },
+  {
+    "title": "Coroa da Glória",
+    "description": "Seja o jogador com mais XP por 7 dias consecutivos",
+    "rarity": "lendaria",
+    "xpReward": 850,
+    "condition": { "type": "top_player_streak", "value": 7 }
+  }
+]

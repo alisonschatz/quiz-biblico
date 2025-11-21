@@ -1,0 +1,182 @@
+[
+  {
+    "question": "Qual salmo é um exemplo clássico de *lamentação individual* com estrutura: clamor, queixa, confissão de confiança, petição e voto de louvor?",
+    "options": ["Salmo 23", "Salmo 51", "Salmo 130", "Salmo 150"],
+    "correctAnswer": 2,
+    "category": "salmos",
+    "difficulty": "medio",
+    "explanation": "O Salmo 130 (*De profundis*) segue o padrão: 'Das profundezas a ti clamo... Mas em ti há perdão... Espera, ó Israel, no Senhor'.",
+    "verseReference": "Salmos 130"
+  },
+  {
+    "question": "Quantos salmos são atribuídos aos 'filhos de Coré'?",
+    "options": ["5", "11", "12", "15"],
+    "correctAnswer": 1,
+    "category": "salmos",
+    "difficulty": "medio",
+    "explanation": "11 salmos (42, 44-49, 84-85, 87-88) trazem a rubrica 'Dos filhos de Coré' — levitas responsáveis pelo culto no templo.",
+    "verseReference": "Salmos 42; 44-49 etc."
+  },
+  {
+    "question": "Qual salmo é conhecido como 'salmo real messiânico' por descrever o reinado eterno do Ungido?",
+    "options": ["Salmo 2", "Salmo 22", "Salmo 110", "Todos os anteriores"],
+    "correctAnswer": 3,
+    "category": "salmos",
+    "difficulty": "medio",
+    "explanation": "Salmo 2 (coroação), Salmo 22 (sofrimento), Salmo 110 (exaltação) formam a tríade messiânica central do NT.",
+    "verseReference": "Salmos 2; 22; 110"
+  },
+  {
+    "question": "Qual salmo é um *salmo sapiencial* que contrasta o caminho do justo e do ímpio com linguagem de Provérbios?",
+    "options": ["Salmo 1", "Salmo 37", "Salmo 73", "Todos os anteriores"],
+    "correctAnswer": 3,
+    "category": "salmos",
+    "difficulty": "medio",
+    "explanation": "Salmo 1 (introdução), Salmo 37 (confiança na justiça divina), Salmo 73 (crise de fé resolvida pela sabedoria) — todos usam linguagem sapiencial.",
+    "verseReference": "Salmos 1; 37; 73"
+  },
+  {
+    "question": "Qual salmo contém o refrão repetido: 'Porque a sua benignidade dura para sempre'?",
+    "options": ["Salmo 100", "Salmo 106", "Salmo 118", "Salmo 136"],
+    "correctAnswer": 3,
+    "category": "salmos",
+    "difficulty": "medio",
+    "explanation": "O Salmo 136 repete essa frase 26 vezes — usado no culto pascal judaico (Hallel).",
+    "verseReference": "Salmos 136"
+  },
+  {
+    "question": "Qual salmo é um *salmo de Sião*, celebrando Jerusalém como cidade de Deus?",
+    "options": ["Salmo 46", "Salmo 48", "Salmo 87", "Todos os anteriores"],
+    "correctAnswer": 3,
+    "category": "salmos",
+    "difficulty": "medio",
+    "explanation": "Salmo 46 ('Deus é o nosso refúgio'), Salmo 48 ('Grande é o Senhor e mui digno de louvor em Sião'), Salmo 87 ('Fundamentos seus estão nos montes santos').",
+    "verseReference": "Salmos 46; 48; 87"
+  },
+  {
+    "question": "Qual salmo é atribuído a Moisés?",
+    "options": ["Salmo 90", "Salmo 91", "Salmo 103", "Salmo 139"],
+    "correctAnswer": 0,
+    "category": "salmos",
+    "difficulty": "medio",
+    "explanation": "O Salmo 90 é o único explicitamente atribuído a Moisés — meditação sobre eternidade divina e fragilidade humana.",
+    "verseReference": "Salmos 90:1"
+  },
+  {
+    "question": "Qual salmo é conhecido como 'o cântico do servo sofredor' e citado em Atos 4?",
+    "options": ["Salmo 2", "Salmo 22", "Salmo 118", "Salmo 132"],
+    "correctAnswer": 0,
+    "category": "salmos",
+    "difficulty": "medio",
+    "explanation": "O Salmo 2 descreve a rebelião das nações contra o Ungido — citado pelos discípulos após a libertação de Pedro e João.",
+    "verseReference": "Salmos 2; Atos 4:25-26"
+  },
+  {
+    "question": "Qual salmo contém a frase: 'Melhor é um dia nos teus átrios do que mil noutro lugar'?",
+    "options": ["Salmo 23", "Salmo 27", "Salmo 84", "Salmo 122"],
+    "correctAnswer": 2,
+    "category": "salmos",
+    "difficulty": "medio",
+    "explanation": "O Salmo 84 expressa saudade do templo: 'Como são amáveis as tuas moradas, Senhor dos Exércitos!'.",
+    "verseReference": "Salmos 84:1,10"
+  },
+  {
+    "question": "Qual salmo é um exemplo de *lamentação comunitária* após uma derrota militar?",
+    "options": ["Salmo 44", "Salmo 74", "Salmo 79", "Todos os anteriores"],
+    "correctAnswer": 3,
+    "category": "salmos",
+    "difficulty": "medio",
+    "explanation": "Salmo 44 (derrota inexplicável), Salmo 74 (destruição do templo), Salmo 79 (Jerusalém em ruínas) — todos clamam por restauração nacional.",
+    "verseReference": "Salmos 44; 74; 79"
+  },
+  {
+    "question": "Qual salmo é conhecido como 'o salmo da lei'?",
+    "options": ["Salmo 1", "Salmo 19", "Salmo 119", "Todos os anteriores"],
+    "correctAnswer": 3,
+    "category": "salmos",
+    "difficulty": "medio",
+    "explanation": "Salmo 1 (bem-aventurança do que medita na lei), Salmo 19 (lei como perfeita), Salmo 119 (176 versos sobre a Torá) — todos exaltam a Palavra de Deus.",
+    "verseReference": "Salmos 1; 19; 119"
+  },
+  {
+    "question": "Qual salmo contém a única menção de 'igreja' (*qahal*) no Antigo Testamento?",
+    "options": ["Salmo 22", "Salmo 40", "Salmo 89", "Salmo 111"],
+    "correctAnswer": 0,
+    "category": "salmos",
+    "difficulty": "medio",
+    "explanation": "Salmo 22:22 (23 na LXX): 'Anunciarei o teu nome a meus irmãos; no meio da congregação (*qahal*) te louvarei'. Citado em Hebreus 2:12.",
+    "verseReference": "Salmos 22:22; Hebreus 2:12"
+  },
+  {
+    "question": "Qual salmo é um *salmo de ascensão* cantado pelos peregrinos ao subir para Jerusalém?",
+    "options": ["Salmo 120-134", "Salmo 119", "Salmo 136", "Salmo 150"],
+    "correctAnswer": 0,
+    "category": "salmos",
+    "difficulty": "medio",
+    "explanation": "Os Salmos 120 a 134 trazem a rubrica 'Canto dos degraus' — cantados nas 15 escadas do templo durante as festas.",
+    "verseReference": "Salmos 120-134"
+  },
+  {
+    "question": "Qual salmo descreve Deus como 'refúgio e fortaleza, socorro bem presente na angústia'?",
+    "options": ["Salmo 23", "Salmo 46", "Salmo 91", "Salmo 121"],
+    "correctAnswer": 1,
+    "category": "salmos",
+    "difficulty": "medio",
+    "explanation": "O Salmo 46 inspirou 'Castelo Forte é Nosso Deus' — 'Ainda que a terra se mude... não temeremos'.",
+    "verseReference": "Salmos 46:1-2"
+  },
+  {
+    "question": "Qual salmo é um *salmo penitencial* além do 51?",
+    "options": ["Salmo 6", "Salmo 32", "Salmo 38", "Todos os anteriores"],
+    "correctAnswer": 3,
+    "category": "salmos",
+    "difficulty": "medio",
+    "explanation": "Tradicionalmente, 7 salmos penitenciais: 6, 32, 38, 51, 102, 130, 143 — expressam arrependimento e busca de perdão.",
+    "verseReference": "Salmos 6; 32; 38 etc."
+  },
+  {
+    "question": "Qual salmo cita o nome divino 'Jeová-Jiré' (o Senhor proverá) indiretamente?",
+    "options": ["Salmo 23", "Salmo 34", "Salmo 37", "Salmo 145"],
+    "correctAnswer": 1,
+    "category": "salmos",
+    "difficulty": "medio",
+    "explanation": "Salmo 34:10: 'Os leões são pobres e necessitados, mas aos que buscam ao Senhor não lhes faltará bem algum' — eco de Gênesis 22:14.",
+    "verseReference": "Salmos 34:10; Gênesis 22:14"
+  },
+  {
+    "question": "Qual salmo é conhecido como 'Hallel maior'?",
+    "options": ["Salmo 113-118", "Salmo 135-136", "Salmo 146-150", "Salmo 119"],
+    "correctAnswer": 0,
+    "category": "salmos",
+    "difficulty": "medio",
+    "explanation": "Salmos 113-118 são o *Hallel* cantado na Páscoa — Jesus os cantou na Última Ceia (Mt 26:30).",
+    "verseReference": "Salmos 113-118"
+  },
+  {
+    "question": "Qual salmo afirma que Deus escreveu todos os nossos dias no livro dele?",
+    "options": ["Salmo 23", "Salmo 51", "Salmo 139", "Salmo 150"],
+    "correctAnswer": 2,
+    "category": "salmos",
+    "difficulty": "medio",
+    "explanation": "Salmo 139:16: 'Os teus olhos viram o meu corpo ainda informe; e no teu livro todas estas coisas foram escritas'.",
+    "verseReference": "Salmos 139:16"
+  },
+  {
+    "question": "Qual salmo é citado em Apocalipse 19 como 'o cântico de Moisés e do Cordeiro'?",
+    "options": ["Salmo 2", "Salmo 22", "Salmo 98", "Salmo 150"],
+    "correctAnswer": 2,
+    "category": "salmos",
+    "difficulty": "medio",
+    "explanation": "O Salmo 98 é um *salmo real* de vitória: 'Cantai ao Senhor um cântico novo... Ele julgará o mundo com justiça'.",
+    "verseReference": "Salmos 98; Apocalipse 15:3"
+  },
+  {
+    "question": "Qual salmo contém a frase: 'O meu cálice transborda'?",
+    "options": ["Salmo 16", "Salmo 23", "Salmo 116", "Salmo 145"],
+    "correctAnswer": 1,
+    "category": "salmos",
+    "difficulty": "medio",
+    "explanation": "No Salmo 23, o cálice transbordante simboliza abundância, hospitalidade e bênção divina — mesmo na presença de inimigos.",
+    "verseReference": "Salmos 23:5"
+  }
+]

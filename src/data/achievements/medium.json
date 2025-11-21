@@ -1,0 +1,142 @@
+[
+  {
+    "title": "Estudante Consistente",
+    "description": "Responda 50 perguntas no total",
+    "rarity": "rara",
+    "xpReward": 200,
+    "condition": { "type": "questions_answered", "value": 50 }
+  },
+  {
+    "title": "Precisão em Treinamento",
+    "description": "Acerte 30 perguntas seguidas (sequência ativa)",
+    "rarity": "rara",
+    "xpReward": 250,
+    "condition": { "type": "streak", "value": 30 }
+  },
+  {
+    "title": "Mestre das Facilidades",
+    "description": "Acerte todas as 100 perguntas fáceis (5 categorias × 20)",
+    "rarity": "rara",
+    "xpReward": 300,
+    "condition": { "type": "difficulty_master", "difficulty": "facil", "value": 100 }
+  },
+  {
+    "title": "Especialista em Antigo Testamento",
+    "description": "Acerte 20 perguntas de 'antigo_testamento'",
+    "rarity": "rara",
+    "xpReward": 180,
+    "condition": { "type": "category_master", "category": "antigo_testamento", "value": 20 }
+  },
+  {
+    "title": "Especialista em Novo Testamento",
+    "description": "Acerte 20 perguntas de 'novo_testamento'",
+    "rarity": "rara",
+    "xpReward": 180,
+    "condition": { "type": "category_master", "category": "novo_testamento", "value": 20 }
+  },
+  {
+    "title": "Especialista em Milagres",
+    "description": "Acerte 20 perguntas de 'milagres'",
+    "rarity": "rara",
+    "xpReward": 180,
+    "condition": { "type": "category_master", "category": "milagres", "value": 20 }
+  },
+  {
+    "title": "Especialista em Profetas",
+    "description": "Acerte 20 perguntas de 'profetas'",
+    "rarity": "rara",
+    "xpReward": 180,
+    "condition": { "type": "category_master", "category": "profetas", "value": 20 }
+  },
+  {
+    "title": "Especialista em Salmos",
+    "description": "Acerte 20 perguntas de 'salmos'",
+    "rarity": "rara",
+    "xpReward": 180,
+    "condition": { "type": "category_master", "category": "salmos", "value": 20 }
+  },
+  {
+    "title": "Rodada Perfeita",
+    "description": "Acerte todas as 10 perguntas em uma rodada",
+    "rarity": "rara",
+    "xpReward": 220,
+    "condition": { "type": "perfect_round", "value": 10 }
+  },
+  {
+    "title": "Explorador Completo",
+    "description": "Responda pelo menos 1 pergunta em todas as 5 categorias",
+    "rarity": "rara",
+    "xpReward": 150,
+    "condition": { "type": "all_categories_explored", "value": 5 }
+  },
+  {
+    "title": "Nível 5",
+    "description": "Alcance o nível 5",
+    "rarity": "rara",
+    "xpReward": 250,
+    "condition": { "type": "level_reached", "value": 5 }
+  },
+  {
+    "title": "Médio Desafiante",
+    "description": "Acerte 20 perguntas de dificuldade média",
+    "rarity": "rara",
+    "xpReward": 200,
+    "condition": { "type": "difficulty_correct", "difficulty": "medio", "value": 20 }
+  },
+  {
+    "title": "Colecionador de Explicações",
+    "description": "Leia 50 explicações completas",
+    "rarity": "rara",
+    "xpReward": 160,
+    "condition": { "type": "explanations_read", "value": 50 }
+  },
+  {
+    "title": "Versículo Memorizado",
+    "description": "Salve 10 versículos favoritos",
+    "rarity": "rara",
+    "xpReward": 140,
+    "condition": { "type": "verses_saved", "value": 10 }
+  },
+  {
+    "title": "Desafiante Social",
+    "description": "Envie 5 desafios para amigos",
+    "rarity": "rara",
+    "xpReward": 170,
+    "condition": { "type": "challenges_sent", "value": 5 }
+  },
+  {
+    "title": "Comunidade Ativa",
+    "description": "Participe de 3 eventos comunitários",
+    "rarity": "rara",
+    "xpReward": 190,
+    "condition": { "type": "events_participated", "value": 3 }
+  },
+  {
+    "title": "Perfil Personalizado",
+    "description": "Desbloqueie 5 itens de personalização",
+    "rarity": "rara",
+    "xpReward": 130,
+    "condition": { "type": "customization_items", "value": 5 }
+  },
+  {
+    "title": "Estatístico",
+    "description": "Visualize seu relatório de desempenho completo",
+    "rarity": "rara",
+    "xpReward": 100,
+    "condition": { "type": "report_viewed", "value": 1 }
+  },
+  {
+    "title": "Desbravador de Dificuldades",
+    "description": "Responda pelo menos 1 pergunta de cada dificuldade (fácil, médio, difícil)",
+    "rarity": "rara",
+    "xpReward": 180,
+    "condition": { "type": "all_difficulties_explored", "value": 3 }
+  },
+  {
+    "title": "Conquista em Série",
+    "description": "Desbloqueie 10 conquistas",
+    "rarity": "rara",
+    "xpReward": 220,
+    "condition": { "type": "achievements_unlocked", "value": 10 }
+  }
+]

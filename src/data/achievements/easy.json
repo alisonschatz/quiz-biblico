@@ -1,0 +1,142 @@
+[
+  {
+    "title": "Primeiro Passo",
+    "description": "Responda sua primeira pergunta",
+    "rarity": "comum",
+    "xpReward": 50,
+    "condition": { "type": "questions_answered", "value": 1 }
+  },
+  {
+    "title": "Iniciante Bíblico",
+    "description": "Responda 5 perguntas",
+    "rarity": "comum",
+    "xpReward": 75,
+    "condition": { "type": "questions_answered", "value": 5 }
+  },
+  {
+    "title": "Primeiro Acerto",
+    "description": "Acerte sua primeira pergunta",
+    "rarity": "comum",
+    "xpReward": 60,
+    "condition": { "type": "correct_answers", "value": 1 }
+  },
+  {
+    "title": "Explorador de Categorias",
+    "description": "Responda perguntas em 3 categorias diferentes",
+    "rarity": "comum",
+    "xpReward": 100,
+    "condition": { "type": "categories_explored", "value": 3 }
+  },
+  {
+    "title": "Fã do Antigo Testamento",
+    "description": "Responda 5 perguntas de 'antigo_testamento'",
+    "rarity": "comum",
+    "xpReward": 80,
+    "condition": { "type": "category_count", "category": "antigo_testamento", "value": 5 }
+  },
+  {
+    "title": "Seguidor de Cristo",
+    "description": "Responda 5 perguntas de 'novo_testamento'",
+    "rarity": "comum",
+    "xpReward": 80,
+    "condition": { "type": "category_count", "category": "novo_testamento", "value": 5 }
+  },
+  {
+    "title": "Testemunha dos Milagres",
+    "description": "Responda 5 perguntas de 'milagres'",
+    "rarity": "comum",
+    "xpReward": 80,
+    "condition": { "type": "category_count", "category": "milagres", "value": 5 }
+  },
+  {
+    "title": "Ouvinte dos Profetas",
+    "description": "Responda 5 perguntas de 'profetas'",
+    "rarity": "comum",
+    "xpReward": 80,
+    "condition": { "type": "category_count", "category": "profetas", "value": 5 }
+  },
+  {
+    "title": "Cantor dos Salmos",
+    "description": "Responda 5 perguntas de 'salmos'",
+    "rarity": "comum",
+    "xpReward": 80,
+    "condition": { "type": "category_count", "category": "salmos", "value": 5 }
+  },
+  {
+    "title": "Amigo das Facilidades",
+    "description": "Acerte 10 perguntas fáceis",
+    "rarity": "comum",
+    "xpReward": 100,
+    "condition": { "type": "difficulty_correct", "difficulty": "facil", "value": 10 }
+  },
+  {
+    "title": "Nível 2",
+    "description": "Alcance o nível 2",
+    "rarity": "comum",
+    "xpReward": 120,
+    "condition": { "type": "level_reached", "value": 2 }
+  },
+  {
+    "title": "Rodada Inicial",
+    "description": "Complete uma rodada de 5 perguntas",
+    "rarity": "comum",
+    "xpReward": 90,
+    "condition": { "type": "rounds_completed", "value": 1 }
+  },
+  {
+    "title": "Semente de Fé",
+    "description": "Desbloqueie 3 conquistas",
+    "rarity": "comum",
+    "xpReward": 110,
+    "condition": { "type": "achievements_unlocked", "value": 3 }
+  },
+  {
+    "title": "Perfil Criado",
+    "description": "Crie sua conta e personalize seu avatar",
+    "rarity": "comum",
+    "xpReward": 60,
+    "condition": { "type": "profile_completed", "value": 1 }
+  },
+  {
+    "title": "Compartilhador",
+    "description": "Compartilhe seu resultado pela primeira vez",
+    "rarity": "comum",
+    "xpReward": 70,
+    "condition": { "type": "shares", "value": 1 }
+  },
+  {
+    "title": "Diário Devocional",
+    "description": "Use o modo 'Verso do Dia' 3 vezes",
+    "rarity": "comum",
+    "xpReward": 80,
+    "condition": { "type": "devotional_used", "value": 3 }
+  },
+  {
+    "title": "Ajudante",
+    "description": "Vote em sugestões da comunidade",
+    "rarity": "comum",
+    "xpReward": 50,
+    "condition": { "type": "community_votes", "value": 1 }
+  },
+  {
+    "title": "Fã da Explicação",
+    "description": "Leia 10 explicações completas após responder",
+    "rarity": "comum",
+    "xpReward": 75,
+    "condition": { "type": "explanations_read", "value": 10 }
+  },
+  {
+    "title": "Amigo dos Versículos",
+    "description": "Clique em 5 referências bíblicas para ver o texto completo",
+    "rarity": "comum",
+    "xpReward": 60,
+    "condition": { "type": "verse_references_clicked", "value": 5 }
+  },
+  {
+    "title": "Bem-vindo ao Reino",
+    "description": "Complete o tutorial",
+    "rarity": "comum",
+    "xpReward": 100,
+    "condition": { "type": "tutorial_completed", "value": 1 }
+  }
+]

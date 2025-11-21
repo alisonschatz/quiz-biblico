@@ -1,0 +1,182 @@
+[
+  {
+    "question": "Quem foi o sumo sacerdote que entrou no Santo dos Santos uma vez por ano?",
+    "options": ["Moisés", "Arão", "Josué", "Samuel"],
+    "correctAnswer": 1,
+    "category": "antigo_testamento",
+    "difficulty": "medio",
+    "explanation": "Arão, irmão de Moisés, foi o primeiro sumo sacerdote. Ele entrava no Santo dos Santos no Dia da Expiação (Yom Kippur), após sacrifícios e purificações.",
+    "verseReference": "Levítico 16:2-34"
+  },
+  {
+    "question": "Qual foi o nome da esposa de Abraão antes da mudança de nome?",
+    "options": ["Raquel", "Lia", "Sarai", "Rute"],
+    "correctAnswer": 2,
+    "category": "antigo_testamento",
+    "difficulty": "medio",
+    "explanation": "Deus mudou seu nome de Sarai para Sara ao confirmar a aliança e prometer um filho.",
+    "verseReference": "Gênesis 17:15"
+  },
+  {
+    "question": "Quantos anos viveu Matusalém, o homem mais velho da Bíblia?",
+    "options": ["897", "912", "969", "1000"],
+    "correctAnswer": 2,
+    "category": "antigo_testamento",
+    "difficulty": "medio",
+    "explanation": "Matusalém viveu 969 anos, morrendo no ano do dilúvio.",
+    "verseReference": "Gênesis 5:27"
+  },
+  {
+    "question": "Quem foi o único juiz mulher em Israel?",
+    "options": ["Ester", "Débora", "Hulda", "Ana"],
+    "correctAnswer": 1,
+    "category": "antigo_testamento",
+    "difficulty": "medio",
+    "explanation": "Débora era profetisa e juíza; liderou Israel e orientou Baraque na vitória contra Sísera.",
+    "verseReference": "Juízes 4:4-5"
+  },
+  {
+    "question": "Qual tribo de Israel não recebeu herança territorial?",
+    "options": ["Judá", "Efraim", "Levi", "Benjamim"],
+    "correctAnswer": 2,
+    "category": "antigo_testamento",
+    "difficulty": "medio",
+    "explanation": "A tribo de Levi foi separada para o serviço sacerdotal; o Senhor era sua herança, e receberam cidades espalhadas entre as demais tribos.",
+    "verseReference": "Josué 13:14"
+  },
+  {
+    "question": "O que Jacó deu a José que provocou ciúmes nos irmãos?",
+    "options": ["Um anel", "Uma espada", "Uma túnica de várias cores", "Um cajado"],
+    "correctAnswer": 2,
+    "category": "antigo_testamento",
+    "difficulty": "medio",
+    "explanation": "A túnica distintiva simbolizava o favor especial de Jacó por José, o filho da sua velhice.",
+    "verseReference": "Gênesis 37:3"
+  },
+  {
+    "question": "Qual foi o nome do monte onde Moisés recebeu os Dez Mandamentos?",
+    "options": ["Monte Sião", "Monte Carmelo", "Monte Nebo", "Monte Sinai"],
+    "correctAnswer": 3,
+    "category": "antigo_testamento",
+    "difficulty": "medio",
+    "explanation": "Também chamado de Horebe, foi no Monte Sinai que Deus entregou a Lei a Moisés.",
+    "verseReference": "Êxodo 19:11"
+  },
+  {
+    "question": "Quem foi o rei que construiu palácios com marfim e teve 700 esposas e 300 concubinas?",
+    "options": ["Davi", "Roboão", "Acabe", "Salomão"],
+    "correctAnswer": 3,
+    "category": "antigo_testamento",
+    "difficulty": "medio",
+    "explanation": "Salomão, apesar de sua sabedoria, se desviou por causa das mulheres estrangeiras, levando-o à idolatria.",
+    "verseReference": "1 Reis 11:1-8"
+  },
+  {
+    "question": "Qual profeta foi engolido por um grande peixe e pregou em Nínive?",
+    "options": ["Isaías", "Jonas", "Naum", "Oseias"],
+    "correctAnswer": 1,
+    "category": "antigo_testamento",
+    "difficulty": "medio",
+    "explanation": "Jonas fugiu da missão de Deus, foi lançado ao mar e engolido por um grande peixe. Após 3 dias, foi vomitado e cumpriu sua missão.",
+    "verseReference": "Jonas 1-3"
+  },
+  {
+    "question": "Qual foi o pecado de Acã que trouxe derrota a Israel em Ai?",
+    "options": ["Adorar Baal", "Matar um israelita", "Roubar objetos dedicados ao Senhor", "Desobedecer a Josué"],
+    "correctAnswer": 2,
+    "category": "antigo_testamento",
+    "difficulty": "medio",
+    "explanation": "Acã roubou uma capa babilônica, prata e ouro que deveriam ser consagrados ao Senhor após a queda de Jericó — o que violou o 'banimento' (herem).",
+    "verseReference": "Josué 7:1, 20-21"
+  },
+  {
+    "question": "Quem foi o rei etíope que atacou Judá com um exército de um milhão de homens?",
+    "options": ["Tiraca", "Zerá", "Senaqueribe", "Nabucodonosor"],
+    "correctAnswer": 1,
+    "category": "antigo_testamento",
+    "difficulty": "medio",
+    "explanation": "Zerá, o etíope, liderou um grande exército contra o rei Asa, mas foi derrotado por intervenção divina.",
+    "verseReference": "2 Crônicas 14:9-13"
+  },
+  {
+    "question": "Qual rei de Judá foi curado de uma doença terminal após orar, e teve sua vida prolongada em 15 anos?",
+    "options": ["Ezequias", "Josias", "Amazias", "Uzias"],
+    "correctAnswer": 0,
+    "category": "antigo_testamento",
+    "difficulty": "medio",
+    "explanation": "Ezequias orou quando Isaías anunciou sua morte iminente. Deus ouviu e acrescentou 15 anos à sua vida; como sinal, fez a sombra retroceder 10 graus.",
+    "verseReference": "2 Reis 20:1-6"
+  },
+  {
+    "question": "Qual foi o nome do sacerdote que encontrou o Livro da Lei no templo durante a reforma de Josias?",
+    "options": ["Eli", "Hilquias", "Sofonias", "Jeconias"],
+    "correctAnswer": 1,
+    "category": "antigo_testamento",
+    "difficulty": "medio",
+    "explanation": "Hilquias encontrou o Livro da Lei (provavelmente Deuteronômio) durante obras no templo, desencadeando uma grande reforma espiritual.",
+    "verseReference": "2 Reis 22:8"
+  },
+  {
+    "question": "Quem foi o profeta que caminhou nu e descalço por três anos como sinal contra Egito e Cuxe?",
+    "options": ["Miquéias", "Isaías", "Ezequiel", "Oséias"],
+    "correctAnswer": 1,
+    "category": "antigo_testamento",
+    "difficulty": "medio",
+    "explanation": "Isaías obedeceu a Deus e andou assim como profecia simbólica da humilhação que viria sobre os egípcios e etíopes.",
+    "verseReference": "Isaías 20:2-4"
+  },
+  {
+    "question": "Qual cidade foi conhecida como 'a cidade dos gigantes' e teve Anaque como ancestral?",
+    "options": ["Jericó", "Hebrom", "Laque", "Eclã"],
+    "correctAnswer": 1,
+    "category": "antigo_testamento",
+    "difficulty": "medio",
+    "explanation": "Hebrom era associada aos enaqueus (gigantes), e Calebe a conquistou aos 85 anos.",
+    "verseReference": "Josué 14:12-15; Números 13:22"
+  },
+  {
+    "question": "Quem foi o rei que consultou uma necromante em Endor?",
+    "options": ["Davi", "Saul", "Acabe", "Roboão"],
+    "correctAnswer": 1,
+    "category": "antigo_testamento",
+    "difficulty": "medio",
+    "explanation": "Saul, desesperado e abandonado por Deus, buscou a pitonisa de Endor para invocar o espírito de Samuel — ato estritamente proibido.",
+    "verseReference": "1 Samuel 28:7-15"
+  },
+  {
+    "question": "Qual foi o nome do monte de onde Moisés viu a Terra Prometida, mas não entrou?",
+    "options": ["Monte Sinai", "Monte Nebo", "Monte Hor", "Monte Ebal"],
+    "correctAnswer": 1,
+    "category": "antigo_testamento",
+    "difficulty": "medio",
+    "explanation": "Deus levou Moisés ao cume do monte Nebo, mostrou-lhe toda a terra, e ali ele morreu.",
+    "verseReference": "Deuteronômio 34:1-5"
+  },
+  {
+    "question": "Quem foi o israelita que se casou com uma moabita chamada Rute?",
+    "options": ["Boaz", "Elimeleque", "Noemi", "Quiliom"],
+    "correctAnswer": 3,
+    "category": "antigo_testamento",
+    "difficulty": "medio",
+    "explanation": "Quiliom, filho de Noemi e Elimeleque, casou-se com Rute em Moabe. Após sua morte, Rute seguiu Noemi e casou-se com Boaz.",
+    "verseReference": "Rute 1:4; 4:13"
+  },
+  {
+    "question": "Qual profeta teve visões com criaturas vivas, rodas e um trono de safira?",
+    "options": ["Isaías", "Daniel", "Ezequiel", "Zacarias"],
+    "correctAnswer": 2,
+    "category": "antigo_testamento",
+    "difficulty": "medio",
+    "explanation": "Ezequiel, junto ao rio Quebar, teve uma visão majestosa da glória de Deus — com querubins, rodas cheias de olhos e o trono divino.",
+    "verseReference": "Ezequiel 1"
+  },
+  {
+    "question": "Quantas pragas foram enviadas sobre o Egito antes do Êxodo?",
+    "options": ["7", "9", "10", "12"],
+    "correctAnswer": 2,
+    "category": "antigo_testamento",
+    "difficulty": "medio",
+    "explanation": "As 10 pragas demonstraram o poder de Yahweh sobre os deuses do Egito e culminaram na libertação de Israel.",
+    "verseReference": "Êxodo 7-12"
+  }
+]

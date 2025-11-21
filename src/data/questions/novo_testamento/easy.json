@@ -1,0 +1,182 @@
+[
+  {
+    "question": "Quem foi o precursor de Jesus, que o batizou no rio Jordão?",
+    "options": ["Pedro", "João Batista", "Paulo", "Tiago"],
+    "correctAnswer": 1,
+    "category": "novo_testamento",
+    "difficulty": "facil",
+    "explanation": "João Batista preparou o caminho do Senhor, pregando arrependimento e batizando com água — mas anunciou que viria outro que batizaria com o Espírito Santo.",
+    "verseReference": "Mateus 3:1-13"
+  },
+  {
+    "question": "Onde Jesus nasceu?",
+    "options": ["Naziré", "Belém", "Jerusalém", "Cafarnaum"],
+    "correctAnswer": 1,
+    "category": "novo_testamento",
+    "difficulty": "facil",
+    "explanation": "Embora criado em Nazaré, Jesus nasceu em Belém da Judeia, cumprindo a profecia de Miqueias 5:2.",
+    "verseReference": "Lucas 2:4-7"
+  },
+  {
+    "question": "Quantos discípulos Jesus escolheu para serem seus apóstolos?",
+    "options": ["10", "11", "12", "70"],
+    "correctAnswer": 2,
+    "category": "novo_testamento",
+    "difficulty": "facil",
+    "explanation": "Os Doze Apóstolos foram escolhidos para estar com Jesus, pregar e exercer autoridade sobre demônios.",
+    "verseReference": "Marcos 3:14-19"
+  },
+  {
+    "question": "Qual foi o primeiro milagre de Jesus?",
+    "options": ["Multiplicação dos pães", "Andar sobre as águas", "Transformar água em vinho", "Curar um cego de nascença"],
+    "correctAnswer": 2,
+    "category": "novo_testamento",
+    "difficulty": "facil",
+    "explanation": "Nas bodas de Caná, Jesus transformou água em vinho, revelando sua glória — e seus discípulos creram nele.",
+    "verseReference": "João 2:1-11"
+  },
+  {
+    "question": "Quem negou Jesus três vezes antes do galo cantar?",
+    "options": ["João", "Pedro", "Judas", "Tomé"],
+    "correctAnswer": 1,
+    "category": "novo_testamento",
+    "difficulty": "facil",
+    "explanation": "Pedro, apesar de afirmar que jamais negaria Jesus, o negou três vezes — e chorou amargamente ao ouvir o galo cantar.",
+    "verseReference": "Mateus 26:69-75"
+  },
+  {
+    "question": "Quem traiu Jesus com um beijo?",
+    "options": ["Barrabás", "Pilatos", "Judas Iscariotes", "Caifás"],
+    "correctAnswer": 2,
+    "category": "novo_testamento",
+    "difficulty": "facil",
+    "explanation": "Judas combinou com os líderes religiosos: 'Aquele que eu beijar, esse é; prendei-o.'",
+    "verseReference": "Mateus 26:48-49"
+  },
+  {
+    "question": "O que Jesus disse na cruz: 'Pai, perdoa-lhes, porque...'?",
+    "options": ["...eles não sabem o que fazem", "...estão confusos", "...são cegos", "...me rejeitaram"],
+    "correctAnswer": 0,
+    "category": "novo_testamento",
+    "difficulty": "facil",
+    "explanation": "Mesmo sendo crucificado injustamente, Jesus intercedeu pelos seus algozes — demonstrando amor e graça supremos.",
+    "verseReference": "Lucas 23:34"
+  },
+  {
+    "question": "Quantos dias Jesus ficou na sepultura?",
+    "options": ["1", "2", "3", "4"],
+    "correctAnswer": 2,
+    "category": "novo_testamento",
+    "difficulty": "facil",
+    "explanation": "Jesus morreu na sexta-feira, repousou no sábado e ressuscitou no primeiro dia da semana (domingo) — 'ao terceiro dia'.",
+    "verseReference": "Mateus 12:40; 1 Coríntios 15:4"
+  },
+  {
+    "question": "Quem foi o primeiro a ver Jesus ressuscitado?",
+    "options": ["Pedro", "João", "Maria Madalena", "Tiago"],
+    "correctAnswer": 2,
+    "category": "novo_testamento",
+    "difficulty": "facil",
+    "explanation": "Maria Madalena foi ao túmulo de madrugada, chorou, e foi a primeira a quem Jesus apareceu após a ressurreição.",
+    "verseReference": "João 20:1,14-18"
+  },
+  {
+    "question": "O que desceu sobre os discípulos no dia de Pentecostes?",
+    "options": ["Fogo", "Vento", "Línguas como de fogo", "Colunas de fumaça"],
+    "correctAnswer": 2,
+    "category": "novo_testamento",
+    "difficulty": "facil",
+    "explanation": "Eles foram preenchidos do Espírito Santo, e apareceram línguas repartidas, como de fogo, pousando sobre cada um.",
+    "verseReference": "Atos 2:3-4"
+  },
+  {
+    "question": "Qual apóstolo foi martirizado primeiro?",
+    "options": ["Pedro", "João", "Tiago (filho de Zebedeu)", "André"],
+    "correctAnswer": 2,
+    "category": "novo_testamento",
+    "difficulty": "facil",
+    "explanation": "Herodes mandou degolar Tiago com espada — o primeiro apóstolo a morrer por sua fé.",
+    "verseReference": "Atos 12:1-2"
+  },
+  {
+    "question": "Quem escreveu a maior parte das cartas do Novo Testamento?",
+    "options": ["Pedro", "João", "Tiago", "Paulo"],
+    "correctAnswer": 3,
+    "category": "novo_testamento",
+    "difficulty": "facil",
+    "explanation": "Paulo escreveu 13 cartas (Romanos a Filemom); alguns incluem Hebreus, totalizando 14.",
+    "verseReference": "Romanos 1:1; 1 Coríntios 1:1; etc."
+  },
+  {
+    "question": "Onde ocorreu a conversão de Saulo (Paulo)?",
+    "options": ["Jerusalém", "Antioquia", "Damasco", "Cesareia"],
+    "correctAnswer": 2,
+    "category": "novo_testamento",
+    "difficulty": "facil",
+    "explanation": "No caminho para Damasco, Jesus apareceu a Saulo em uma luz ofuscante e perguntou: 'Saulo, Saulo, por que me persegues?'",
+    "verseReference": "Atos 9:1-9"
+  },
+  {
+    "question": "Qual é o versículo mais curto da Bíblia?",
+    "options": ["João 11:35", "Êxodo 20:13", "1 João 5:21", "2 João 1:13"],
+    "correctAnswer": 0,
+    "category": "novo_testamento",
+    "difficulty": "facil",
+    "explanation": "'Jesus chorou' — apenas duas palavras em português, expressando sua compaixão diante da morte de Lázaro.",
+    "verseReference": "João 11:35"
+  },
+  {
+    "question": "Quantas vezes Pedro negou Jesus?",
+    "options": ["1", "2", "3", "4"],
+    "correctAnswer": 2,
+    "category": "novo_testamento",
+    "difficulty": "facil",
+    "explanation": "Jesus predisse: 'Antes que o galo cante, você me negará três vezes.' E assim aconteceu.",
+    "verseReference": "Lucas 22:34,61"
+  },
+  {
+    "question": "O que Jesus multiplicou para alimentar 5.000 homens?",
+    "options": ["Pão e mel", "Pão e peixe", "Pão e vinho", "Pão e azeite"],
+    "correctAnswer": 1,
+    "category": "novo_testamento",
+    "difficulty": "facil",
+    "explanation": "Com 5 pães e 2 peixes, Jesus alimentou mais de 5.000 pessoas (sem contar mulheres e crianças), e ainda sobraram 12 cestos.",
+    "verseReference": "Mateus 14:17-21"
+  },
+  {
+    "question": "Quem foi o centurião que, ao ver Jesus morrer, disse: 'Verdadeiramente este homem era o Filho de Deus'?",
+    "options": ["Cornélio", "Julius", "Sem nome dado", "Longino"],
+    "correctAnswer": 2,
+    "category": "novo_testamento",
+    "difficulty": "facil",
+    "explanation": "Marcos 15:39 relata que o centurião *que estava diante dele* fez essa confissão — seu nome não é revelado nas Escrituras.",
+    "verseReference": "Marcos 15:39"
+  },
+  {
+    "question": "Qual é o nome do monte onde Jesus subiu aos céus?",
+    "options": ["Monte Sinai", "Monte das Oliveiras", "Monte Sião", "Monte Carmelo"],
+    "correctAnswer": 1,
+    "category": "novo_testamento",
+    "difficulty": "facil",
+    "explanation": "Após 40 dias ressuscitado, Jesus foi elevado ao céu diante dos discípulos, do Monte das Oliveiras.",
+    "verseReference": "Atos 1:9-12"
+  },
+  {
+    "question": "O que Jesus ensinou no Sermão do Monte?",
+    "options": ["A Oração do Senhor", "As Bem-aventuranças", "A Parábola do Semeador", "O Mandamento do Amor"],
+    "correctAnswer": 1,
+    "category": "novo_testamento",
+    "difficulty": "facil",
+    "explanation": "As Bem-aventuranças ('Bem-aventurados os pobres em espírito...') são a introdução do Sermão do Monte, em Mateus 5-7.",
+    "verseReference": "Mateus 5:3-12"
+  },
+  {
+    "question": "Quem escreveu o livro de Atos dos Apóstolos?",
+    "options": ["Pedro", "Paulo", "João", "Lucas"],
+    "correctAnswer": 3,
+    "category": "novo_testamento",
+    "difficulty": "facil",
+    "explanation": "Lucas, médico e companheiro de Paulo, escreveu tanto o Evangelho de Lucas quanto Atos — uma continuação da mesma obra.",
+    "verseReference": "Lucas 1:1-4; Atos 1:1"
+  }
+]

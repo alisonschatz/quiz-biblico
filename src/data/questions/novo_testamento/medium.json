@@ -1,0 +1,182 @@
+[
+  {
+    "question": "Quem foi o fariseu que visitou Jesus à noite e mais tarde pediu seu corpo para o sepultamento?",
+    "options": ["Gamaliel", "Nicodemos", "José de Arimateia", "Anás"],
+    "correctAnswer": 1,
+    "category": "novo_testamento",
+    "difficulty": "medio",
+    "explanation": "Nicodemos veio de noite (Jo 3), defendeu Jesus perante o Sinédrio (Jo 7:50-51) e ajudou José de Arimateia no sepultamento.",
+    "verseReference": "João 19:39"
+  },
+  {
+    "question": "Qual foi a cidade natal de Paulo (antes chamado Saulo)?",
+    "options": ["Jerusalém", "Tarso", "Antioquia", "Damasco"],
+    "correctAnswer": 1,
+    "category": "novo_testamento",
+    "difficulty": "medio",
+    "explanation": "Paulo era 'judeu, natural de Tarso, cidade da Cilícia' e cidadão romano desde o nascimento.",
+    "verseReference": "Atos 21:39; 22:3"
+  },
+  {
+    "question": "Quantas viagens missionárias Paulo realizou registradas em Atos?",
+    "options": ["2", "3", "4", "5"],
+    "correctAnswer": 1,
+    "category": "novo_testamento",
+    "difficulty": "medio",
+    "explanation": "Atos registra três viagens missionárias (13-14; 15:36-18:22; 18:23-21:17), além da viagem a Roma como prisioneiro.",
+    "verseReference": "Atos 13-21"
+  },
+  {
+    "question": "Quem foi o primeiro mártir cristão?",
+    "options": ["Estevão", "Tiago", "Pedro", "Paulo"],
+    "correctAnswer": 0,
+    "category": "novo_testamento",
+    "difficulty": "medio",
+    "explanation": "Estevão, cheio do Espírito Santo, foi apedrejado após um discurso poderoso. Saulo (Paulo) guardava as roupas dos apedrejadores.",
+    "verseReference": "Atos 6:8-7:60"
+  },
+  {
+    "question": "Qual apóstolo foi conhecido como 'o discípulo a quem Jesus amava'?",
+    "options": ["Pedro", "João", "Tiago", "André"],
+    "correctAnswer": 1,
+    "category": "novo_testamento",
+    "difficulty": "medio",
+    "explanation": "João, filho de Zebedeu, é identificado assim no Evangelho que escreveu — sem jamais citar seu próprio nome.",
+    "verseReference": "João 13:23; 19:26; 20:2; 21:7,20"
+  },
+  {
+    "question": "O que significa 'Emanuel', citado no nascimento de Jesus?",
+    "options": ["Filho de Deus", "Deus conosco", "Salvador do mundo", "Príncipe da Paz"],
+    "correctAnswer": 1,
+    "category": "novo_testamento",
+    "difficulty": "medio",
+    "explanation": "Mateus cita Isaías 7:14: 'Eis que a virgem conceberá e dará à luz um filho, e chamará o seu nome Emanuel', que quer dizer 'Deus conosco'.",
+    "verseReference": "Mateus 1:23"
+  },
+  {
+    "question": "Quem foi o governador romano que condenou Jesus à morte?",
+    "options": ["Herodes Antipas", "Pilatos", "Félix", "Festo"],
+    "correctAnswer": 1,
+    "category": "novo_testamento",
+    "difficulty": "medio",
+    "explanation": "Pôncio Pilatos, governador da Judeia, lavou as mãos, mas cedeu à pressão da multidão e condenou Jesus à crucificação.",
+    "verseReference": "Mateus 27:24-26"
+  },
+  {
+    "question": "Qual foi o nome do sumo sacerdote que profetizou que 'convinha que um homem morresse pelo povo'?",
+    "options": ["Anás", "Caifás", "Ananias", "Gamaliel"],
+    "correctAnswer": 1,
+    "category": "novo_testamento",
+    "difficulty": "medio",
+    "explanation": "Caifás, sumo sacerdote naquele ano, disse isso sem saber que profetizava a morte expiatória de Jesus por toda a nação (e pelos filhos de Deus dispersos).",
+    "verseReference": "João 11:49-52"
+  },
+  {
+    "question": "Quem foi o centurião cujo servo foi curado à distância por Jesus?",
+    "options": ["Cornélio", "Longino", "Da corte de Herodes", "Não nomeado"],
+    "correctAnswer": 3,
+    "category": "novo_testamento",
+    "difficulty": "medio",
+    "explanation": "Lucas 7:1-10 descreve um centurião (sem nome) em Cafarnaum cuja fé impressionou Jesus — 'Nem mesmo em Israel achei tamanha fé'.",
+    "verseReference": "Lucas 7:1-10"
+  },
+  {
+    "question": "Qual foi o nome da cidade onde Jesus foi criado?",
+    "options": ["Belém", "Jerusalém", "Nazaré", "Cafarnaum"],
+    "correctAnswer": 2,
+    "category": "novo_testamento",
+    "difficulty": "medio",
+    "explanation": "Após voltar do Egito, José levou a família para Nazaré, cumprindo o que 'foi dito pelos profetas: Ele será chamado Nazareno'.",
+    "verseReference": "Mateus 2:23"
+  },
+  {
+    "question": "Quem foi o apóstolo que duvidou da ressurreição até ver as feridas de Jesus?",
+    "options": ["Pedro", "Tiago", "Tomé", "Filipe"],
+    "correctAnswer": 2,
+    "category": "novo_testamento",
+    "difficulty": "medio",
+    "explanation": "Tomé disse: 'Se eu não vir... não crerei'. Uma semana depois, Jesus apareceu e disse: 'põe aqui o teu dedo... não sejas incrédulo, mas crente'.",
+    "verseReference": "João 20:24-29"
+  },
+  {
+    "question": "Qual foi o nome do lugar do Getsêmani?",
+    "options": ["Monte das Oliveiras", "Jardim do Azeite", "Campo de Sangue", "Colina da Caveira"],
+    "correctAnswer": 1,
+    "category": "novo_testamento",
+    "difficulty": "medio",
+    "explanation": "'Getsêmani' vem do aramaico *gat shemanim*, que significa 'prensa de azeite' — um jardim de oliveiras no sopé do Monte das Oliveiras.",
+    "verseReference": "Mateus 26:36"
+  },
+  {
+    "question": "Quem foi o primeiro gentio convertido após o Pentecostes?",
+    "options": ["Cornélio", "O eunuco etíope", "Lídia", "O carcereiro de Filipos"],
+    "correctAnswer": 1,
+    "category": "novo_testamento",
+    "difficulty": "medio",
+    "explanation": "O eunuco etíope (At 8) foi batizado por Filipe, mas Cornélio (At 10) foi o primeiro gentio *com família* convertido, com derramamento do Espírito Santo — marco decisivo para a missão gentílica.",
+    "verseReference": "Atos 10"
+  },
+  {
+    "question": "Qual carta de Paulo é considerada a mais teológica e sistemática?",
+    "options": ["1 Coríntios", "Gálatas", "Romanos", "Efésios"],
+    "correctAnswer": 2,
+    "category": "novo_testamento",
+    "difficulty": "medio",
+    "explanation": "Romanos expõe a doutrina da justificação pela fé, a lei e a graça, a eleição e a esperança escatológica — um tratado teológico completo.",
+    "verseReference": "Romanos 1-16"
+  },
+  {
+    "question": "Quem foi a primeira convertida na Europa?",
+    "options": ["Lídia", "Priscila", "Áqüila", "Tércias"],
+    "correctAnswer": 0,
+    "category": "novo_testamento",
+    "difficulty": "medio",
+    "explanation": "Lídia, vendedora de púrpura de Tiatira, teve o coração aberto pelo Senhor e foi batizada com sua casa em Filipos.",
+    "verseReference": "Atos 16:14-15"
+  },
+  {
+    "question": "Qual foi o nome do monte onde Jesus foi transfigurado?",
+    "options": ["Monte Sião", "Monte das Oliveiras", "Monte Tabor", "Não especificado"],
+    "correctAnswer": 3,
+    "category": "novo_testamento",
+    "difficulty": "medio",
+    "explanation": "Os Evangelhos dizem apenas 'um monte alto' (Mt 17:1). A tradição aponta o Tabor, mas a Bíblia não nomeia.",
+    "verseReference": "Mateus 17:1"
+  },
+  {
+    "question": "Quem escreveu a Epístola aos Hebreus?",
+    "options": ["Paulo", "Barnabé", "Apolo", "Autor desconhecido"],
+    "correctAnswer": 3,
+    "category": "novo_testamento",
+    "difficulty": "medio",
+    "explanation": "O autor não se identifica. Embora tradicionalmente atribuída a Paulo, o estilo e vocabulário diferem — a maioria dos estudiosos considera o autor anônimo.",
+    "verseReference": "Hebreus — sem assinatura"
+  },
+  {
+    "question": "Qual foi o nome do sumo sacerdote que mandou açoitar os apóstolos em Atos 5?",
+    "options": ["Caifás", "Anás", "Ananias", "Gamaliel"],
+    "correctAnswer": 2,
+    "category": "novo_testamento",
+    "difficulty": "medio",
+    "explanation": "Ananias (não o do NT, mas sumo sacerdote entre 47-59 d.C.) ordenou que os apóstolos fossem açoitados após serem presos.",
+    "verseReference": "Atos 5:27,40"
+  },
+  {
+    "question": "Quantos anos Paulo passou na Arábia após sua conversão?",
+    "options": ["1", "3", "7", "14"],
+    "correctAnswer": 1,
+    "category": "novo_testamento",
+    "difficulty": "medio",
+    "explanation": "Paulo diz que 'não consultei carne nem sangue' e foi para a Arábia, retornando depois a Damasco — período de reflexão e preparação.",
+    "verseReference": "Gálatas 1:15-17"
+  },
+  {
+    "question": "Quem foi o jovem que caiu da janela durante o sermão de Paulo e foi ressuscitado?",
+    "options": ["Timóteo", "Tito", "Eutico", "Onésimo"],
+    "correctAnswer": 2,
+    "category": "novo_testamento",
+    "difficulty": "medio",
+    "explanation": "Eutico, em Trôade, dormiu durante a pregação de Paulo à meia-noite, caiu do terceiro andar e morreu. Paulo o ressuscitou.",
+    "verseReference": "Atos 20:7-12"
+  }
+]

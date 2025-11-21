@@ -1,0 +1,182 @@
+[
+  {
+    "question": "Qual profeta usou uma panela fervendo inclinada do norte como símbolo do perigo babilônico?",
+    "options": ["Isaías", "Jeremias", "Ezequiel", "Daniel"],
+    "correctAnswer": 1,
+    "category": "profetas",
+    "difficulty": "medio",
+    "explanation": "Jeremias viu uma panela fervendo, virada do norte — simbolizando o ataque iminente de Babilônia, que viria do norte (embora geograficamente estivesse a leste, usava-se 'norte' para invasores).",
+    "verseReference": "Jeremias 1:13-14"
+  },
+  {
+    "question": "Qual profeta foi amarrado com cordas como sinal de que Judá seria levada cativa?",
+    "options": ["Isaías", "Jeremias", "Ezequiel", "Oséias"],
+    "correctAnswer": 2,
+    "category": "profetas",
+    "difficulty": "medio",
+    "explanation": "Ezequiel foi amarrado e impedido de se virar — simbolizando a imobilidade de Jerusalém diante do cerco e do exílio.",
+    "verseReference": "Ezequiel 3:25; 4:8"
+  },
+  {
+    "question": "Quem foi o profeta que rasgou o jugo de madeira de Jeremias e pôs um de ferro?",
+    "options": ["Hananel", "Hanania", "Jezabel", "Semaías"],
+    "correctAnswer": 1,
+    "category": "profetas",
+    "difficulty": "medio",
+    "explanation": "Hanania, falso profeta, quebrou o jugo de Jeremias e prometeu libertação em 2 anos — mas morreu no mesmo ano, como sinal de que sua palavra era falsa.",
+    "verseReference": "Jeremias 28"
+  },
+  {
+    "question": "Qual profeta teve que escrever duas vezes o mesmo documento — um selado, outro aberto?",
+    "options": ["Isaías", "Jeremias", "Daniel", "Ageu"],
+    "correctAnswer": 1,
+    "category": "profetas",
+    "difficulty": "medio",
+    "explanation": "Jeremias escreveu o 'livro da aliança' duas vezes: um rolo selado (para ser guardado) e outro aberto (para ser lido) — como prova legal da promessa de restauração.",
+    "verseReference": "Jeremias 32:10-14"
+  },
+  {
+    "question": "Qual profeta foi proibido de chorar pela morte de sua esposa como sinal ao povo?",
+    "options": ["Isaías", "Jeremias", "Ezequiel", "Oséias"],
+    "correctAnswer": 2,
+    "category": "profetas",
+    "difficulty": "medio",
+    "explanation": "Deus disse a Ezequiel: 'Não faças lamentação, nem chores... pois eu quebro o orgulho da força deles'. Sua obediência silenciosa era mensagem de juízo.",
+    "verseReference": "Ezequiel 24:15-24"
+  },
+  {
+    "question": "Qual livro profético contém o único relato de um profeta recusando-se a profetizar?",
+    "options": ["Jonas", "Amós", "Miquéias", "Habacuque"],
+    "correctAnswer": 0,
+    "category": "profetas",
+    "difficulty": "medio",
+    "explanation": "Jonas tentou fugir para Társis para evitar ir a Nínive — único caso de recusa explícita à chamada profética.",
+    "verseReference": "Jonas 1:3"
+  },
+  {
+    "question": "Quem foi o profeta que profetizou que Ciro, rei da Pérsia, seria o 'ungido' de Deus?",
+    "options": ["Isaías", "Jeremias", "Daniel", "Ageu"],
+    "correctAnswer": 0,
+    "category": "profetas",
+    "difficulty": "medio",
+    "explanation": "Isaías 44:28-45:1 chama Ciro de *messias* (ungido) — único não-israelita com esse título — pois libertaria Israel do exílio.",
+    "verseReference": "Isaías 44:28; 45:1"
+  },
+  {
+    "question": "Qual profeta teve que cozinhar seu pão com esterco humano (substituído por esterco de vaca)?",
+    "options": ["Isaías", "Jeremias", "Ezequiel", "Oséias"],
+    "correctAnswer": 2,
+    "category": "profetas",
+    "difficulty": "medio",
+    "explanation": "Deus ordenou inicialmente esterco humano (símbolo da impureza do exílio), mas Ezequiel protestou — e Deus aceitou esterco de vaca.",
+    "verseReference": "Ezequiel 4:9-15"
+  },
+  {
+    "question": "Qual profeta é conhecido por sua ênfase na justiça social como parte essencial da adoração?",
+    "options": ["Isaías", "Jeremias", "Amós", "Malaquias"],
+    "correctAnswer": 2,
+    "category": "profetas",
+    "difficulty": "medio",
+    "explanation": "Amós denunciou rituais vazios: 'Odeio, desprezo as vossas festas... mas corra o juízo como as águas'. Justiça é inseparável da piedade.",
+    "verseReference": "Amós 5:21-24"
+  },
+  {
+    "question": "Quem foi o profeta que escreveu em tábuas grandes para que todos lessem?",
+    "options": ["Isaías", "Habacuque", "Jeremias", "Ageu"],
+    "correctAnswer": 1,
+    "category": "profetas",
+    "difficulty": "medio",
+    "explanation": "Habacuque escreveu a visão em tábuas grandes e legíveis: 'para que corra o que lê'. A mensagem era urgente: 'O justo viverá pela fé'.",
+    "verseReference": "Habacuque 2:2"
+  },
+  {
+    "question": "Qual profeta profetizou que o Messias nasceria em Belém *e* teria origens desde a eternidade?",
+    "options": ["Isaías", "Jeremias", "Miquéias", "Ageu"],
+    "correctAnswer": 2,
+    "category": "profetas",
+    "difficulty": "medio",
+    "explanation": "Miquéias 5:2 diz: 'cujas origens são desde os tempos antigos, desde os dias da eternidade' — afirmando pré-existência do Messias.",
+    "verseReference": "Miquéias 5:2"
+  },
+  {
+    "question": "Qual profeta foi atado e impedido de falar até o cumprimento de um sinal?",
+    "options": ["Isaías", "Jeremias", "Ezequiel", "Daniel"],
+    "correctAnswer": 0,
+    "category": "profetas",
+    "difficulty": "medio",
+    "explanation": "Isaías foi mudo por 3 anos como sinal da queda da Síria e de Israel — só falou novamente após a profecia se cumprir.",
+    "verseReference": "Isaías 20:2-3"
+  },
+  {
+    "question": "Qual livro profético tem a estrutura de um processo judicial contra Israel?",
+    "options": ["Oséias", "Miquéias", "Isaías", "Jeremias"],
+    "correctAnswer": 1,
+    "category": "profetas",
+    "difficulty": "medio",
+    "explanation": "Miquéias 6:1-8 é um tribunal celestial: 'Povo meu, que te fiz eu?... Ele te declarou, ó homem, o que é bom'.",
+    "verseReference": "Miquéias 6:1-8"
+  },
+  {
+    "question": "Quem foi o profeta que teve um 'rochedo fendido' como metáfora para a presença de Deus?",
+    "options": ["Moisés", "Isaías", "Ezequiel", "Daniel"],
+    "correctAnswer": 1,
+    "category": "profetas",
+    "difficulty": "medio",
+    "explanation": "Isaías 32:2 chama o justo de 'como ribeiros de águas em lugares secos, como a sombra de um grande penhasco em terra sedenta'.",
+    "verseReference": "Isaías 32:2"
+  },
+  {
+    "question": "Qual profeta profetizou a 'nova aliança' escrita no coração?",
+    "options": ["Isaías", "Jeremias", "Ezequiel", "Joel"],
+    "correctAnswer": 1,
+    "category": "profetas",
+    "difficulty": "medio",
+    "explanation": "Jeremias 31:31-34 é a única menção explícita à 'nova aliança' no AT — citada em Hebreus 8 como cumprida em Cristo.",
+    "verseReference": "Jeremias 31:31-34"
+  },
+  {
+    "question": "Qual profeta usou o casamento como metáfora central de sua mensagem?",
+    "options": ["Isaías", "Jeremias", "Oséias", "Ezequiel"],
+    "correctAnswer": 2,
+    "category": "profetas",
+    "difficulty": "medio",
+    "explanation": "Oséias se casa com Gômer, prostituta, e reconstitui a relação após a infidelidade — simbolizando a aliança quebrada e restaurada por graça.",
+    "verseReference": "Oséias 1-3"
+  },
+  {
+    "question": "Quem foi o profeta que profetizou que o Espírito seria derramado 'sobre toda a carne'?",
+    "options": ["Isaías", "Joel", "Ezequiel", "Ageu"],
+    "correctAnswer": 1,
+    "category": "profetas",
+    "difficulty": "medio",
+    "explanation": "Joel 2:28-29 é citado por Pedro no Pentecostes (At 2:17-18) como início do cumprimento da promessa do Espírito.",
+    "verseReference": "Joel 2:28-29"
+  },
+  {
+    "question": "Qual profeta foi chamado 'vigia' por Deus?",
+    "options": ["Isaías", "Jeremias", "Ezequiel", "Habacuque"],
+    "correctAnswer": 2,
+    "category": "profetas",
+    "difficulty": "medio",
+    "explanation": "Ezequiel recebeu a responsabilidade de 'vigia da casa de Israel' — advertir o povo, sob pena de ser culpado pelo sangue deles.",
+    "verseReference": "Ezequiel 3:17; 33:7"
+  },
+  {
+    "question": "Qual profeta é conhecido por sua visão do 'carneiro e do bode'?",
+    "options": ["Isaías", "Jeremias", "Daniel", "Zacarias"],
+    "correctAnswer": 2,
+    "category": "profetas",
+    "difficulty": "medio",
+    "explanation": "Daniel 8 descreve o carneiro (Medo-Pérsia) e o bode (Grécia) — visão simbólica dos impérios após Babilônia.",
+    "verseReference": "Daniel 8:3-27"
+  },
+  {
+    "question": "Qual profeta usou o termo 'dia do Senhor' de forma irônica, invertendo a expectativa popular?",
+    "options": ["Isaías", "Amós", "Zacarias", "Malaquias"],
+    "correctAnswer": 1,
+    "category": "profetas",
+    "difficulty": "medio",
+    "explanation": "Amós 5:18-20 alerta: 'Ai daqueles que desejam o dia do Senhor!... Será dia de trevas, não de luz' — juízo, não libertação, para os ímpios.",
+    "verseReference": "Amós 5:18-20"
+  }
+]

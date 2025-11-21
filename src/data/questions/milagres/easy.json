@@ -1,0 +1,182 @@
+[
+  {
+    "question": "Qual foi o primeiro milagre de Jesus?",
+    "options": ["Multiplicação dos pães", "Andar sobre as águas", "Transformar água em vinho", "Curar um leproso"],
+    "correctAnswer": 2,
+    "category": "milagres",
+    "difficulty": "facil",
+    "explanation": "Nas bodas de Caná, Jesus transformou água em vinho — seu primeiro sinal, que manifestou sua glória.",
+    "verseReference": "João 2:1-11"
+  },
+  {
+    "question": "Quantos pães e peixes Jesus usou para alimentar 5.000 homens?",
+    "options": ["2 pães e 5 peixes", "5 pães e 2 peixes", "7 pães e poucos peixes", "12 cestos de sobra"],
+    "correctAnswer": 1,
+    "category": "milagres",
+    "difficulty": "facil",
+    "explanation": "Com apenas 5 pães e 2 peixes, Jesus alimentou mais de 5.000 pessoas (sem contar mulheres e crianças), e ainda sobraram 12 cestos.",
+    "verseReference": "Mateus 14:17-21"
+  },
+  {
+    "question": "Quem Jesus ressuscitou após quatro dias no túmulo?",
+    "options": ["Jairo", "O filho da viúva de Naim", "Lázaro", "Tabita"],
+    "correctAnswer": 2,
+    "category": "milagres",
+    "difficulty": "facil",
+    "explanation": "Lázaro estava morto havia quatro dias quando Jesus chegou. Diante do túmulo, clamou: 'Lázaro, vem para fora!'",
+    "verseReference": "João 11:1-44"
+  },
+  {
+    "question": "O que Jesus fez durante uma tempestade no mar da Galileia?",
+    "options": ["Multiplicou pães", "Andou sobre as águas", "Acalmou o vento e o mar", "Chamou fogo do céu"],
+    "correctAnswer": 2,
+    "category": "milagres",
+    "difficulty": "facil",
+    "explanation": "Jesus estava dormindo no barco. Acordado pelos discípulos, repreendeu o vento e o mar: 'Acalma-te, emudece!' — e cessou a tempestade.",
+    "verseReference": "Marcos 4:35-41"
+  },
+  {
+    "question": "Quem Jesus curou dizendo: 'Efata', que quer dizer 'Abre-te'?",
+    "options": ["Um cego", "Um surdo-mudo", "Um paralítico", "Um leproso"],
+    "correctAnswer": 1,
+    "category": "milagres",
+    "difficulty": "facil",
+    "explanation": "Jesus colocou os dedos nos ouvidos do surdo, tocou-lhe a língua com saliva e disse 'Efata' — e imediatamente ele ouviu e falou claramente.",
+    "verseReference": "Marcos 7:32-35"
+  },
+  {
+    "question": "Quantos homens Jesus alimentou com 7 pães e alguns peixes?",
+    "options": ["3.000", "4.000", "5.000", "7.000"],
+    "correctAnswer": 1,
+    "category": "milagres",
+    "difficulty": "facil",
+    "explanation": "Esta foi uma segunda multiplicação, em território gentílico. Jesus alimentou 4.000 homens (sem contar mulheres e crianças), e sobraram 7 cestos.",
+    "verseReference": "Mateus 15:32-39"
+  },
+  {
+    "question": "Quem andou sobre as águas com Jesus, mas começou a afundar por ter medo?",
+    "options": ["João", "Pedro", "Tiago", "Tomé"],
+    "correctAnswer": 1,
+    "category": "milagres",
+    "difficulty": "facil",
+    "explanation": "Pedro saiu do barco e andou sobre as águas, mas ao sentir o vento forte, teve medo e começou a afundar. Jesus o segurou e disse: 'Homem de pouca fé, por que duvidaste?'",
+    "verseReference": "Mateus 14:28-31"
+  },
+  {
+    "question": "Qual milagre Jesus fez ao tocar nos olhos de um cego com saliva e lama?",
+    "options": ["Curou-o imediatamente", "Enviou-o para lavar no tanque de Siloé", "Clamou em alta voz", "Impôs as mãos"],
+    "correctAnswer": 1,
+    "category": "milagres",
+    "difficulty": "facil",
+    "explanation": "Jesus fez lama com saliva, passou nos olhos do cego e mandou: 'Vai, lava-te no tanque de Siloé'. Ele foi, lavou-se e voltou vendo.",
+    "verseReference": "João 9:6-7"
+  },
+  {
+    "question": "Quem Jesus curou ao dizer: 'Filha, a tua fé te salvou'?",
+    "options": ["A mulher com hemorragia", "A sogra de Pedro", "Maria Madalena", "Marta"],
+    "correctAnswer": 0,
+    "category": "milagres",
+    "difficulty": "facil",
+    "explanation": "Uma mulher com hemorragia havia 12 anos tocou na orla da veste de Jesus e foi curada imediatamente. Jesus disse: 'Filha, a tua fé te salvou; vai em paz'.",
+    "verseReference": "Marcos 5:25-34"
+  },
+  {
+    "question": "Qual milagre ocorreu quando Jesus tocou o caixão do filho único de uma viúva?",
+    "options": ["Multiplicação", "Ressurreição", "Cura à distância", "Exorcismo"],
+    "correctAnswer": 1,
+    "category": "milagres",
+    "difficulty": "facil",
+    "explanation": "Em Naim, Jesus teve compaixão da viúva, tocou o caixão e disse: 'Jovem, eu te ordeno: levanta-te!'. O morto sentou-se e começou a falar.",
+    "verseReference": "Lucas 7:11-15"
+  },
+  {
+    "question": "Quantos cestos de sobra houve após a alimentação dos 5.000?",
+    "options": ["5", "7", "12", "14"],
+    "correctAnswer": 2,
+    "category": "milagres",
+    "difficulty": "facil",
+    "explanation": "Após alimentar 5.000 homens, os discípulos recolheram 12 cestos cheios de pedaços — um para cada tribo/apóstolo, simbolizando plenitude.",
+    "verseReference": "Mateus 14:20"
+  },
+  {
+    "question": "Quem foi curado quando Jesus disse: 'Levanta-te, toma o teu leito e anda'?",
+    "options": ["O cego de nascença", "O paralítico de Betesda", "O servo do centurião", "O endemoninhado gadareno"],
+    "correctAnswer": 1,
+    "category": "milagres",
+    "difficulty": "facil",
+    "explanation": "Um paralítico havia 38 anos foi curado junto à piscina de Betesda. Jesus lhe disse isso no sábado — gerando controvérsia com os judeus.",
+    "verseReference": "João 5:1-9"
+  },
+  {
+    "question": "Qual milagre Jesus fez em Cafarnaum ao expulsar um espírito imundo?",
+    "options": ["Curou um leproso", "Expulsou demônio numa sinagoga", "Ressuscitou Jairo", "Acalmou tempestade"],
+    "correctAnswer": 1,
+    "category": "milagres",
+    "difficulty": "facil",
+    "explanation": "Num sábado, na sinagoga de Cafarnaum, um homem com espírito imundo gritou. Jesus ordenou: 'Cala-te e sai dele!' — e o demônio o lançou no chão e saiu.",
+    "verseReference": "Marcos 1:21-27"
+  },
+  {
+    "question": "Quem Jesus curou com apenas uma palavra, sem estar presente?",
+    "options": ["O cego Bartimeu", "O servo do centurião", "O paralítico de Betesda", "A sogra de Pedro"],
+    "correctAnswer": 1,
+    "category": "milagres",
+    "difficulty": "facil",
+    "explanation": "O centurião disse: 'Basta que digas uma palavra'. Jesus admirou-se da fé dele e disse: 'Vai; como creste, assim te seja feito'. E na mesma hora o servo sarou.",
+    "verseReference": "Mateus 8:5-13"
+  },
+  {
+    "question": "O que Jesus fez com a figueira que não tinha frutos?",
+    "options": ["Regou-a", "Ameaçou-a", "Amealdiçoou-a", "Podou-a"],
+    "correctAnswer": 2,
+    "category": "milagres",
+    "difficulty": "facil",
+    "explanation": "Jesus amaldiçoou a figueira estéril como símbolo de Israel que tinha aparência de piedade (folhas), mas não produzia fruto espiritual. Ela secou imediatamente.",
+    "verseReference": "Marcos 11:12-14,20-21"
+  },
+  {
+    "question": "Quantas pessoas Jesus ressuscitou no Evangelho?",
+    "options": ["1", "2", "3", "4"],
+    "correctAnswer": 2,
+    "category": "milagres",
+    "difficulty": "facil",
+    "explanation": "Três ressurreições: 1) filho da viúva de Naim (Lc 7), 2) filha de Jairo (Mc 5), 3) Lázaro (Jo 11).",
+    "verseReference": "Lucas 7:11-17; Marcos 5:21-43; João 11:1-44"
+  },
+  {
+    "question": "Quem foi curado ao ser descido pelo teto diante de Jesus?",
+    "options": ["Um cego", "Um leproso", "Um paralítico", "Um surdo"],
+    "correctAnswer": 2,
+    "category": "milagres",
+    "difficulty": "facil",
+    "explanation": "Quatro homens abriram o telhado e desceram o paralítico diante de Jesus. Ele disse: 'Filho, perdoados são os teus pecados' — e depois: 'Levanta-te...'.",
+    "verseReference": "Marcos 2:1-12"
+  },
+  {
+    "question": "Qual milagre ocorreu quando Pedro pescou um peixe com uma moeda na boca?",
+    "options": ["Pagamento do imposto do templo", "Oferta para os pobres", "Resgate de João", "Resgate de Jesus"],
+    "correctAnswer": 0,
+    "category": "milagres",
+    "difficulty": "facil",
+    "explanation": "Jesus disse a Pedro: 'Lança o anzol... o primeiro peixe que apanhares, abre-lhe a boca e acharás um estáter; toma-o e dá-o por mim e por ti'.",
+    "verseReference": "Mateus 17:24-27"
+  },
+  {
+    "question": "Quem foi o primeiro milagre de cura pública de Jesus?",
+    "options": ["Cura de um leproso", "Expulsão de demônio em Cafarnaum", "Cura da sogra de Pedro", "Transformação da água em vinho"],
+    "correctAnswer": 0,
+    "category": "milagres",
+    "difficulty": "facil",
+    "explanation": "Após o primeiro milagre (vinho), o primeiro ato de cura pública foi a cura de um leproso que veio suplicar: 'Senhor, se quiseres, podes limpar-me'.",
+    "verseReference": "Mateus 8:1-4"
+  },
+  {
+    "question": "Qual milagre mostra que Jesus tem autoridade sobre a natureza *e* sobre o tempo?",
+    "options": ["Multiplicação dos pães", "Acalmar a tempestade", "Transformar água em vinho", "Ressurreição de Lázaro"],
+    "correctAnswer": 2,
+    "category": "milagres",
+    "difficulty": "facil",
+    "explanation": "O vinho novo simboliza o novo tempo do Reino (aliança nova). Ele não apenas transformou matéria (água → vinho), mas acelerou o processo natural (envelhecimento do vinho), mostrando domínio sobre tempo e natureza.",
+    "verseReference": "João 2:1-11"
+  }
+]

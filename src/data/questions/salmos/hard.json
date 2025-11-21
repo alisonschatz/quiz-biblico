@@ -1,0 +1,182 @@
+[
+  {
+    "question": "Qual salmo é o único que contém um *acrostico triplo* (três versos por letra) em hebraico?",
+    "options": ["Salmo 25", "Salmo 34", "Salmo 37", "Salmo 119"],
+    "correctAnswer": 2,
+    "category": "salmos",
+    "difficulty": "dificil",
+    "explanation": "O Salmo 37 tem 22 letras, mas versos 27-29 quebram o padrão — alguns manuscritos antigos sugerem que originalmente era triplo (como Lamentações 3).",
+    "verseReference": "Salmos 37 (estrutura textual)"
+  },
+  {
+    "question": "Qual salmo usa o termo *selah* com maior frequência?",
+    "options": ["Salmo 3", "Salmo 55", "Salmo 89", "Salmo 140"],
+    "correctAnswer": 2,
+    "category": "salmos",
+    "difficulty": "dificil",
+    "explanation": "O Salmo 89 contém *selah* 6 vezes — termo litúrgico que indica pausa, instrumental ou mudança de tom.",
+    "verseReference": "Salmos 89"
+  },
+  {
+    "question": "Qual salmo é o único cuja estrutura é *quiasmática* perfeita (ABCCBA) em escala macro?",
+    "options": ["Salmo 1", "Salmo 23", "Salmo 119", "Salmo 150"],
+    "correctAnswer": 0,
+    "category": "salmos",
+    "difficulty": "dificil",
+    "explanation": "Salmo 1: A) Caminho dos ímpios (v.1); B) Julgamento dos ímpios (v.4-5); C) Caminho dos justos (v.2-3); C') Bênção dos justos (v.3); B') Julgamento implícito; A') Conclusão contrastiva (v.6).",
+    "verseReference": "Salmos 1"
+  },
+  {
+    "question": "Qual salmo contém o único uso do termo hebraico *hesed* (bondade leal) em contexto de aliança davídica?",
+    "options": ["Salmo 89", "Salmo 105", "Salmo 132", "Salmo 136"],
+    "correctAnswer": 0,
+    "category": "salmos",
+    "difficulty": "dificil",
+    "explanation": "O Salmo 89:1-4, 28-37 enfatiza o *hesed* de Deus na aliança com Davi — promessa de trono eterno.",
+    "verseReference": "Salmos 89:1,28"
+  },
+  {
+    "question": "Qual salmo é citado no Novo Testamento como prova de que Davi previu a ressurreição de Cristo?",
+    "options": ["Salmo 16", "Salmo 22", "Salmo 110", "Salmo 132"],
+    "correctAnswer": 0,
+    "category": "salmos",
+    "difficulty": "dificil",
+    "explanation": "Atos 2:25-28 cita Salmo 16:8-11: 'Não deixarás a minha alma na morte, nem permitirás que o teu Santo veja corrupção'.",
+    "verseReference": "Salmos 16:10; Atos 2:27"
+  },
+  {
+    "question": "Qual salmo é o único que contém uma *maldição* direta contra inimigos no contexto messiânico?",
+    "options": ["Salmo 69", "Salmo 109", "Salmo 137", "Todas as anteriores"],
+    "correctAnswer": 1,
+    "category": "salmos",
+    "difficulty": "dificil",
+    "explanation": "O Salmo 109:6-20 é um *imprecatório* extremo — citado em Atos 1:20 para Judas. O NT reinterpreta essas maldições como entrega à justiça divina.",
+    "verseReference": "Salmos 109:6-20; Atos 1:20"
+  },
+  {
+    "question": "Qual salmo é conhecido como 'o salmo do sofrimento inocente' e citado 7 vezes no Novo Testamento?",
+    "options": ["Salmo 2", "Salmo 22", "Salmo 69", "Salmo 110"],
+    "correctAnswer": 1,
+    "category": "salmos",
+    "difficulty": "dificil",
+    "explanation": "Salmo 22 descreve: mãos e pés traspassados (v.16), roupas sorteadas (v.18), sede (v.15) — todos cumpridos em Jesus.",
+    "verseReference": "Salmos 22; Mateus 27; João 19"
+  },
+  {
+    "question": "Qual salmo é o único que contém um *diálogo entre coros* nas rubricas litúrgicas?",
+    "options": ["Salmo 24", "Salmo 42", "Salmo 95", "Salmo 132"],
+    "correctAnswer": 0,
+    "category": "salmos",
+    "difficulty": "dificil",
+    "explanation": "Salmo 24:8-10 tem estrutura antifonal: Coro 1: 'Quem é este Rei da Glória?'; Coro 2: 'O Senhor forte e poderoso'.",
+    "verseReference": "Salmos 24:8-10"
+  },
+  {
+    "question": "Qual salmo usa o termo *miktam* (inscrição dourada) na rubrica?",
+    "options": ["Salmo 16", "Salmo 56-60", "Salmo 89", "A e B"],
+    "correctAnswer": 3,
+    "category": "salmos",
+    "difficulty": "dificil",
+    "explanation": "Salmos 16, 56, 57, 58, 59, 60 têm *miktam* — termo obscuro, talvez 'poema precioso' ou 'inscrição para ocasião solene'.",
+    "verseReference": "Salmos 16:1; 56:1 etc."
+  },
+  {
+    "question": "Qual salmo é o único cuja estrutura reflete os 5 livros da Torá?",
+    "options": ["Salmo 1", "Salmo 19", "Salmo 119", "Salmo 150"],
+    "correctAnswer": 2,
+    "category": "salmos",
+    "difficulty": "dificil",
+    "explanation": "O Saltério inteiro tem 5 livros (Sl 1-41, 42-72, etc.), mas o Salmo 119 tem 22 seções x 8 versos = 176, espelhando os 5 livros (176 = 5x35 + 1, com ajustes litúrgicos).",
+    "verseReference": "Salmos 119 (estrutura canônica)"
+  },
+  {
+    "question": "Qual salmo contém a única menção de 'santuário' (*hekal*) aplicada ao coração humano?",
+    "options": ["Salmo 26", "Salmo 27", "Salmo 68", "Salmo 73"],
+    "correctAnswer": 1,
+    "category": "salmos",
+    "difficulty": "dificil",
+    "explanation": "Salmo 27:4: 'Uma coisa peço ao Senhor... habitar na casa do Senhor todos os dias da minha vida'. No NT, o crente é templo (1Co 6:19).",
+    "verseReference": "Salmos 27:4"
+  },
+  {
+    "question": "Qual salmo é citado em Hebreus 1 como prova da superioridade de Cristo sobre os anjos?",
+    "options": ["Salmo 2", "Salmo 45", "Salmo 97", "Salmo 104"],
+    "correctAnswer": 1,
+    "category": "salmos",
+    "difficulty": "dificil",
+    "explanation": "Salmo 45:6-7: 'Ó Deus, o teu trono é eterno... amaste a justiça' — aplicado a Cristo como Rei divino.",
+    "verseReference": "Salmos 45:6-7; Hebreus 1:8-9"
+  },
+  {
+    "question": "Qual salmo é o único que contém o termo *maskil* (poema didático) e descreve a crise de fé resolvida no santuário?",
+    "options": ["Salmo 32", "Salmo 42", "Salmo 73", "Salmo 142"],
+    "correctAnswer": 2,
+    "category": "salmos",
+    "difficulty": "dificil",
+    "explanation": "Salmo 73: 'Até que entrei no santuário de Deus... então compreendi'. A *maskil* é um salmo para instrução espiritual.",
+    "verseReference": "Salmos 73:1,17"
+  },
+  {
+    "question": "Qual salmo é conhecido como 'o salmo da encarnação' por descrever a humilhação e exaltação do servo?",
+    "options": ["Salmo 2", "Salmo 8", "Salmo 22", "Salmo 110"],
+    "correctAnswer": 1,
+    "category": "salmos",
+    "difficulty": "dificil",
+    "explanation": "Salmo 8: 'Fizeste-o um pouco menor do que Deus... coroaste-o de glória e honra' — citado em Hebreus 2:6-9 aplicado a Cristo.",
+    "verseReference": "Salmos 8:5; Hebreus 2:9"
+  },
+  {
+    "question": "Qual salmo é o único que contém uma bênção *trinitária implícita* no AT?",
+    "options": ["Salmo 2", "Salmo 33", "Salmo 67", "Salmo 119"],
+    "correctAnswer": 2,
+    "category": "salmos",
+    "difficulty": "dificil",
+    "explanation": "Salmo 67:1: 'Deus tenha misericórdia de nós e nos abençoe' (Pai); 'Faça resplandecer o seu rosto sobre nós' (Filho, cf. Nm 6:25); 'Para que se conheça na terra o teu caminho' (Espírito, guia).",
+    "verseReference": "Salmos 67:1; Números 6:24-26"
+  },
+  {
+    "question": "Qual salmo é o único cuja rubrica menciona um evento específico da vida de Davi (fuga de Saul para a caverna)?",
+    "options": ["Salmo 7", "Salmo 57", "Salmo 142", "B e C"],
+    "correctAnswer": 3,
+    "category": "salmos",
+    "difficulty": "dificil",
+    "explanation": "Salmos 57 e 142 trazem 'quando fugia de Saul, na caverna' — provavelmente Adulão ou En-Gedi.",
+    "verseReference": "Salmos 57:1; 142:1"
+  },
+  {
+    "question": "Qual salmo é citado em Romanos 3 como prova da depravação universal?",
+    "options": ["Salmo 5", "Salmo 14", "Salmo 36", "Salmo 53"],
+    "correctAnswer": 1,
+    "category": "salmos",
+    "difficulty": "dificil",
+    "explanation": "Romanos 3:10-18 cita Salmo 14:1-3 (e Salmo 53, sua duplicata) — 'Não há justo, nem um sequer'.",
+    "verseReference": "Salmos 14:1-3; Romanos 3:10-12"
+  },
+  {
+    "question": "Qual salmo é o único que contém o termo *shiggaion* (lamento apaixonado) na rubrica?",
+    "options": ["Salmo 7", "Salmo 57", "Salmo 88", "Salmo 142"],
+    "correctAnswer": 0,
+    "category": "salmos",
+    "difficulty": "dificil",
+    "explanation": "Salmo 7:1: 'Shiggaion de Davi'. Termo raro, talvez 'meditação fervorosa' ou 'lamento com música agitada'.",
+    "verseReference": "Salmos 7:1"
+  },
+  {
+    "question": "Qual salmo é conhecido como 'o salmo da paixão' por descrever a sede, a zombaria e as vestes sorteadas?",
+    "options": ["Salmo 22", "Salmo 69", "Salmo 109", "Todas as anteriores"],
+    "correctAnswer": 3,
+    "category": "salmos",
+    "difficulty": "dificil",
+    "explanation": "Salmo 22 (crucificação), Salmo 69 (vinagre, zombaria), Salmo 109 (traição) — todos aplicados a Jesus no NT.",
+    "verseReference": "Salmos 22; 69; 109"
+  },
+  {
+    "question": "Qual salmo é o único que termina com 'Amém e Amém' como selo duplo de confirmação?",
+    "options": ["Salmo 41", "Salmo 72", "Salmo 89", "Salmo 106"],
+    "correctAnswer": 1,
+    "category": "salmos",
+    "difficulty": "dificil",
+    "explanation": "Salmo 72:20 termina o Livro II com 'Acabaram as orações de Davi, filho de Jessé. Amém e Amém' — selo litúrgico de encerramento.",
+    "verseReference": "Salmos 72:20"
+  }
+]

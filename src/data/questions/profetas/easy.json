@@ -1,0 +1,182 @@
+[
+  {
+    "question": "Qual profeta foi engolido por um grande peixe e depois pregou em Nínive?",
+    "options": ["Isaías", "Jeremias", "Jonas", "Naum"],
+    "correctAnswer": 2,
+    "category": "profetas",
+    "difficulty": "facil",
+    "explanation": "Jonas fugiu da missão de Deus, foi lançado ao mar e engolido por um grande peixe. Após 3 dias, foi vomitado e pregou em Nínive — que se arrependeu.",
+    "verseReference": "Jonas 1–3"
+  },
+  {
+    "question": "Quem foi o profeta que andou nu e descalço por três anos como sinal?",
+    "options": ["Oséias", "Isaías", "Jeremias", "Ezequiel"],
+    "correctAnswer": 1,
+    "category": "profetas",
+    "difficulty": "facil",
+    "explanation": "Isaías obedeceu a Deus e andou assim como profecia simbólica da humilhação que viria sobre Egito e Cuxe.",
+    "verseReference": "Isaías 20:2-4"
+  },
+  {
+    "question": "Qual profeta comprou um campo em Anatote enquanto Jerusalém estava cercada?",
+    "options": ["Ezequiel", "Daniel", "Jeremias", "Amós"],
+    "correctAnswer": 2,
+    "category": "profetas",
+    "difficulty": "facil",
+    "explanation": "Jeremias comprou o campo de seu primo Hanameel como sinal de esperança — mesmo na iminência do exílio, haveria restauração futura.",
+    "verseReference": "Jeremias 32:6-15"
+  },
+  {
+    "question": "Quem foi o profeta que casou-se com uma prostituta chamada Gômer?",
+    "options": ["Isaías", "Miquéias", "Oséias", "Ageu"],
+    "correctAnswer": 2,
+    "category": "profetas",
+    "difficulty": "facil",
+    "explanation": "Deus ordenou a Oséias que se casasse com Gômer para simbolizar o amor fiel de Deus por Israel, apesar da infidelidade do povo.",
+    "verseReference": "Oséias 1:2-3"
+  },
+  {
+    "question": "Qual profeta teve visões com criaturas vivas, rodas cheias de olhos e um trono de safira?",
+    "options": ["Daniel", "Isaías", "Ezequiel", "Zacarias"],
+    "correctAnswer": 2,
+    "category": "profetas",
+    "difficulty": "facil",
+    "explanation": "Ezequiel, junto ao rio Quebar, teve uma visão majestosa da glória de Deus — com querubins, rodas e o trono divino.",
+    "verseReference": "Ezequiel 1"
+  },
+  {
+    "question": "Quem foi o profeta que interpretou o sonho do rei Nabucodonosor sobre a estátua de quatro metais?",
+    "options": ["Ezequiel", "Ageu", "Daniel", "Malaquias"],
+    "correctAnswer": 2,
+    "category": "profetas",
+    "difficulty": "facil",
+    "explanation": "Daniel revelou o sonho e sua interpretação: os quatro impérios (Babilônia, Medo-Pérsia, Grécia, Roma) e o reino eterno de Deus.",
+    "verseReference": "Daniel 2:19-45"
+  },
+  {
+    "question": "Qual profeta foi levado ao céu em um redemoinho, com carruagem de fogo?",
+    "options": ["Eliseu", "Isaías", "Elias", "Joel"],
+    "correctAnswer": 2,
+    "category": "profetas",
+    "difficulty": "facil",
+    "explanation": "Elias não morreu, mas foi arrebatado ao céu em um redemoinho, com carruagem e cavalos de fogo — e Eliseu herdou sua porção dobrada de espírito.",
+    "verseReference": "2 Reis 2:11"
+  },
+  {
+    "question": "Quem foi o profeta que chorou tanto por Israel que é chamado de 'profeta chorão'?",
+    "options": ["Oséias", "Jeremias", "Ezequiel", "Amós"],
+    "correctAnswer": 1,
+    "category": "profetas",
+    "difficulty": "facil",
+    "explanation": "Jeremias sofreu rejeição, perseguição e viu a queda de Jerusalém. Seu coração se partia pelo pecado do povo — daí o título.",
+    "verseReference": "Jeremias 9:1; 13:17"
+  },
+  {
+    "question": "Qual profeta anunciou: 'Eis que a virgem conceberá e dará à luz um filho'?",
+    "options": ["Miquéias", "Isaías", "Daniel", "Ageu"],
+    "correctAnswer": 1,
+    "category": "profetas",
+    "difficulty": "facil",
+    "explanation": "Isaías 7:14 é citado em Mateus 1:23 como cumprimento no nascimento de Jesus — Emanuel, 'Deus conosco'.",
+    "verseReference": "Isaías 7:14"
+  },
+  {
+    "question": "Quem foi o profeta que comeu um rolo de livro como sinal de internalizar a palavra de Deus?",
+    "options": ["Isaías", "Jeremias", "Ezequiel", "Daniel"],
+    "correctAnswer": 2,
+    "category": "profetas",
+    "difficulty": "facil",
+    "explanation": "Ezequiel comeu o rolo (doce como mel), simbolizando que deveria absorver a mensagem de Deus antes de proclamá-la.",
+    "verseReference": "Ezequiel 3:1-3"
+  },
+  {
+    "question": "Qual profeta foi lançado numa cova de leões e saiu ileso?",
+    "options": ["Elias", "Eliseu", "Daniel", "Jonas"],
+    "correctAnswer": 2,
+    "category": "profetas",
+    "difficulty": "facil",
+    "explanation": "Daniel foi acusado por invejosos e lançado na cova dos leões por orar a Deus. Deus enviou um anjo para fechar a boca dos leões.",
+    "verseReference": "Daniel 6"
+  },
+  {
+    "question": "Quem foi o profeta que usou um jugo de madeira para simbolizar o jugo de Babilônia?",
+    "options": ["Jeremias", "Ezequiel", "Ageu", "Zacarias"],
+    "correctAnswer": 0,
+    "category": "profetas",
+    "difficulty": "facil",
+    "explanation": "Jeremias usou o jugo como sinal de que a submissão a Nabucodonosor era a vontade de Deus — ao contrário dos falsos profetas que pregavam libertação imediata.",
+    "verseReference": "Jeremias 27:2; 28:10-11"
+  },
+  {
+    "question": "Qual profeta anunciou o nascimento de Jesus em Belém?",
+    "options": ["Isaías", "Jeremias", "Miquéias", "Ageu"],
+    "correctAnswer": 2,
+    "category": "profetas",
+    "difficulty": "facil",
+    "explanation": "Miquéias 5:2 diz: 'E tu, Belém... de ti me sairá o que há de reinar em Israel'. Mateus cita isso em Mt 2:6.",
+    "verseReference": "Miquéias 5:2"
+  },
+  {
+    "question": "Quem foi o profeta que foi chamado enquanto ainda era jovem?",
+    "options": ["Isaías", "Daniel", "Jeremias", "Habacuque"],
+    "correctAnswer": 2,
+    "category": "profetas",
+    "difficulty": "facil",
+    "explanation": "Jeremias disse: 'Ah, Senhor Deus! Eis que não sei falar, porque ainda sou um menino'. Deus respondeu: 'Não digas: Sou um menino'.",
+    "verseReference": "Jeremias 1:6-7"
+  },
+  {
+    "question": "Qual profeta teve uma visão de um vale cheio de ossos secos que voltaram à vida?",
+    "options": ["Isaías", "Jeremias", "Ezequiel", "Daniel"],
+    "correctAnswer": 2,
+    "category": "profetas",
+    "difficulty": "facil",
+    "explanation": "A visão dos ossos ressuscitados simboliza a restauração de Israel após o exílio — 'põerei em vós o meu Espírito, e vivereis'.",
+    "verseReference": "Ezequiel 37:1-14"
+  },
+  {
+    "question": "Quem foi o profeta que escreveu: 'Mas o justo viverá pela sua fé'?",
+    "options": ["Isaías", "Jeremias", "Habacuque", "Ageu"],
+    "correctAnswer": 2,
+    "category": "profetas",
+    "difficulty": "facil",
+    "explanation": "Habacuque 2:4 é citado três vezes no Novo Testamento (Rm 1:17; Gl 3:11; Hb 10:38) como fundamento da justificação pela fé.",
+    "verseReference": "Habacuque 2:4"
+  },
+  {
+    "question": "Qual profeta profetizou contra a cidade de Nínive, inimiga de Israel?",
+    "options": ["Isaías", "Joel", "Naum", "Obadias"],
+    "correctAnswer": 2,
+    "category": "profetas",
+    "difficulty": "facil",
+    "explanation": "Naum anunciou a destruição definitiva de Nínive (612 a.C.), após o período de arrependimento concedido por Jonas.",
+    "verseReference": "Naum 1:1; 3:18-19"
+  },
+  {
+    "question": "Quem foi o profeta que profetizou a volta do povo do exílio babilônico?",
+    "options": ["Isaías (Segundo Isaías)", "Oséias", "Amós", "Malaquias"],
+    "correctAnswer": 0,
+    "category": "profetas",
+    "difficulty": "facil",
+    "explanation": "Isaías 40-55 (chamado 'Segundo Isaías') consola o exílio e anuncia a libertação por Ciro — 'Preparai o caminho do Senhor'.",
+    "verseReference": "Isaías 40:3; 44:28"
+  },
+  {
+    "question": "Qual profeta é conhecido por suas lamentações após a queda de Jerusalém?",
+    "options": ["Jeremias", "Ezequiel", "Daniel", "Ageu"],
+    "correctAnswer": 0,
+    "category": "profetas",
+    "difficulty": "facil",
+    "explanation": "O livro de Lamentações, atribuído a Jeremias, expressa dor profunda pela destruição da cidade e do templo.",
+    "verseReference": "Lamentações 1:1-4"
+  },
+  {
+    "question": "Quem foi o último profeta do Antigo Testamento?",
+    "options": ["Ageu", "Zacarias", "Malaquias", "Joel"],
+    "correctAnswer": 2,
+    "category": "profetas",
+    "difficulty": "facil",
+    "explanation": "Malaquias fecha o cânon do AT com uma advertência e uma promessa: 'Eis que eu vos enviarei o profeta Elias antes que venha o dia do Senhor'.",
+    "verseReference": "Malaquias 4:5-6"
+  }
+]

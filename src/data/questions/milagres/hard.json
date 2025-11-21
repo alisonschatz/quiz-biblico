@@ -1,0 +1,182 @@
+[
+  {
+    "question": "Qual milagre é o único em que Jesus *suspirou* profundamente antes de agir?",
+    "options": ["Cura do surdo-mudo", "Cura do cego de Betsaida", "Expulsão do demônio mudo", "Ressurreição de Lázaro"],
+    "correctAnswer": 0,
+    "category": "milagres",
+    "difficulty": "dificil",
+    "explanation": "Marcos 7:34 diz: 'Jesus, olhando para o céu, suspirou'. O termo grego *estenaxen* indica um gemido profundo — talvez pela condição caída da humanidade.",
+    "verseReference": "Marcos 7:34"
+  },
+  {
+    "question": "Qual milagre tem paralelo direto com o Êxodo (água → vinho ≈ água → sangue)?",
+    "options": ["Transformação da água em vinho", "Acalmar o mar", "Caminhar sobre as águas", "Multiplicação dos pães"],
+    "correctAnswer": 0,
+    "category": "milagres",
+    "difficulty": "dificil",
+    "explanation": "Em Caná, água (purificação judaica) → vinho (nova aliança); no Egito, água do Nilo → sangue (julgamento). Jesus inaugura uma nova libertação.",
+    "verseReference": "João 2:6-10; Êxodo 7:14-24"
+  },
+  {
+    "question": "Qual milagre foi feito com gestos que lembram a criação do homem em Gênesis 2:7?",
+    "options": ["Cura do cego de Siloé", "Cura do surdo-mudo", "Cura do leproso", "Expulsão do demônio"],
+    "correctAnswer": 0,
+    "category": "milagres",
+    "difficulty": "dificil",
+    "explanation": "Jesus fez lama com saliva (como Deus fez Adão do pó + fôlego) e passou nos olhos — simbolizando nova criação, restauração da imagem de Deus.",
+    "verseReference": "João 9:6; Gênesis 2:7"
+  },
+  {
+    "question": "Qual é o único milagre em que o beneficiário *não* é nomeado, mas o local é especificado com precisão?",
+    "options": ["Cura do paralítico de Betesda", "Cura do cego de Betsaida", "Expulsão do demônio em Gadara", "Cura da mulher encurvada"],
+    "correctAnswer": 0,
+    "category": "milagres",
+    "difficulty": "dificil",
+    "explanation": "João 5 descreve com detalhes o tanque de Betesda (5 alpendres, anjo agitando a água), mas o paralítico permanece anônimo — foco na graça soberana.",
+    "verseReference": "João 5:2-9"
+  },
+  {
+    "question": "Qual milagre contém o único uso do termo grego *ptōchos* (pobre mendigo) para descrever o beneficiário?",
+    "options": ["Cura do cego Bartimeu", "Lázaro e o rico", "Cura do paralítico", "Multiplicação dos pães"],
+    "correctAnswer": 0,
+    "category": "milagres",
+    "difficulty": "dificil",
+    "explanation": "Bartimeu é chamado de *ptōchos* (mendigo totalmente dependente) em Marcos 10:46 — termo raro, enfatizando sua condição de total necessidade.",
+    "verseReference": "Marcos 10:46"
+  },
+  {
+    "question": "Qual milagre foi realizado em resposta a uma pergunta retórica: 'Podem os cegos guiar cegos?'?",
+    "options": ["Cura do cego de Betsaida", "Cura do cego de Siloé", "Cura dos dois cegos", "Bartimeu"],
+    "correctAnswer": 0,
+    "category": "milagres",
+    "difficulty": "dificil",
+    "explanation": "Após questionar os fariseus sobre cegueira espiritual (Mt 15:14), Jesus cura o cego de Betsaida — ilustrando que só Ele pode dar visão verdadeira.",
+    "verseReference": "Marcos 8:22-26 (contexto: Mateus 15:14)"
+  },
+  {
+    "question": "Qual milagre tem estrutura narrativa *quiasmática* (ABBA) para enfatizar a revelação progressiva?",
+    "options": ["Cura do cego de Betsaida", "Transfiguração", "Ressurreição de Lázaro", "Multiplicação dos pães"],
+    "correctAnswer": 0,
+    "category": "milagres",
+    "difficulty": "dificil",
+    "explanation": "Marcos 8:22-26: A) Jesus leva o cego para fora da aldeia; B) Primeiro toque — visão parcial; B') Segundo toque — visão total; A') Manda não entrar na aldeia. Simboliza o discipulado como processo.",
+    "verseReference": "Marcos 8:22-26"
+  },
+  {
+    "question": "Qual milagre é o único em que Jesus usa um termo aramaico específico para cura?",
+    "options": ["Cura do surdo-mudo", "Ressurreição de Lázaro", "Cura da filha de Jairo", "Todas as anteriores"],
+    "correctAnswer": 3,
+    "category": "milagres",
+    "difficulty": "dificil",
+    "explanation": "1) *Efata* (abre-te) — Mc 7:34; 2) *Talita cumi* (menina, levanta-te) — Mc 5:41; 3) *Lázaro, vem para fora!* — Jo 11:43 (embora em grego, o nome é aramaico).",
+    "verseReference": "Marcos 5:41; 7:34; João 11:43"
+  },
+  {
+    "question": "Qual milagre foi feito com o uso de *cinco* pães, simbolizando os cinco livros da Lei?",
+    "options": ["Alimentação dos 5.000", "Alimentação dos 4.000", "Multiplicação em Caná", "Páscoa com os discípulos"],
+    "correctAnswer": 0,
+    "category": "milagres",
+    "difficulty": "dificil",
+    "explanation": "Os 5 pães (Pentateuco) alimentam Israel (5.000 homens), enquanto os 7 pães (plenitude) alimentam gentios (4.000) — revelando Cristo como cumprimento da Lei e bênção universal.",
+    "verseReference": "Mateus 14:17; 15:36"
+  },
+  {
+    "question": "Qual milagre é o único em que o objeto usado (figueira) *não* é restaurado, mas destruído?",
+    "options": ["Maldição da figueira", "Cura do leproso", "Expulsão do demônio", "Ressurreição"],
+    "correctAnswer": 0,
+    "category": "milagres",
+    "difficulty": "dificil",
+    "explanation": "A figueira estéril foi amaldiçoada e secou — único 'milagre negativo', simbolizando o juízo sobre a religião sem fruto (Israel institucional).",
+    "verseReference": "Marcos 11:12-14,20-21"
+  },
+  {
+    "question": "Qual milagre tem paralelo com a história de Elias e a viúva de Sarepta (1 Reis 17)?",
+    "options": ["Multiplicação dos pães", "Cura da sogra de Pedro", "Ressurreição do filho da viúva", "Pesca milagrosa"],
+    "correctAnswer": 2,
+    "category": "milagres",
+    "difficulty": "dificil",
+    "explanation": "Assim como Elias ressuscitou o filho da viúva de Sarepta, Jesus ressuscitou o filho da viúva de Naim — mostrando que 'um grande profeta se levantou entre nós' (Lc 7:16).",
+    "verseReference": "Lucas 7:11-17; 1 Reis 17:17-24"
+  },
+  {
+    "question": "Qual milagre foi feito com o uso de *dois* termos gregos diferentes para 'ver' (blépō e anablepō)?",
+    "options": ["Cura do cego de Betsaida", "Cura do cego de Siloé", "Cura dos dois cegos", "Bartimeu"],
+    "correctAnswer": 0,
+    "category": "milagres",
+    "difficulty": "dificil",
+    "explanation": "Em Marcos 8:23-25, o verbo muda: após o primeiro toque, ele *blépō* (percebe vagamente); após o segundo, *anablepō* (vê claramente, com discernimento).",
+    "verseReference": "Marcos 8:23-25"
+  },
+  {
+    "question": "Qual milagre é o único em que Jesus *põe os dedos nos ouvidos* do beneficiário?",
+    "options": ["Cura do surdo-mudo", "Cura do cego", "Expulsão do demônio", "Cura do leproso"],
+    "correctAnswer": 0,
+    "category": "milagres",
+    "difficulty": "dificil",
+    "explanation": "Gesto simbólico: tocar nos ouvidos para abrir a audição espiritual — 'Quem tem ouvidos para ouvir, ouça'.",
+    "verseReference": "Marcos 7:33"
+  },
+  {
+    "question": "Qual milagre foi feito em resposta à frase: 'Se és o Cristo, dize-no-lo abertamente'?",
+    "options": ["Ressurreição de Lázaro", "Expulsão dos vendilhões", "Cura do cego de Siloé", "Multiplicação dos pães"],
+    "correctAnswer": 2,
+    "category": "milagres",
+    "difficulty": "dificil",
+    "explanation": "Após curar o cego, os judeus perguntam isso (Jo 10:24). Jesus responde com 'Eu e o Pai somos um' — e o milagre é a prova de sua identidade.",
+    "verseReference": "João 9-10"
+  },
+  {
+    "question": "Qual milagre contém o único uso do termo 'nunca se viu tal coisa em Israel' por *testemunhas neutras*?",
+    "options": ["Cura do paralítico descido pelo teto", "Expulsão do demônio mudo", "Cura do surdo-mudo", "Ressurreição de Lázaro"],
+    "correctAnswer": 1,
+    "category": "milagres",
+    "difficulty": "dificil",
+    "explanation": "Após Jesus expulsar um demônio que tornava o homem cego e mudo, as multidões disseram: 'Nunca tal se viu em Israel!' — reconhecimento espontâneo.",
+    "verseReference": "Mateus 9:33"
+  },
+  {
+    "question": "Qual milagre foi feito com o uso de *sete* cestos de sobra, simbolizando plenitude gentílica?",
+    "options": ["Alimentação dos 5.000", "Alimentação dos 4.000", "Multiplicação em Caná", "Pesca de 153 peixes"],
+    "correctAnswer": 1,
+    "category": "milagres",
+    "difficulty": "dificil",
+    "explanation": "7 cestos (*spuridas*, maiores, usados por gentios) após alimentar 4.000 (número associado às nações) — contraste com 12 cestos (*kophinos*, menores, judaicos) para 5.000 (Israel).",
+    "verseReference": "Mateus 15:37"
+  },
+  {
+    "question": "Qual milagre é o único em que Jesus *não* permite o testemunho do beneficiário?",
+    "options": ["Cura do leproso", "Cura do cego de Betsaida", "Expulsão do demônio em Gadara", "Cura do surdo-mudo"],
+    "correctAnswer": 1,
+    "category": "milagres",
+    "difficulty": "dificil",
+    "explanation": "Em Marcos 8:26, Jesus 'mandou que não entrasse na aldeia, nem contasse a ninguém' — possivelmente para evitar messianismo político prematuro.",
+    "verseReference": "Marcos 8:26"
+  },
+  {
+    "question": "Qual milagre tem paralelo com Êxodo 14 (mar se abrindo) e 2 Reis 2 (Elias atravessando o Jordão)?",
+    "options": ["Acalmar a tempestade", "Andar sobre as águas", "Multiplicação dos pães", "Ressurreição de Lázaro"],
+    "correctAnswer": 1,
+    "category": "milagres",
+    "difficulty": "dificil",
+    "explanation": "Andar sobre as águas mostra domínio sobre o caos (como Deus em Jó 9:8), e Pedro quase repete o gesto de Elias — mas falha sem fé.",
+    "verseReference": "Mateus 14:25-26; Jó 9:8; 2 Reis 2:8"
+  },
+  {
+    "question": "Qual milagre foi feito com o uso de *saliva*, prática associada à cura popular da época, mas transformada em sinal teológico?",
+    "options": ["Cura do surdo-mudo", "Cura do cego de Betsaida", "Cura do cego de Siloé", "Todas as anteriores"],
+    "correctAnswer": 3,
+    "category": "milagres",
+    "difficulty": "dificil",
+    "explanation": "Jesus usou saliva em três curas — não por superstição, mas para encarnar a cura: seu corpo (saliva) traz vida onde há morte.",
+    "verseReference": "Marcos 7:33; 8:23; João 9:6"
+  },
+  {
+    "question": "Qual milagre é o único em que o número exato de peixes é dado (153)?",
+    "options": ["Primeira pesca milagrosa", "Pesca após a tempestade", "Pesca em Lucas 5", "Pesca pós-ressurreição"],
+    "correctAnswer": 3,
+    "category": "milagres",
+    "difficulty": "dificil",
+    "explanation": "João 21:11: 'Não rompeu-se a rede, e havia 153 peixes grandes'. O número simboliza a universalidade da Igreja (gematria grega: 153 = soma de 1 a 17, ou variedade de espécies).",
+    "verseReference": "João 21:11"
+  }
+]

@@ -39,14 +39,20 @@ tmp/
 temp/
 .cache/
 vite.config.timestamp-*
-*.local
 
 ###############################
-# CONFIG LOCAIS
+# CONFIGURAÇÕES LOCAIS & SEGURANÇA
 ###############################
 .env
 .env.*
-!.env.example  # manter arquivo de exemplo versionado
+!.env.example          
+serviceAccountKey.json
+
+# Firebase local
+.firebase/
+firestore-debug.log
+firebase-debug.log
+.firebaserc
 
 ###############################
 # CORDOVA
@@ -73,14 +79,6 @@ src-bex/www/
 src-bex/js/core/
 
 ###############################
-# FIREBASE
-###############################
-.firebase/
-firestore-debug.log
-firebase-debug.log
-.firebaserc
-
-###############################
 # IDEs / EDITORES
 ###############################
 .idea/
@@ -92,8 +90,7 @@ firebase-debug.log
 *.ntvs*
 *.njsproj
 *.sln
-*.swp
-*.swa
+*.sw[po]
 
 ###############################
 # VERCEL

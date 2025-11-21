@@ -1,0 +1,182 @@
+[
+  {
+    "question": "Qual é o salmo mais longo da Bíblia?",
+    "options": ["Salmo 1", "Salmo 23", "Salmo 119", "Salmo 150"],
+    "correctAnswer": 2,
+    "category": "salmos",
+    "difficulty": "facil",
+    "explanation": "O Salmo 119 tem 176 versículos — o mais longo de toda a Bíblia. É um acróstico elaborado sobre a lei de Deus.",
+    "verseReference": "Salmos 119"
+  },
+  {
+    "question": "Qual salmo começa com: 'O Senhor é o meu pastor; nada me faltará'?",
+    "options": ["Salmo 1", "Salmo 23", "Salmo 91", "Salmo 100"],
+    "correctAnswer": 1,
+    "category": "salmos",
+    "difficulty": "facil",
+    "explanation": "O Salmo 23 é o mais conhecido — imagem do Senhor como pastor que guia, protege e provê.",
+    "verseReference": "Salmos 23:1"
+  },
+  {
+    "question": "Quantos salmos há no livro de Salmos?",
+    "options": ["100", "120", "150", "160"],
+    "correctAnswer": 2,
+    "category": "salmos",
+    "difficulty": "facil",
+    "explanation": "O livro tem 150 salmos, divididos em 5 livros (1-41, 42-72, 73-89, 90-106, 107-150), espelhando os 5 livros da Lei.",
+    "verseReference": "Salmos — estrutura geral"
+  },
+  {
+    "question": "Quem é o autor da maioria dos Salmos?",
+    "options": ["Moisés", "Davi", "Salomão", "Asafe"],
+    "correctAnswer": 1,
+    "category": "salmos",
+    "difficulty": "facil",
+    "explanation": "Davi é chamado 'o doce cantor de Israel' (2Sm 23:1) e é atribuído como autor de 73 salmos.",
+    "verseReference": "Salmos — rubricas (ex: 'De Davi')"
+  },
+  {
+    "question": "Qual salmo é conhecido como 'salmo da proteção divina'?",
+    "options": ["Salmo 23", "Salmo 91", "Salmo 121", "Salmo 150"],
+    "correctAnswer": 1,
+    "category": "salmos",
+    "difficulty": "facil",
+    "explanation": "O Salmo 91 promete: 'Ele te cobrirá com as suas penas... não temerás o terror noturno'. Jesus citou parte dele na tentação.",
+    "verseReference": "Salmos 91:1-2; Mateus 4:6"
+  },
+  {
+    "question": "Qual salmo começa com: 'Aleluia! Louvai ao Senhor'?",
+    "options": ["Salmo 1", "Salmo 23", "Salmo 100", "Salmo 150"],
+    "correctAnswer": 3,
+    "category": "salmos",
+    "difficulty": "facil",
+    "explanation": "O Salmo 150 é o grande hino final de louvor: 'Louvai-o com som de trombeta... com harpa e com saltério'.",
+    "verseReference": "Salmos 150:1,6"
+  },
+  {
+    "question": "Qual salmo Jesus citou na cruz: 'Deus meu, Deus meu, por que me desamparaste'?",
+    "options": ["Salmo 22", "Salmo 23", "Salmo 51", "Salmo 110"],
+    "correctAnswer": 0,
+    "category": "salmos",
+    "difficulty": "facil",
+    "explanation": "Jesus citou o Salmo 22:1 — um salmo messiânico que descreve detalhes da crucificação séculos antes.",
+    "verseReference": "Salmos 22:1; Mateus 27:46"
+  },
+  {
+    "question": "Qual salmo é uma oração de arrependimento após adultério e homicídio?",
+    "options": ["Salmo 23", "Salmo 32", "Salmo 51", "Salmo 139"],
+    "correctAnswer": 2,
+    "category": "salmos",
+    "difficulty": "facil",
+    "explanation": "O Salmo 51 foi escrito por Davi após o pecado com Bate-Seba e o assassinato de Urias — 'Cria em mim, ó Deus, um coração puro'.",
+    "verseReference": "Salmos 51:1-2,10"
+  },
+  {
+    "question": "Qual salmo fala dos 'dois caminhos': dos justos e dos ímpios?",
+    "options": ["Salmo 1", "Salmo 23", "Salmo 91", "Salmo 100"],
+    "correctAnswer": 0,
+    "category": "salmos",
+    "difficulty": "facil",
+    "explanation": "O Salmo 1 contrasta o justo (como árvore junto a ribeiros) e o ímpio (como palha ao vento) — introdução temática de todo o Saltério.",
+    "verseReference": "Salmos 1:1-6"
+  },
+  {
+    "question": "Qual salmo é conhecido como 'salmo do bom samaritano' por falar do socorro divino?",
+    "options": ["Salmo 23", "Salmo 121", "Salmo 139", "Salmo 150"],
+    "correctAnswer": 1,
+    "category": "salmos",
+    "difficulty": "facil",
+    "explanation": "O Salmo 121: 'Levantarei os meus olhos para os montes... O meu socorro vem do Senhor'.",
+    "verseReference": "Salmos 121:1-2"
+  },
+  {
+    "question": "Qual salmo afirma: 'Antes que os montes nascessem... de eternidade a eternidade tu és Deus'?",
+    "options": ["Salmo 90", "Salmo 91", "Salmo 100", "Salmo 103"],
+    "correctAnswer": 0,
+    "category": "salmos",
+    "difficulty": "facil",
+    "explanation": "O Salmo 90, atribuído a Moisés, medita sobre a eternidade de Deus e a brevidade da vida humana.",
+    "verseReference": "Salmos 90:2"
+  },
+  {
+    "question": "Qual salmo é chamado de 'o espelho da alma' por revelar pensamentos íntimos?",
+    "options": ["Salmo 23", "Salmo 51", "Salmo 139", "Salmo 150"],
+    "correctAnswer": 2,
+    "category": "salmos",
+    "difficulty": "facil",
+    "explanation": "O Salmo 139 celebra a onisciência e onipresença de Deus: 'Senhor, tu me sondas e me conheces'.",
+    "verseReference": "Salmos 139:1"
+  },
+  {
+    "question": "Qual salmo pede: 'Restitui-me a alegria da tua salvação'?",
+    "options": ["Salmo 23", "Salmo 32", "Salmo 51", "Salmo 103"],
+    "correctAnswer": 2,
+    "category": "salmos",
+    "difficulty": "facil",
+    "explanation": "Davi, após o arrependimento, pede restauração da alegria perdida pelo pecado — essencial na experiência da graça.",
+    "verseReference": "Salmos 51:12"
+  },
+  {
+    "question": "Qual salmo é um hino de entrada ao templo?",
+    "options": ["Salmo 15", "Salmo 23", "Salmo 24", "Salmo 100"],
+    "correctAnswer": 2,
+    "category": "salmos",
+    "difficulty": "facil",
+    "explanation": "O Salmo 24: 'Quem subirá ao monte do Senhor?... Aquele que tem mãos inocentes e coração puro'.",
+    "verseReference": "Salmos 24:3-4"
+  },
+  {
+    "question": "Qual salmo começa com: 'Bendize, ó minha alma, ao Senhor'?",
+    "options": ["Salmo 23", "Salmo 51", "Salmo 103", "Salmo 139"],
+    "correctAnswer": 2,
+    "category": "salmos",
+    "difficulty": "facil",
+    "explanation": "O Salmo 103 é um hino de gratidão pelas bênçãos de Deus: perdão, cura, redenção e misericórdia.",
+    "verseReference": "Salmos 103:1-2"
+  },
+  {
+    "question": "Qual salmo é conhecido como 'o salmo da criação'?",
+    "options": ["Salmo 8", "Salmo 23", "Salmo 91", "Salmo 150"],
+    "correctAnswer": 0,
+    "category": "salmos",
+    "difficulty": "facil",
+    "explanation": "O Salmo 8 contempla a glória de Deus nos céus e a dignidade do ser humano: 'Que é o homem, que dele te lembres?'",
+    "verseReference": "Salmos 8:3-4"
+  },
+  {
+    "question": "Qual salmo foi escrito quando Davi fugia de seu filho Absalão?",
+    "options": ["Salmo 3", "Salmo 23", "Salmo 51", "Salmo 139"],
+    "correctAnswer": 0,
+    "category": "salmos",
+    "difficulty": "facil",
+    "explanation": "O Salmo 3: 'Senhor, como se têm multiplicado os meus adversários!... Mas tu, Senhor, és um escudo ao redor de mim'.",
+    "verseReference": "Salmos 3:1"
+  },
+  {
+    "question": "Qual salmo afirma: 'Os céus declaram a glória de Deus'?",
+    "options": ["Salmo 8", "Salmo 19", "Salmo 23", "Salmo 104"],
+    "correctAnswer": 1,
+    "category": "salmos",
+    "difficulty": "facil",
+    "explanation": "O Salmo 19 começa com a revelação geral (céus) e passa para a revelação especial (lei de Deus) — 'Mais desejáveis são do que ouro'.",
+    "verseReference": "Salmos 19:1,10"
+  },
+  {
+    "question": "Qual salmo é um acróstico (versos começam com letras do alfabeto hebraico)?",
+    "options": ["Salmo 1", "Salmo 23", "Salmo 119", "Salmo 150"],
+    "correctAnswer": 2,
+    "category": "salmos",
+    "difficulty": "facil",
+    "explanation": "O Salmo 119 é um acróstico complexo: 22 seções (letras hebraicas), cada uma com 8 versos começando com a mesma letra.",
+    "verseReference": "Salmos 119"
+  },
+  {
+    "question": "Qual salmo Jesus citou para provar a ressurreição: 'Disse o Senhor ao meu Senhor'?",
+    "options": ["Salmo 2", "Salmo 22", "Salmo 110", "Salmo 132"],
+    "correctAnswer": 2,
+    "category": "salmos",
+    "difficulty": "facil",
+    "explanation": "Jesus usou o Salmo 110:1 para mostrar que Davi chamou o Messias de 'Senhor' — prova de sua divindade e ressurreição.",
+    "verseReference": "Salmos 110:1; Mateus 22:41-45"
+  }
+]

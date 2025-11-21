@@ -1,0 +1,182 @@
+[
+  {
+    "question": "Qual é o primeiro livro da Bíblia?",
+    "options": ["Êxodo", "Gênesis", "Levítico", "Números"],
+    "correctAnswer": 1,
+    "category": "antigo_testamento",
+    "difficulty": "facil",
+    "explanation": "Gênesis é o primeiro livro da Bíblia e narra a criação do mundo, o jardim do Éden, os patriarcas e o início da história de Israel.",
+    "verseReference": "Gênesis 1:1"
+  },
+  {
+    "question": "Quem foi o primeiro homem criado por Deus?",
+    "options": ["Caim", "Abel", "Adão", "Enoque"],
+    "correctAnswer": 2,
+    "category": "antigo_testamento",
+    "difficulty": "facil",
+    "explanation": "Adão foi formado do pó da terra e recebeu o fôlego de vida diretamente de Deus.",
+    "verseReference": "Gênesis 2:7"
+  },
+  {
+    "question": "Quantos dias Deus levou para criar o mundo?",
+    "options": ["5", "6", "7", "8"],
+    "correctAnswer": 1,
+    "category": "antigo_testamento",
+    "difficulty": "facil",
+    "explanation": "Deus criou o céu, a terra e tudo neles em seis dias, e no sétimo dia repousou.",
+    "verseReference": "Gênesis 1"
+  },
+  {
+    "question": "Quem construiu a arca para sobreviver ao dilúvio?",
+    "options": ["Abraão", "Moisés", "José", "Noé"],
+    "correctAnswer": 3,
+    "category": "antigo_testamento",
+    "difficulty": "facil",
+    "explanation": "Noé foi considerado justo diante de Deus e recebeu instruções para construir a arca.",
+    "verseReference": "Gênesis 6:9-22"
+  },
+  {
+    "question": "Qual sinal Deus colocou no céu após o dilúvio?",
+    "options": ["Estrela", "Lua cheia", "Arco-íris", "Cometa"],
+    "correctAnswer": 2,
+    "category": "antigo_testamento",
+    "difficulty": "facil",
+    "explanation": "O arco-íris é o sinal da aliança eterna de Deus de nunca mais destruir a terra com um dilúvio.",
+    "verseReference": "Gênesis 9:13"
+  },
+  {
+    "question": "Quem foi o pai de Isaque?",
+    "options": ["Noé", "Jacó", "Abraão", "Ismael"],
+    "correctAnswer": 2,
+    "category": "antigo_testamento",
+    "difficulty": "facil",
+    "explanation": "Abraão gerou Isaque em sua velhice, cumprindo a promessa de Deus de um filho da aliança.",
+    "verseReference": "Gênesis 21:1-3"
+  },
+  {
+    "question": "Qual foi o nome dado a Jacó após lutar com Deus?",
+    "options": ["Benjamim", "Esaú", "Israel", "José"],
+    "correctAnswer": 2,
+    "category": "antigo_testamento",
+    "difficulty": "facil",
+    "explanation": "Deus mudou o nome de Jacó para Israel, que significa 'aquele que luta com Deus'.",
+    "verseReference": "Gênesis 32:28"
+  },
+  {
+    "question": "Quantos filhos teve Jacó?",
+    "options": ["10", "11", "12", "13"],
+    "correctAnswer": 2,
+    "category": "antigo_testamento",
+    "difficulty": "facil",
+    "explanation": "Os 12 filhos de Jacó tornaram-se as 12 tribos de Israel.",
+    "verseReference": "Gênesis 49"
+  },
+  {
+    "question": "Quem interpretou os sonhos do Faraó no Egito?",
+    "options": ["Moisés", "Davi", "José", "Daniel"],
+    "correctAnswer": 2,
+    "category": "antigo_testamento",
+    "difficulty": "facil",
+    "explanation": "José, vendido como escravo, foi elevado ao cargo de governador após interpretar os sonhos sobre 7 anos de fartura e 7 de fome.",
+    "verseReference": "Gênesis 41"
+  },
+  {
+    "question": "Quem liderou o Êxodo do Egito?",
+    "options": ["Josué", "Samuel", "Davi", "Moisés"],
+    "correctAnswer": 3,
+    "category": "antigo_testamento",
+    "difficulty": "facil",
+    "explanation": "Moisés foi chamado por Deus na sarça ardente para libertar Israel da escravidão no Egito.",
+    "verseReference": "Êxodo 3"
+  },
+  {
+    "question": "Quantos mandamentos foram dados a Moisés no Monte Sinai?",
+    "options": ["5", "7", "10", "12"],
+    "correctAnswer": 2,
+    "category": "antigo_testamento",
+    "difficulty": "facil",
+    "explanation": "Os Dez Mandamentos são a base da Lei dada por Deus ao povo de Israel.",
+    "verseReference": "Êxodo 20:1-17"
+  },
+  {
+    "question": "Qual milagre ocorreu no Mar Vermelho?",
+    "options": ["Água virou vinho", "Fogo desceu do céu", "Mar se abriu", "Sol parou"],
+    "correctAnswer": 2,
+    "category": "antigo_testamento",
+    "difficulty": "facil",
+    "explanation": "Deus abriu o Mar Vermelho para que os israelitas passassem em seco, escapando do exército egípcio.",
+    "verseReference": "Êxodo 14:21-22"
+  },
+  {
+    "question": "Quem derrubou as muralhas de Jericó?",
+    "options": ["Sansão", "Gideão", "Josué", "Elias"],
+    "correctAnswer": 2,
+    "category": "antigo_testamento",
+    "difficulty": "facil",
+    "explanation": "Sob a liderança de Josué, os israelitas marcharam ao redor de Jericó e as muralhas caíram após tocarem trombetas e gritarem.",
+    "verseReference": "Josué 6"
+  },
+  {
+    "question": "Qual juiz usou uma queixada de jumento para matar 1.000 filisteus?",
+    "options": ["Débora", "Gideão", "Sansão", "Jefté"],
+    "correctAnswer": 2,
+    "category": "antigo_testamento",
+    "difficulty": "facil",
+    "explanation": "Sansão, dotado de força sobrenatural, derrotou os filisteus com uma queixada de jumento após sua vitória em Leí.",
+    "verseReference": "Juízes 15:15"
+  },
+  {
+    "question": "Quem foi o primeiro rei de Israel?",
+    "options": ["Davi", "Salomão", "Saul", "Roboão"],
+    "correctAnswer": 2,
+    "category": "antigo_testamento",
+    "difficulty": "facil",
+    "explanation": "Saul foi ungido por Samuel como o primeiro rei, embora tenha desobedecido a Deus e perdido o reino.",
+    "verseReference": "1 Samuel 10:1"
+  },
+  {
+    "question": "Quem matou o gigante Golias?",
+    "options": ["Josué", "Sansão", "Davi", "Eliézer"],
+    "correctAnswer": 2,
+    "category": "antigo_testamento",
+    "difficulty": "facil",
+    "explanation": "Davi, ainda jovem pastor, derrotou Golias com uma funda e uma pedra, confiando no nome do Senhor.",
+    "verseReference": "1 Samuel 17:49-50"
+  },
+  {
+    "question": "Qual profeta foi levado ao céu em um carro de fogo?",
+    "options": ["Isaías", "Jeremias", "Elias", "Ezequiel"],
+    "correctAnswer": 2,
+    "category": "antigo_testamento",
+    "difficulty": "facil",
+    "explanation": "Elias não morreu, mas foi arrebatado ao céu em um redemoinho, com carruagem e cavalos de fogo.",
+    "verseReference": "2 Reis 2:11"
+  },
+  {
+    "question": "Qual rei construiu o Primeiro Templo em Jerusalém?",
+    "options": ["Davi", "Salomão", "Ezequias", "Josias"],
+    "correctAnswer": 1,
+    "category": "antigo_testamento",
+    "difficulty": "facil",
+    "explanation": "Salomão, filho de Davi, construiu o templo conforme o plano revelado por Deus a seu pai.",
+    "verseReference": "1 Reis 6:1-2"
+  },
+  {
+    "question": "Qual livro começa com: 'No princípio, criou Deus os céus e a terra'?",
+    "options": ["Êxodo", "Levítico", "Gênesis", "Deuteronômio"],
+    "correctAnswer": 2,
+    "category": "antigo_testamento",
+    "difficulty": "facil",
+    "explanation": "Essa é a primeira frase da Bíblia, no livro de Gênesis.",
+    "verseReference": "Gênesis 1:1"
+  },
+  {
+    "question": "O que está escrito nos Dez Mandamentos sobre o Dia do Senhor?",
+    "options": ["Trabalhar nele", "Ignorá-lo", "Santificá-lo", "Comemorar com festas"],
+    "correctAnswer": 2,
+    "category": "antigo_testamento",
+    "difficulty": "facil",
+    "explanation": "O quarto mandamento ordena que se lembre do Dia do Senhor para o santificar — descansar e adorar.",
+    "verseReference": "Êxodo 20:8"
+  }
+]

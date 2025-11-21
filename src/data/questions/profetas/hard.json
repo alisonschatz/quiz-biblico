@@ -1,0 +1,182 @@
+[
+  {
+    "question": "Qual profeta é o único cujo livro contém uma oração em forma de *salmo* no final?",
+    "options": ["Isaías", "Jeremias", "Habacuque", "Jonas"],
+    "correctAnswer": 2,
+    "category": "profetas",
+    "difficulty": "dificil",
+    "explanation": "Habacuque 3 é um salmo litúrgico com rubricas musicais ('Segundo Sigionote'), único caso entre os profetas — mostrando que a fé se expressa em adoração, mesmo na crise.",
+    "verseReference": "Habacuque 3:1-19"
+  },
+  {
+    "question": "Qual profeta usou o termo hebraico *qinah* (lamentação fúnebre) em sua estrutura poética?",
+    "options": ["Isaías", "Jeremias (Lamentações)", "Ezequiel", "Ageu"],
+    "correctAnswer": 1,
+    "category": "profetas",
+    "difficulty": "dificil",
+    "explanation": "Lamentações tem estrutura acróstica e métrica de *qinah* (ritmo 3:2), típico de lamentos fúnebres — versos mais longos seguidos de mais curtos, como soluços.",
+    "verseReference": "Lamentações 1:1-4"
+  },
+  {
+    "question": "Qual livro profético contém o único uso do termo 'messias' (ungido) aplicado a um não-judeu?",
+    "options": ["Isaías", "Jeremias", "Ezequiel", "Ageu"],
+    "correctAnswer": 0,
+    "category": "profetas",
+    "difficulty": "dificil",
+    "explanation": "Isaías 45:1 chama Ciro, rei persa, de *messiach* (ungido) — pois serviria aos propósitos de Deus na libertação de Israel.",
+    "verseReference": "Isaías 45:1"
+  },
+  {
+    "question": "Qual profeta teve que enterrar seu cadafalso ao lado do altar do rei em Betel?",
+    "options": ["Amós", "Oséias", "Miquéias", "Isaías"],
+    "correctAnswer": 0,
+    "category": "profetas",
+    "difficulty": "dificil",
+    "explanation": "Amós, confrontado por Amazias (sacerdote de Betel), respondeu que não era profeta profissional — e profetizou que o cadafalso de Amazias seria enterrado ali.",
+    "verseReference": "Amós 7:10-17"
+  },
+  {
+    "question": "Qual profeta usou o termo 'filho do homem' como autodesignação recorrente?",
+    "options": ["Isaías", "Jeremias", "Ezequiel", "Daniel"],
+    "correctAnswer": 2,
+    "category": "profetas",
+    "difficulty": "dificil",
+    "explanation": "Ezequiel é chamado 'filho do homem' 93 vezes — destacando sua humanidade e mediadoriedade. Jesus adotou o termo com carga messiânica (Dn 7:13).",
+    "verseReference": "Ezequiel 2:1; Daniel 7:13"
+  },
+  {
+    "question": "Qual profeta é o único cujo chamado inclui o toque de um carvão vivo nos lábios?",
+    "options": ["Moisés", "Isaías", "Jeremias", "Ezequiel"],
+    "correctAnswer": 1,
+    "category": "profetas",
+    "difficulty": "dificil",
+    "explanation": "Um serafim tocou os lábios de Isaías com um carvão do altar — purificação para falar em nome de Deus: 'Eis-me aqui, envia-me a mim'.",
+    "verseReference": "Isaías 6:6-8"
+  },
+  {
+    "question": "Qual livro profético tem estrutura *quiasmática* perfeita (ABCCBA) em sua mensagem central?",
+    "options": ["Jonas", "Miquéias", "Ageu", "Malaquias"],
+    "correctAnswer": 0,
+    "category": "profetas",
+    "difficulty": "dificil",
+    "explanation": "Jonas tem estrutura quiasmática simétrica: A) Jonas foge; B) É lançado ao mar; C) Ora no peixe; C') Ora em terra; B') Anuncia a Nínive; A') Questiona a misericórdia. O centro é a oração de gratidão (cap. 2).",
+    "verseReference": "Jonas 1-4"
+  },
+  {
+    "question": "Qual profeta usou o termo hebraico *hesed* (bondade leal) como tema central de seu livro?",
+    "options": ["Isaías", "Jeremias", "Oséias", "Miquéias"],
+    "correctAnswer": 2,
+    "category": "profetas",
+    "difficulty": "dificil",
+    "explanation": "Oséias 2:19-20: 'Desposar-te-ei comigo para sempre... em *hesed* e misericórdias'. O amor fiel de Deus é o eixo do livro.",
+    "verseReference": "Oséias 2:19-20"
+  },
+  {
+    "question": "Qual profeta é o único cuja datação inclui o reinado de um governador persa (Zorobabel)?",
+    "options": ["Isaías", "Jeremias", "Ageu", "Zacarias"],
+    "correctAnswer": 2,
+    "category": "profetas",
+    "difficulty": "dificil",
+    "explanation": "Ageu 1:1: 'No segundo ano do rei Dario... no sexto mês, no primeiro dia do mês, veio a palavra do Senhor por intermédio do profeta Ageu a Zorobabel'.",
+    "verseReference": "Ageu 1:1"
+  },
+  {
+    "question": "Qual profeta usou o termo 'povo santo' (*am kadosh*) aplicado ao remanescente fiel?",
+    "options": ["Isaías", "Jeremias", "Daniel", "Malaquias"],
+    "correctAnswer": 2,
+    "category": "profetas",
+    "difficulty": "dificil",
+    "explanation": "Daniel 8:24; 9:24-27 aplica 'santo' ao povo de Deus no contexto escatológico — base para o conceito de 'santos' no NT.",
+    "verseReference": "Daniel 8:24"
+  },
+  {
+    "question": "Qual profeta teve que queimar uma escritura como sinal da destruição de Babilônia?",
+    "options": ["Isaías", "Jeremias", "Ezequiel", "Daniel"],
+    "correctAnswer": 1,
+    "category": "profetas",
+    "difficulty": "dificil",
+    "explanation": "Jeremias escreveu todas as pragas contra Babilônia num livro, deu a Seraías e mandou: 'Quando acabares de lê-lo, ata-lhe uma pedra e lança-o no meio do Eufrates'.",
+    "verseReference": "Jeremias 51:59-64"
+  },
+  {
+    "question": "Qual profeta é o único cujo livro contém um acróstico em ordem alfabética *triplo*?",
+    "options": ["Salmos", "Provérbios", "Lamentações", "Eclesiastes"],
+    "correctAnswer": 2,
+    "category": "profetas",
+    "difficulty": "dificil",
+    "explanation": "Lamentações 1, 2 e 4 têm 22 versos (letras hebraicas); cap. 3 tem 66 versos (3 por letra) — estrutura poética altamente sofisticada.",
+    "verseReference": "Lamentações 1-4"
+  },
+  {
+    "question": "Qual profeta usou o termo 'restaurar os anos que o gafanhoto comeu'?",
+    "options": ["Isaías", "Joel", "Ageu", "Malaquias"],
+    "correctAnswer": 1,
+    "category": "profetas",
+    "difficulty": "dificil",
+    "explanation": "Joel 2:25 promete restauração após o 'exército do Senhor' (gafanhotos/invásão) — metáfora de graça que supera o juízo.",
+    "verseReference": "Joel 2:25"
+  },
+  {
+    "question": "Qual profeta é o único cujo nome significa 'YHWH é minha fortaleza'?",
+    "options": ["Isaías", "Jeremias", "Habacuque", "Ageu"],
+    "correctAnswer": 2,
+    "category": "profetas",
+    "difficulty": "dificil",
+    "explanation": "*Habaqucuq* vem de *hābaq* (abraçar) + *YHWH* — interpretado como 'abraçado por Deus' ou 'YHWH é meu abraço/fortaleza'.",
+    "verseReference": "Habacuque 3:19"
+  },
+  {
+    "question": "Qual profeta usou o termo 'segundo templo' de forma implícita ao compará-lo com a glória do primeiro?",
+    "options": ["Isaías", "Jeremias", "Ageu", "Malaquias"],
+    "correctAnswer": 2,
+    "category": "profetas",
+    "difficulty": "dificil",
+    "explanation": "Ageu 2:3: 'Quem há entre vós que restou do primeiro templo?... Como o vedes agora? Não é como nada?'. Mas promete: 'A glória deste último templo será maior'.",
+    "verseReference": "Ageu 2:3,9"
+  },
+  {
+    "question": "Qual profeta é o único cuja visão inclui 'homens com instrumentos de destruição em suas cinturas'?",
+    "options": ["Isaías", "Jeremias", "Ezequiel", "Zacarias"],
+    "correctAnswer": 2,
+    "category": "profetas",
+    "difficulty": "dificil",
+    "explanation": "Ezequiel 9 descreve seis homens com armas e um com tinta — para marcar os fiéis e executar juízo sobre Jerusalém.",
+    "verseReference": "Ezequiel 9:1-2"
+  },
+  {
+    "question": "Qual profeta usou o termo 'vinha do Senhor' como metáfora para Israel, e depois a quebrou?",
+    "options": ["Isaías", "Jeremias", "Ezequiel", "Joel"],
+    "correctAnswer": 0,
+    "category": "profetas",
+    "difficulty": "dificil",
+    "explanation": "Isaías 5:1-7: 'Cantarei ao meu amado... uma vinha'. Mas como deu uvas ruins, 'quebrarei o seu cerco... e será pisada'.",
+    "verseReference": "Isaías 5:1-7"
+  },
+  {
+    "question": "Qual profeta é o único cujo livro contém uma benção sacerdotal no final?",
+    "options": ["Isaías", "Jeremias", "Ageu", "Malaquias"],
+    "correctAnswer": 3,
+    "category": "profetas",
+    "difficulty": "dificil",
+    "explanation": "Malaquias 4:6 termina com 'antes que venha o grande e terrível dia do Senhor' — mas a LXX e algumas tradições juntam com o início de Mateus, criando ponte AT-NT.",
+    "verseReference": "Malaquias 4:6"
+  },
+  {
+    "question": "Qual profeta usou o termo 'pacto de paz' (*brit shalom*) aplicado ao Messias?",
+    "options": ["Isaías", "Ezequiel", "Ageu", "Zacarias"],
+    "correctAnswer": 1,
+    "category": "profetas",
+    "difficulty": "dificil",
+    "explanation": "Ezequiel 34:25; 37:26 chama a nova aliança de 'pacto de paz' — termo retomado em Efésios 2:14-17 ('Ele é a nossa paz').",
+    "verseReference": "Ezequiel 34:25"
+  },
+  {
+    "question": "Qual profeta é o único cujo chamado ocorreu *após* a destruição de Jerusalém?",
+    "options": ["Isaías", "Jeremias", "Ezequiel", "Daniel"],
+    "correctAnswer": 3,
+    "category": "profetas",
+    "difficulty": "dificil",
+    "explanation": "Daniel já estava no exílio quando recebeu revelações (Dn 1:1-6; 7:1). Seu ministério profético se desenvolveu *durante* o cativeiro.",
+    "verseReference": "Daniel 1:1-6; 7:1"
+  }
+]

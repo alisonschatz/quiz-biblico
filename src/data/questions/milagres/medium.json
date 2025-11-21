@@ -1,0 +1,182 @@
+[
+  {
+    "question": "Qual milagre ocorreu *imediatamente antes* da transfiguração de Jesus?",
+    "options": ["Multiplicação dos 4.000", "Cura do menino epiléptico", "Expulsão de demônio mudo", "Confissão de Pedro"],
+    "correctAnswer": 1,
+    "category": "milagres",
+    "difficulty": "medio",
+    "explanation": "Após a transfiguração, os discípulos não conseguiram expulsar um demônio de um menino. Jesus o curou e disse: 'Esta casta não sai senão por meio de oração e jejum'.",
+    "verseReference": "Mateus 17:14-21"
+  },
+  {
+    "question": "Qual foi o único milagre registrado nos quatro evangelhos?",
+    "options": ["Transformação da água em vinho", "Multiplicação dos pães", "Ressurreição de Lázaro", "Acalmar a tempestade"],
+    "correctAnswer": 1,
+    "category": "milagres",
+    "difficulty": "medio",
+    "explanation": "A alimentação dos 5.000 está em Mateus 14, Marcos 6, Lucas 9 e João 6 — o único milagre presente nos quatro evangelhos.",
+    "verseReference": "Mateus 14:13-21; Marcos 6:30-44; Lucas 9:10-17; João 6:1-15"
+  },
+  {
+    "question": "Quem foi o único milagre que Jesus fez *duas vezes* com detalhes semelhantes?",
+    "options": ["Cura de cegos", "Expulsão de demônios", "Multiplicação de pães", "Ressurreição de mortos"],
+    "correctAnswer": 2,
+    "category": "milagres",
+    "difficulty": "medio",
+    "explanation": "Jesus multiplicou pães duas vezes: 5.000 com 5 pães/2 peixes/12 cestos (em Israel) e 4.000 com 7 pães/poucos peixes/7 cestos (em território gentílico).",
+    "verseReference": "Mateus 14:13-21; 15:32-39"
+  },
+  {
+    "question": "Qual milagre foi realizado em Betânia, *fora* de Jerusalém?",
+    "options": ["Ressurreição de Lázaro", "Entrada triunfal", "Última Ceia", "Oração no Getsêmani"],
+    "correctAnswer": 0,
+    "category": "milagres",
+    "difficulty": "medio",
+    "explanation": "Betânia ficava cerca de 3 km a leste de Jerusalém, ao pé do Monte das Oliveiras. Foi lá que Lázaro foi ressuscitado.",
+    "verseReference": "João 11:1,17-44"
+  },
+  {
+    "question": "Qual milagre causou a decisão final dos líderes religiosos de matar Jesus?",
+    "options": ["Entrada triunfal", "Expulsão dos vendilhões", "Ressurreição de Lázaro", "Multiplicação dos pães"],
+    "correctAnswer": 2,
+    "category": "milagres",
+    "difficulty": "medio",
+    "explanation": "Após Lázaro ressuscitar, muitos creram — e os líderes disseram: 'Se o deixarmos assim, todos crerão nele... é melhor que um homem morra pelo povo'.",
+    "verseReference": "João 11:45-53"
+  },
+  {
+    "question": "Quem foi o único milagre em que Jesus usou *saliva* duas vezes?",
+    "options": ["Cura do surdo-mudo", "Cura do cego de Betsaida", "Cura do cego de Siloé", "Cura do leproso"],
+    "correctAnswer": 1,
+    "category": "milagres",
+    "difficulty": "medio",
+    "explanation": "Em Betsaida, Jesus colocou saliva nos olhos do cego, impôs as mãos, e o homem viu 'como árvores que andam'. Depois, impôs as mãos novamente — e a visão foi perfeita.",
+    "verseReference": "Marcos 8:22-26"
+  },
+  {
+    "question": "Qual milagre ocorreu no sábado e gerou controvérsia por envolver 'trabalho'?",
+    "options": ["Cura da mulher encurvada", "Cura do paralítico de Betesda", "Cura do homem da mão mirrada", "Todas as anteriores"],
+    "correctAnswer": 3,
+    "category": "milagres",
+    "difficulty": "medio",
+    "explanation": "Jesus curou no sábado repetidamente para desafiar a interpretação legalista da lei — afirmando que 'é lícito fazer bem aos sábados'.",
+    "verseReference": "Lucas 13:10-17; João 5:1-18; Lucas 6:6-11"
+  },
+  {
+    "question": "Qual milagre foi feito com *dois* toques físicos?",
+    "options": ["Cura do surdo-mudo", "Cura do cego de Betsaida", "Cura do leproso", "Expulsão do demônio mudo"],
+    "correctAnswer": 1,
+    "category": "milagres",
+    "difficulty": "medio",
+    "explanation": "Marcos 8:22-26 descreve que Jesus tocou os olhos do cego duas vezes — simbolizando talvez o processo gradual de revelação messiânica aos discípulos.",
+    "verseReference": "Marcos 8:22-26"
+  },
+  {
+    "question": "Quem foi o único milagre em que Jesus *não* quis que se divulgasse?",
+    "options": ["Cura do leproso", "Cura do cego de Betsaida", "Expulsão do demônio mudo", "Ressurreição de Lázaro"],
+    "correctAnswer": 1,
+    "category": "milagres",
+    "difficulty": "medio",
+    "explanation": "Após curar o cego em Betsaida, Jesus 'mandou que não entrasse na aldeia, nem contasse a ninguém'. Isso contrasta com outros milagres em que ordenou testemunhar.",
+    "verseReference": "Marcos 8:26"
+  },
+  {
+    "question": "Qual milagre foi feito em resposta à fé de *outras pessoas*, não do beneficiário?",
+    "options": ["Cura do paralítico descido pelo teto", "Cura do servo do centurião", "Cura da filha de Jairo", "Todas as anteriores"],
+    "correctAnswer": 3,
+    "category": "milagres",
+    "difficulty": "medio",
+    "explanation": "Nos três casos, Jesus agiu pela fé dos intercessores: os quatro amigos, o centurião, e Jairo (e depois as mulheres que trouxeram a notícia à mãe do menino).",
+    "verseReference": "Marcos 2:5; Mateus 8:10; Marcos 5:36"
+  },
+  {
+    "question": "Qual foi o único milagre de exorcismo em que o demônio *falou* em nome de uma legião?",
+    "options": ["Endemoninhado gadareno", "Menino epiléptico", "Homem na sinagoga", "Cego-mudo"],
+    "correctAnswer": 0,
+    "category": "milagres",
+    "difficulty": "medio",
+    "explanation": "O endemoninhado de Gadara disse: 'Meu nome é Legião, porque somos muitos'. Jesus expulsou os demônios para uma vara de porcos.",
+    "verseReference": "Marcos 5:9"
+  },
+  {
+    "question": "Qual milagre ocorreu no tanque de Betesda?",
+    "options": ["Cura de cego", "Cura de paralítico", "Ressurreição", "Multiplicação"],
+    "correctAnswer": 1,
+    "category": "milagres",
+    "difficulty": "medio",
+    "explanation": "Um paralítico de 38 anos estava junto à piscina, esperando que um anjo agitasse a água. Jesus o curou no sábado.",
+    "verseReference": "João 5:1-9"
+  },
+  {
+    "question": "Quantos milagres de cura de cegos estão registrados nos evangelhos?",
+    "options": ["2", "3", "4", "5"],
+    "correctAnswer": 2,
+    "category": "milagres",
+    "difficulty": "medio",
+    "explanation": "1) Dois cegos em Cafarnaum (Mt 9:27-31); 2) Cego de Betsaida (Mc 8:22-26); 3) Bartimeu em Jericó (Mc 10:46-52); 4) Cego de nascença em Siloé (Jo 9). *Total: 4.*",
+    "verseReference": "Mateus 9:27-31; Marcos 8:22-26; 10:46-52; João 9"
+  },
+  {
+    "question": "Qual milagre foi feito com o uso de *lodo* (lama)?",
+    "options": ["Cura do surdo-mudo", "Cura do cego de Siloé", "Cura do leproso", "Cura do paralítico"],
+    "correctAnswer": 1,
+    "category": "milagres",
+    "difficulty": "medio",
+    "explanation": "Jesus 'cuspiu na terra, fez lodo com a saliva e untou com o lodo os olhos do cego'. O lodo lembra a criação do homem (Gn 2:7) — novo começo.",
+    "verseReference": "João 9:6"
+  },
+  {
+    "question": "Quem foi o único milagre que Jesus fez *à distância*, sem ver a pessoa?",
+    "options": ["Filho do oficial em Cafarnaum", "Servo do centurião", "Filha de Jairo", "A e B"],
+    "correctAnswer": 3,
+    "category": "milagres",
+    "difficulty": "medio",
+    "explanation": "1) Filho do oficial real (Jo 4:46-54); 2) Servo do centurião (Mt 8:5-13). Em ambos, Jesus curou sem estar presente.",
+    "verseReference": "João 4:46-54; Mateus 8:5-13"
+  },
+  {
+    "question": "Qual milagre revela Jesus como 'pão da vida'?",
+    "options": ["Multiplicação dos pães", "Transformação da água em vinho", "Cura do paralítico", "Acalmar a tempestade"],
+    "correctAnswer": 0,
+    "category": "milagres",
+    "difficulty": "medio",
+    "explanation": "Após a multiplicação, Jesus declarou: 'Eu sou o pão da vida; aquele que vem a mim não terá fome'. O milagre era um sinal da sua provisão espiritual.",
+    "verseReference": "João 6:35"
+  },
+  {
+    "question": "Qual milagre foi feito em resposta à pergunta: 'É lícito curar aos sábados?'?",
+    "options": ["Cura da mulher encurvada", "Cura do homem da mão mirrada", "Cura do paralítico de Betesda", "Todas as anteriores"],
+    "correctAnswer": 3,
+    "category": "milagres",
+    "difficulty": "medio",
+    "explanation": "Em cada caso, os fariseus questionaram a cura no sábado, e Jesus respondeu com argumentos sobre misericórdia e valor humano.",
+    "verseReference": "Lucas 13:15-16; 14:3-6; João 5:16-18"
+  },
+  {
+    "question": "Qual milagre envolveu uma pesca milagrosa *após* a ressurreição?",
+    "options": ["Primeira pesca com Pedro", "Pesca após a tempestade", "Pesca em Lucas 5", "Pesca em João 21"],
+    "correctAnswer": 3,
+    "category": "milagres",
+    "difficulty": "medio",
+    "explanation": "Após a ressurreição, Jesus apareceu aos discípulos no mar da Tiberíades e orientou a pesca: 153 peixes grandes, sem romper a rede.",
+    "verseReference": "João 21:1-11"
+  },
+  {
+    "question": "Qual milagre foi feito com *sete* pães?",
+    "options": ["Alimentação dos 5.000", "Alimentação dos 4.000", "Última Ceia", "Multiplicação em Caná"],
+    "correctAnswer": 1,
+    "category": "milagres",
+    "difficulty": "medio",
+    "explanation": "A alimentação dos 4.000 usou 7 pães e alguns peixes, com 7 cestos de sobra — número associado à plenitude e universalidade (território gentílico).",
+    "verseReference": "Mateus 15:32-39"
+  },
+  {
+    "question": "Qual milagre mostra que Jesus é 'Senhor até do sábado'?",
+    "options": ["Cura no sábado", "Colher espigas no sábado", "Acalmar tempestade no sábado", "Ressurreição no sábado"],
+    "correctAnswer": 1,
+    "category": "milagres",
+    "difficulty": "medio",
+    "explanation": "Quando os discípulos colheram espigas no sábado, Jesus disse: 'O Filho do Homem é Senhor até do sábado', afirmando sua autoridade sobre a lei.",
+    "verseReference": "Marcos 2:23-28"
+  }
+]

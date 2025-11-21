@@ -1,0 +1,182 @@
+[
+  {
+    "question": "Qual é a única carta do NT que não tem saudação inicial ou identificação do autor?",
+    "options": ["Hebreus", "Tiago", "Judas", "2 João"],
+    "correctAnswer": 0,
+    "category": "novo_testamento",
+    "difficulty": "dificil",
+    "explanation": "Hebreus começa diretamente com 'Havendo Deus antigamente falado...'. Não tem 'Paulo, apóstolo...' ou similar — único caso no NT.",
+    "verseReference": "Hebreus 1:1"
+  },
+  {
+    "question": "Qual versículo do NT é considerado o 'ponto central' da Bíblia (no sistema de capítulos de Stephen Langton)?",
+    "options": ["João 3:16", "Salmos 118:8", "Salmo 117", "Salmo 118:8"],
+    "correctAnswer": 1,
+    "category": "novo_testamento",
+    "difficulty": "dificil",
+    "explanation": "A Bíblia tem 1.189 capítulos. O capítulo 595 é o do meio — Salmo 118. O versículo do meio é o 8: 'É melhor confiar no Senhor do que confiar no homem'. *Nota: embora esteja no AT, é frequentemente associado ao NT por sua centralidade teológica.*",
+    "verseReference": "Salmos 118:8"
+  },
+  {
+    "question": "Qual foi o único evangelho que menciona explicitamente que Jesus escreveu algo?",
+    "options": ["Mateus", "Marcos", "Lucas", "João"],
+    "correctAnswer": 3,
+    "category": "novo_testamento",
+    "difficulty": "dificil",
+    "explanation": "Em João 8:6,8, Jesus 'escrevia na terra com o dedo' — único registro de Jesus escrevendo. (Nota: João 7:53-8:11 é um *pericope adúlterae* com discussão textual, mas presente na tradição).",
+    "verseReference": "João 8:6,8"
+  },
+  {
+    "question": "Qual apóstolo é chamado de 'o irmão do Senhor' em Gálatas 1:19?",
+    "options": ["Tiago, filho de Zebedeu", "Tiago, filho de Alfeu", "Tiago, o irmão de Jesus", "Judas Tadeu"],
+    "correctAnswer": 2,
+    "category": "novo_testamento",
+    "difficulty": "dificil",
+    "explanation": "Tiago, irmão de Jesus (não apóstolo originalmente), tornou-se líder da igreja em Jerusalém. Paulo o distingue dos demais apóstolos: 'vi também a Tiago, o irmão do Senhor'.",
+    "verseReference": "Gálatas 1:19"
+  },
+  {
+    "question": "Qual carta paulina contém a fórmula de bênção trinitária mais explícita do NT?",
+    "options": ["Romanos", "2 Coríntios", "Gálatas", "2 Coríntios"],
+    "correctAnswer": 3,
+    "category": "novo_testamento",
+    "difficulty": "dificil",
+    "explanation": "2 Coríntios 13:13: 'A graça do Senhor Jesus Cristo, e o amor de Deus, e a comunhão do Espírito Santo sejam com todos vós' — estrutura claramente trinitária.",
+    "verseReference": "2 Coríntios 13:13"
+  },
+  {
+    "question": "Quem foi o único colaborador de Paulo que o acompanhou na primeira viagem missionária e na prisão em Roma?",
+    "options": ["Barnabé", "Silas", "Timóteo", "Lucas"],
+    "correctAnswer": 3,
+    "category": "novo_testamento",
+    "difficulty": "dificil",
+    "explanation": "Lucas, o amado médico, aparece em Atos 16:10 (uso do 'nós') e está com Paulo em Colossenses 4:14 e Filemom 1:24. Ele esteve com Paulo até o fim (2 Tm 4:11).",
+    "verseReference": "Atos 16:10; 2 Timóteo 4:11"
+  },
+  {
+    "question": "Qual é o único milagre de Jesus registrado nos quatro evangelhos?",
+    "options": ["Transformação da água em vinho", "Multiplicação dos pães", "Ressurreição de Lázaro", "Transfiguração"],
+    "correctAnswer": 1,
+    "category": "novo_testamento",
+    "difficulty": "dificil",
+    "explanation": "A multiplicação dos pães (alimentação dos 5.000) está em Mateus 14, Marcos 6, Lucas 9 e João 6 — único milagre presente nos quatro.",
+    "verseReference": "Mateus 14:13-21; Marcos 6:30-44; Lucas 9:10-17; João 6:1-15"
+  },
+  {
+    "question": "Qual carta do NT foi escrita a um indivíduo (não a uma igreja ou grupo)?",
+    "options": ["1 Timóteo", "Tito", "Filemom", "3 João"],
+    "correctAnswer": 2,
+    "category": "novo_testamento",
+    "difficulty": "dificil",
+    "explanation": "Filemom foi escrito a um indivíduo específico (Filemom) sobre seu escravo Onésimo. 3 João é a outro indivíduo (Gaio), mas Filemom é o mais íntimo e pessoal.",
+    "verseReference": "Filemom 1:1"
+  },
+  {
+    "question": "Qual foi o nome do sumo sacerdote que interrogou Jesus em João 18?",
+    "options": ["Caifás", "Anás", "Ananias", "José"],
+    "correctAnswer": 1,
+    "category": "novo_testamento",
+    "difficulty": "dificil",
+    "explanation": "Jesus foi levado primeiro a Anás (sogro de Caifás, ex-sumo sacerdote e figura poderosa), *depois* a Caifás (João 18:13,24).",
+    "verseReference": "João 18:13,24"
+  },
+  {
+    "question": "Qual termo grego usado por Jesus em João 21:15-17 para 'amor' é diferente do usado por Pedro?",
+    "options": ["Ágape vs. Philía", "Eros vs. Storgē", "Philía vs. Ágape", "Ágape vs. Eros"],
+    "correctAnswer": 0,
+    "category": "novo_testamento",
+    "difficulty": "dificil",
+    "explanation": "Jesus pergunta duas vezes com *agapáo* (amor sacrificial, divino), e Pedro responde com *philéō* (amor fraternal, humano). Na terceira, Jesus usa *philéō*, aceitando o limite humano de Pedro.",
+    "verseReference": "João 21:15-17"
+  },
+  {
+    "question": "Qual livro do NT contém o maior número de citações do Antigo Testamento?",
+    "options": ["Romanos", "Hebreus", "Mateus", "Apocalipse"],
+    "correctAnswer": 1,
+    "category": "novo_testamento",
+    "difficulty": "dificil",
+    "explanation": "Hebreus cita ou alude ao AT mais de 35 vezes — principalmente o Pentateuco e os Salmos — para mostrar a superioridade de Cristo.",
+    "verseReference": "Hebreus — passim"
+  },
+  {
+    "question": "Quem foi o único apóstolo que, segundo a tradição, morreu de morte natural?",
+    "options": ["Pedro", "Paulo", "João", "Tiago"],
+    "correctAnswer": 2,
+    "category": "novo_testamento",
+    "difficulty": "dificil",
+    "explanation": "João, o discípulo amado, foi exilado em Patmos, mas sobreviveu e morreu em Éfeso por volta de 100 d.C., o único dos Doze que não foi martirizado.",
+    "verseReference": "Tradição eclesiástica (Irineu, Eusébio)"
+  },
+  {
+    "question": "Qual é o único evangelho que relata a parábola do Bom Samaritano?",
+    "options": ["Mateus", "Marcos", "Lucas", "João"],
+    "correctAnswer": 2,
+    "category": "novo_testamento",
+    "difficulty": "dificil",
+    "explanation": "Lucas, o evangelho da misericórdia e inclusão, é o único que registra essa parábola — em resposta à pergunta 'Quem é o meu próximo?'.",
+    "verseReference": "Lucas 10:25-37"
+  },
+  {
+    "question": "Qual carta paulina foi escrita da prisão em Roma e chama Onésimo de 'útil'?",
+    "options": ["Colossenses", "Efésios", "Filemom", "Filipenses"],
+    "correctAnswer": 2,
+    "category": "novo_testamento",
+    "difficulty": "dificil",
+    "explanation": "'Onésimo' significa 'útil' em grego. Paulo brinca com o nome: 'Antes, te era inútil, mas agora te é útil' (v.11).",
+    "verseReference": "Filemom 1:11"
+  },
+  {
+    "question": "Qual é o único livro do NT que termina com uma maldição?",
+    "options": ["Gálatas", "Apocalipse", "2 Pedro", "Judas"],
+    "correctAnswer": 1,
+    "category": "novo_testamento",
+    "difficulty": "dificil",
+    "explanation": "Apocalipse 22:18-19: 'Se alguém tirar ou acrescentar... Deus tirará a sua parte da árvore da vida...' — advertência contra corrupção da revelação final.",
+    "verseReference": "Apocalipse 22:18-19"
+  },
+  {
+    "question": "Qual foi o nome do carcereiro de Filipos que perguntou: 'Que devo fazer para me salvar?'?",
+    "options": ["Júlio", "Silas", "Não nomeado", "Lídio"],
+    "correctAnswer": 2,
+    "category": "novo_testamento",
+    "difficulty": "dificil",
+    "explanation": "Atos 16 descreve o terremoto, a tentativa de suicídio e a conversão do carcereiro — mas seu nome **não é revelado**.",
+    "verseReference": "Atos 16:25-34"
+  },
+  {
+    "question": "Qual termo descreve a doutrina de que Cristo tem duas naturezas (divina e humana) em uma pessoa?",
+    "options": ["Trindade", "Encarnação", "Hipóstase", "Communicatio idiomatum"],
+    "correctAnswer": 2,
+    "category": "novo_testamento",
+    "difficulty": "dificil",
+    "explanation": "A união hipostática (do gr. *hypóstasis* = pessoa) afirma que em Cristo há duas naturezas completas (divina e humana) unidas inseparavelmente em uma só pessoa — definida no Concílio de Calcedônia (451 d.C.), baseada em Filipenses 2 e Colossenses 2.",
+    "verseReference": "Filipenses 2:6-7; Colossenses 2:9"
+  },
+  {
+    "question": "Qual é o único evangelho que menciona os 'setenta discípulos' enviados por Jesus?",
+    "options": ["Mateus", "Marcos", "Lucas", "João"],
+    "correctAnswer": 2,
+    "category": "novo_testamento",
+    "difficulty": "dificil",
+    "explanation": "Lucas 10:1 registra que Jesus 'designou outros setenta, e os enviou de dois em dois'. Mateus menciona 12; os demais não citam os 70.",
+    "verseReference": "Lucas 10:1"
+  },
+  {
+    "question": "Qual foi o nome da província romana onde ocorreu a crucificação de Jesus?",
+    "options": ["Galileia", "Samaria", "Judeia", "Siria"],
+    "correctAnswer": 2,
+    "category": "novo_testamento",
+    "difficulty": "dificil",
+    "explanation": "Jerusalém ficava na província da Judeia, governada por um *prefeito* romano (Pilatos), enquanto a Galileia era governada por um *tetrarca* (Herodes Antipas).",
+    "verseReference": "Lucas 23:6-7; João 18:28-33"
+  },
+  {
+    "question": "Qual carta do NT contém o famoso 'Hino a Cristo' em forma de poesia pré-paulina?",
+    "options": ["Colossenses", "Filipenses", "Hebreus", "1 João"],
+    "correctAnswer": 1,
+    "category": "novo_testamento",
+    "difficulty": "dificil",
+    "explanation": "Filipenses 2:6-11 é amplamente reconhecido como um hino cristão primitivo, citado por Paulo — com estrutura poética, paralelismo e teologia elevada sobre a encarnação e exaltação de Cristo.",
+    "verseReference": "Filipenses 2:6-11"
+  }
+]

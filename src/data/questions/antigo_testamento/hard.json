@@ -1,0 +1,182 @@
+[
+  {
+    "question": "Qual é o significado teológico do nome 'YHWH' (Tetragrama) revelado a Moisés?",
+    "options": ["Eu sou o Todo-Poderoso", "Eu sou o que sou", "O Senhor é minha bandeira", "O Deus de Abraão"],
+    "correctAnswer": 1,
+    "category": "antigo_testamento",
+    "difficulty": "dificil",
+    "explanation": "'Ehyeh Asher Ehyeh' (Êx 3:14) traduzido como 'Eu Sou o que Sou' ou 'Eu Será o que Será' revela a autoexistência, eternidade e fidelidade de Deus.",
+    "verseReference": "Êxodo 3:14"
+  },
+  {
+    "question": "Qual livro do Antigo Testamento contém a única menção direta à ressurreição dos mortos antes do Novo Testamento?",
+    "options": ["Jó", "Salmos", "Isaías", "Daniel"],
+    "correctAnswer": 3,
+    "category": "antigo_testamento",
+    "difficulty": "dificil",
+    "explanation": "Daniel 12:2 afirma: 'Muitos dos que dormem no pó da terra ressuscitarão... uns para a vida eterna, outros para a vergonha e o horror eterno'.",
+    "verseReference": "Daniel 12:2"
+  },
+  {
+    "question": "Quem foi o único personagem bíblico que teve seu nome alterado *duas vezes* por Deus?",
+    "options": ["Abraão", "Jacó", "José", "Simão"],
+    "correctAnswer": 0,
+    "category": "antigo_testamento",
+    "difficulty": "dificil",
+    "explanation": "Abrão → Abraão (Gn 17:5); Sarai → Sara (Gn 17:15). Nenhum outro teve *dois* renomeamentos divinos.",
+    "verseReference": "Gênesis 17:5,15"
+  },
+  {
+    "question": "Qual tribo israelita foi amaldiçoada por Jacó com a frase: 'Dividido os repartirei em Jacó'?",
+    "options": ["Rúben", "Simeão", "Levi", "Simeão e Levi"],
+    "correctAnswer": 3,
+    "category": "antigo_testamento",
+    "difficulty": "dificil",
+    "explanation": "Por vingarem a violação de Diná com violência extrema em Siquém, Jacó amaldiçoou Simeão e Levi, prevendo sua dispersão — cumprida em Levi (sacerdotes sem terra) e Simeão (absorvido por Judá).",
+    "verseReference": "Gênesis 49:5-7"
+  },
+  {
+    "question": "Qual foi o único sacrifício que *não* envolvia derramamento de sangue no sistema levítico?",
+    "options": ["Sacrifício pelo pecado", "Holocausto", "Sacrifício de oferta de paz", "Oferta de cereais"],
+    "correctAnswer": 3,
+    "category": "antigo_testamento",
+    "difficulty": "dificil",
+    "explanation": "A oferta de cereais (minchá) era de trigo, cevada ou farinha, às vezes com azeite e incenso, mas sem animal — símbolo de gratidão e devoção.",
+    "verseReference": "Levítico 2:1-16"
+  },
+  {
+    "question": "Qual cidade foi chamada 'a cidade da palmeira' e serviu como capital provisória de Israel?",
+    "options": ["Jericó", "Siquém", "Hesbom", "Zartã"],
+    "correctAnswer": 0,
+    "category": "antigo_testamento",
+    "difficulty": "dificil",
+    "explanation": "Jericó era conhecida como 'cidade das palmeiras' (Deut 34:3) e foi base de Eúde (Juízes 3:13) e residência de Elias (2 Reis 2:4-5).",
+    "verseReference": "Deuteronômio 34:3; Juízes 3:13"
+  },
+  {
+    "question": "Quem foi o único rei de Israel (não de Judá) que morreu em paz em sua cama?",
+    "options": ["Onri", "Acabe", "Jeú", "Jeorão"],
+    "correctAnswer": 0,
+    "category": "antigo_testamento",
+    "difficulty": "dificil",
+    "explanation": "Onri, fundador da dinastia mais estável de Israel, construiu Samaria e morreu naturalmente — ao contrário de todos os outros reis do norte, que foram assassinados.",
+    "verseReference": "1 Reis 16:23,28"
+  },
+  {
+    "question": "Qual profeta escreveu: 'Mas o justo viverá pela sua fé'?",
+    "options": ["Isaías", "Jeremias", "Ezequiel", "Habacuque"],
+    "correctAnswer": 3,
+    "category": "antigo_testamento",
+    "difficulty": "dificil",
+    "explanation": "Habacuque 2:4 é citado três vezes no Novo Testamento (Rm 1:17; Gl 3:11; Hb 10:38) como fundamento da justificação pela fé.",
+    "verseReference": "Habacuque 2:4"
+  },
+  {
+    "question": "Qual rei introduziu o culto a Baal em Israel, influenciado por sua esposa fenícia?",
+    "options": ["Jeorão", "Jorão", "Acabe", "Acazias"],
+    "correctAnswer": 2,
+    "category": "antigo_testamento",
+    "difficulty": "dificil",
+    "explanation": "Acabe, casado com Jezabel (filha do rei de Sidom), construiu altar a Baal em Samaria e perseguiu os profetas de Yahweh.",
+    "verseReference": "1 Reis 16:31-32"
+  },
+  {
+    "question": "Qual foi o nome do sacerdote que consagrou o templo de Salomão?",
+    "options": ["Zadoque", "Abiatar", "Hilquias", "Eliasibe"],
+    "correctAnswer": 0,
+    "category": "antigo_testamento",
+    "difficulty": "dificil",
+    "explanation": "Zadoque, leal a Davi e Salomão, substituiu Abiatar (que apoiou Adonias) e liderou a consagração do templo.",
+    "verseReference": "1 Reis 1:39; 2 Crônicas 5:11-14"
+  },
+  {
+    "question": "Em qual livro aparece a frase: 'O temor do Senhor é o princípio da sabedoria'?",
+    "options": ["Provérbios", "Jó", "Salmos", "Eclesiastes"],
+    "correctAnswer": 2,
+    "category": "antigo_testamento",
+    "difficulty": "dificil",
+    "explanation": "Embora semelhante em Provérbios 9:10, a frase exata 'O temor do Senhor é o princípio da sabedoria' está em Salmos 111:10.",
+    "verseReference": "Salmos 111:10"
+  },
+  {
+    "question": "Qual profeta foi ordenado a casar-se com uma prostituta como símbolo da infidelidade de Israel?",
+    "options": ["Isaías", "Jeremias", "Ezequiel", "Oséias"],
+    "correctAnswer": 3,
+    "category": "antigo_testamento",
+    "difficulty": "dificil",
+    "explanation": "Deus mandou Oséias casar com Gômer, mulher adúltera, para ilustrar o amor fiel de Deus por Israel, apesar da idolatria do povo.",
+    "verseReference": "Oséias 1:2-3"
+  },
+  {
+    "question": "Quem foi o único personagem que teve seu corpo *não encontrado* após a morte, segundo a Bíblia?",
+    "options": ["Moisés", "Elias", "Enoque", "Eliseu"],
+    "correctAnswer": 0,
+    "category": "antigo_testamento",
+    "difficulty": "dificil",
+    "explanation": "Deus enterrou Moisés em um vale em Moabe, e 'ninguém sabe até hoje o lugar da sua sepultura' (Dt 34:6), provavelmente para evitar idolatria.",
+    "verseReference": "Deuteronômio 34:6"
+  },
+  {
+    "question": "Qual foi o nome do vale onde Davi enfrentou Golias?",
+    "options": ["Valé de Acor", "Vale de Elá", "Vale de Josafá", "Vale de Beraca"],
+    "correctAnswer": 1,
+    "category": "antigo_testamento",
+    "difficulty": "dificil",
+    "explanation": "O confronto ocorreu no vale de Elá, entre Socó e Azeca, onde os exércitos de Israel e Filístia estavam acampados.",
+    "verseReference": "1 Samuel 17:2,19"
+  },
+  {
+    "question": "Qual tribo teve sua porção de terra *dentro* do território de Judá?",
+    "options": ["Benjamim", "Simeão", "Dã", "Levi"],
+    "correctAnswer": 1,
+    "category": "antigo_testamento",
+    "difficulty": "dificil",
+    "explanation": "Simeão recebeu cidades no meio do território de Judá, cumprindo a previsão de dispersão (Gn 49:7).",
+    "verseReference": "Josué 19:1,9"
+  },
+  {
+    "question": "Qual foi o único livro do Antigo Testamento escrito originalmente em aramaico (parcialmente)?",
+    "options": ["Ester", "Daniel", "Esdras", "Daniel e Esdras"],
+    "correctAnswer": 3,
+    "category": "antigo_testamento",
+    "difficulty": "dificil",
+    "explanation": "Daniel 2:4b-7:28 e Esdras 4:8-6:18; 7:12-26 foram escritos em aramaico, a língua diplomática do império persa.",
+    "verseReference": "Daniel 2:4; Esdras 4:8"
+  },
+  {
+    "question": "Quem foi o sumo sacerdote que rasgou suas vestes ao ouvir Jesus afirmar ser o Cristo?",
+    "options": ["Anás", "Caifás", "Ananias", "Teófilo"],
+    "correctAnswer": 1,
+    "category": "antigo_testamento",
+    "difficulty": "dificil",
+    "explanation": "Embora esse evento esteja no NT, Caifás era sumo sacerdote *do sistema do Antigo Testamento*, e seu gesto simbolizava blasfêmia — ironicamente, ele profetizou a morte expiatória de Jesus (Jo 11:49-52).",
+    "verseReference": "Mateus 26:65"
+  },
+  {
+    "question": "Qual foi o nome do monte onde Abraão quase sacrificou Isaque?",
+    "options": ["Monte Moriá", "Monte Sinai", "Monte Horebe", "Monte Nebo"],
+    "correctAnswer": 0,
+    "category": "antigo_testamento",
+    "difficulty": "dificil",
+    "explanation": "O Monte Moriá é identificado como o local do sacrifício de Isaque (Gn 22:2) e, mais tarde, do templo de Salomão (2 Cr 3:1).",
+    "verseReference": "Gênesis 22:2; 2 Crônicas 3:1"
+  },
+  {
+    "question": "Qual profeta predisse a queda de Nínive cerca de um século antes de acontecer?",
+    "options": ["Isaías", "Jonas", "Naum", "Sofonias"],
+    "correctAnswer": 2,
+    "category": "antigo_testamento",
+    "difficulty": "dificil",
+    "explanation": "Enquanto Jonas pregou arrependimento (e Nínive foi poupada), Naum anunciou sua destruição definitiva, cumprida em 612 a.C.",
+    "verseReference": "Naum 1:1; 3:18-19"
+  },
+  {
+    "question": "Qual foi a única cidade que Josué conquistou *sem guerra*, por meio de um estratagema?",
+    "options": ["Jericó", "Ai", "Gibeão", "Hazor"],
+    "correctAnswer": 2,
+    "category": "antigo_testamento",
+    "difficulty": "dificil",
+    "explanation": "Os gibeonitas se disfarçaram de estrangeiros distantes e enganaram Israel para fazer aliança — e foram poupados, tornando-se servos do santuário.",
+    "verseReference": "Josué 9"
+  }
+]
