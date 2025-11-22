@@ -2,7 +2,7 @@ import { defineConfig } from '#q-app/wrappers'
 
 export default defineConfig((ctx) => {
   return {
-    boot: ['firebase'],
+    boot: ['pinia', 'firebase'],
     
     css: ['app.scss'],
     

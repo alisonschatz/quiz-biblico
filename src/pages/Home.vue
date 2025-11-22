@@ -9,8 +9,8 @@
         <div class="welcome-header">
           <div class="user-avatar-small">
             <img
-              v-if="user?.photoURL"
-              :src="user.photoURL"
+              v-if="authStore.userPhotoURL"
+              :src="authStore.userPhotoURL"
               :alt="userName"
               class="avatar-img"
             />
@@ -23,7 +23,7 @@
         </div>
       </section>
 
-      <section v-if="progress" class="level-card">
+      <section v-if="authStore.userProgress" class="level-card">
         <div class="level-header">
           <div class="level-badge">
             <StarIcon class="level-star" />
@@ -142,11 +142,10 @@
 </template>
 
 <script setup>
-import { ref, computed, onMounted, onUnmounted } from 'vue';
+import { ref, computed, onMounted } from 'vue';
 import { useRouter } from 'vue-router';
-import authService from '/src/services/auth.service';
+import { useAuthStore } from '../stores/auth.store';
 import quizService from '/src/services/quiz.service';
-import userService from '/src/services/user.service';
 
 import {
   UserIcon,
@@ -164,24 +163,53 @@ import {
 } from '@heroicons/vue/24/solid';
 
 const router = useRouter();
+const authStore = useAuthStore();
 const loading = ref(true);
 const totalQuestions = ref(0);
-const user = ref(null);
-const progress = ref(null);
 
-const userName = computed(() => user.value?.displayName?.split(' ')[0] ?? 'Jogador');
+const userName = computed(() => {
+  const displayName = authStore.userName || 'Jogador';
+  return displayName.split(' ')[0];
+});
 
-const level = computed(() => progress.value?.level ?? 1);
-const totalXp = computed(() => progress.value?.totalXp ?? 0);
+const level = computed(() => {
+  const progress = authStore.userProgress;
+  return progress?.level ?? 1;
+});
+
+const totalXp = computed(() => {
+  const progress = authStore.userProgress;
+  return progress?.totalXp ?? 0;
+});
+
 const xpToNextLevel = computed(() => level.value * 100);
 const xp = computed(() => totalXp.value % xpToNextLevel.value);
 const xpPercentage = computed(() => Math.round((xp.value / xpToNextLevel.value) * 100));
 
-const questionsAnswered = computed(() => progress.value?.questionsAnswered ?? 0);
-const correctAnswers = computed(() => progress.value?.correctAnswers ?? 0);
-const currentStreak = computed(() => progress.value?.currentStreak ?? 0);
-const bestStreak = computed(() => progress.value?.bestStreak ?? 0);
-const achievementsUnlocked = computed(() => progress.value?.achievementsUnlocked?.length ?? 0);
+const questionsAnswered = computed(() => {
+  const progress = authStore.userProgress;
+  return progress?.questionsAnswered ?? 0;
+});
+
+const correctAnswers = computed(() => {
+  const progress = authStore.userProgress;
+  return progress?.correctAnswers ?? 0;
+});
+
+const currentStreak = computed(() => {
+  const progress = authStore.userProgress;
+  return progress?.currentStreak ?? 0;
+});
+
+const bestStreak = computed(() => {
+  const progress = authStore.userProgress;
+  return progress?.bestStreak ?? 0;
+});
+
+const achievementsUnlocked = computed(() => {
+  const progress = authStore.userProgress;
+  return Array.isArray(progress?.achievementsUnlocked) ? progress.achievementsUnlocked.length : 0;
+});
 
 const accuracy = computed(() => {
   if (questionsAnswered.value === 0) return 0;
@@ -190,33 +218,21 @@ const accuracy = computed(() => {
 
 const goToQuiz = () => router.push('/quiz');
 
-let unsubscribeAuth = null;
-
 onMounted(async () => {
-  unsubscribeAuth = authService.onAuthStateChanged(async (firebaseUser) => {
-    if (firebaseUser) {
-      try {
-        user.value = await userService.getUser(firebaseUser.uid);
-        progress.value = await userService.getUserProgress(firebaseUser.uid);
-      } catch (error) {
-        console.error('Erro ao carregar dados do usuário:', error);
-      }
-    } else {
-      router.push('/auth');
-    }
-  });
-
   try {
+    if (!authStore.isAuthenticated) {
+      router.push('/auth');
+      return;
+    }
+
     const questions = await quizService.getAllQuestions();
     totalQuestions.value = questions.length;
   } catch (error) {
-    console.error('Erro ao carregar perguntas:', error);
+    console.error('Erro ao carregar dados:', error);
   } finally {
     loading.value = false;
   }
 });
-
-onUnmounted(() => unsubscribeAuth?.());
 </script>
 
 <style src="/src/css/pages/home.scss" scoped></style>

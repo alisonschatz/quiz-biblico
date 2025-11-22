@@ -1,19 +1,16 @@
-import { 
-  doc, 
-  getDoc, 
-  setDoc, 
-  updateDoc,
-  serverTimestamp 
-} from 'firebase/firestore';
+import { doc, getDoc, setDoc, updateDoc, serverTimestamp } from 'firebase/firestore';
 import { db } from '../boot/firebase';
+import { useAuthStore } from '../stores/auth.store';
+import { useRankingStore } from '../stores/ranking.store';
 
 class UserService {
-  async createUserProgress(userId, email, displayName) {
+  async createUserProgress(userId, email, displayName, photoURL = '') {
     try {
       const userRef = doc(db, 'users', userId);
       await setDoc(userRef, {
         email,
         displayName,
+        photoURL,
         createdAt: serverTimestamp()
       });
 
@@ -29,7 +26,7 @@ class UserService {
         achievementsUnlocked: []
       });
 
-      return { userId, email, displayName };
+      return { userId, email, displayName, photoURL };
     } catch (error) {
       console.error('Erro ao criar progresso do usuário:', error);
       throw error;
@@ -55,6 +52,16 @@ class UserService {
     try {
       const progressRef = doc(db, 'userProgress', userId);
       await updateDoc(progressRef, data);
+
+      const authStore = useAuthStore();
+      if (authStore.userId === userId) {
+        authStore.updateProgress(data);
+      }
+
+      const rankingStore = useRankingStore();
+      if (data.totalXp !== undefined) {
+        rankingStore.clearCache();
+      }
     } catch (error) {
       console.error('Erro ao atualizar progresso:', error);
       throw error;
@@ -72,6 +79,24 @@ class UserService {
       return null;
     } catch (error) {
       console.error('Erro ao buscar usuário:', error);
+      throw error;
+    }
+  }
+
+  async updateUserProfile(userId, displayName, photoURL) {
+    try {
+      const userRef = doc(db, 'users', userId);
+      
+      await setDoc(userRef, {
+        displayName: displayName || 'Usuário',
+        photoURL: photoURL || '',
+        updatedAt: serverTimestamp()
+      }, { merge: true });
+      
+      console.log('✅ Perfil do usuário atualizado');
+      return true;
+    } catch (error) {
+      console.error('❌ Erro ao atualizar perfil:', error);
       throw error;
     }
   }

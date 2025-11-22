@@ -10,9 +10,9 @@
           <div class="avatar-container">
             <div class="avatar-wrapper">
               <img 
-                v-if="userPhotoURL" 
-                :src="userPhotoURL" 
-                :alt="userName"
+                v-if="authStore.userPhotoURL" 
+                :src="authStore.userPhotoURL" 
+                :alt="authStore.userName"
                 class="avatar-image"
               />
               <div v-else class="avatar-placeholder">
@@ -22,8 +22,8 @@
           </div>
 
           <div class="user-info">
-            <h1 class="user-name">{{ userName }}</h1>
-            <p class="user-email">{{ userEmail }}</p>
+            <h1 class="user-name">{{ authStore.userName }}</h1>
+            <p class="user-email">{{ authStore.userEmail }}</p>
             <div class="user-level">
               <StarIcon class="level-icon" />
               <span class="level-text">Nível {{ userLevel }}</span>
@@ -138,7 +138,7 @@
     </div>
 
     <transition name="fade">
-      <div v-if="loading" class="loading-overlay">
+      <div v-if="authStore.loading" class="loading-overlay">
         <div class="loading-spinner"></div>
       </div>
     </transition>
@@ -153,10 +153,9 @@
 </template>
 
 <script setup>
-import { ref, computed, onMounted } from 'vue';
+import { ref, computed } from 'vue';
 import { useRouter } from 'vue-router';
-import authService from '/src/services/auth.service';
-import userService from '/src/services/user.service';
+import { useAuthStore } from '../stores/auth.store';
 
 import {
   UserIcon,
@@ -175,19 +174,7 @@ import {
 } from '@heroicons/vue/24/solid';
 
 const router = useRouter();
-
-const loading = ref(true);
-const userName = ref('Carregando...');
-const userEmail = ref('');
-const userPhotoURL = ref('');
-const userLevel = ref(1);
-
-const userStats = ref({
-  totalPoints: 0,
-  quizzesCompleted: 0,
-  achievements: 0,
-  streak: 0
-});
+const authStore = useAuthStore();
 
 const snackbar = ref({
   show: false,
@@ -195,40 +182,46 @@ const snackbar = ref({
   type: 'info'
 });
 
-const getAchievementsCount = (achievements) => {
-  return Array.isArray(achievements) ? achievements.length : 0;
-};
+const userLevel = computed(() => {
+  const progress = authStore.userProgress;
+  if (!progress) return 1;
+  return progress.level || Math.floor((progress.totalXp || 0) / 100) + 1;
+});
 
-const statsData = computed(() => [
-  {
-    key: 'points',
-    value: userStats.value.totalPoints,
-    label: 'Pontos Totais',
-    colorClass: 'icon-primary',
-    icon: TrophyIcon
-  },
-  {
-    key: 'quizzes',
-    value: userStats.value.quizzesCompleted,
-    label: 'Quiz Completos',
-    colorClass: 'icon-success',
-    icon: AcademicCapIcon
-  },
-  {
-    key: 'achievements',
-    value: userStats.value.achievements,
-    label: 'Conquistas',
-    colorClass: 'icon-warning',
-    icon: SparklesIcon
-  },
-  {
-    key: 'streak',
-    value: userStats.value.streak,
-    label: 'Dias Seguidos',
-    colorClass: 'icon-info',
-    icon: FireIcon
-  }
-]);
+const statsData = computed(() => {
+  const progress = authStore.userProgress || {};
+  
+  return [
+    {
+      key: 'points',
+      value: progress.totalXp || 0,
+      label: 'Pontos Totais',
+      colorClass: 'icon-primary',
+      icon: TrophyIcon
+    },
+    {
+      key: 'quizzes',
+      value: progress.questionsAnswered || 0,
+      label: 'Quiz Completos',
+      colorClass: 'icon-success',
+      icon: AcademicCapIcon
+    },
+    {
+      key: 'achievements',
+      value: Array.isArray(progress.achievementsUnlocked) ? progress.achievementsUnlocked.length : 0,
+      label: 'Conquistas',
+      colorClass: 'icon-warning',
+      icon: SparklesIcon
+    },
+    {
+      key: 'streak',
+      value: progress.currentStreak || 0,
+      label: 'Dias Seguidos',
+      colorClass: 'icon-info',
+      icon: FireIcon
+    }
+  ];
+});
 
 const categoryProgress = ref([
   {
@@ -291,41 +284,6 @@ const hideSnackbar = () => {
   snackbar.value.show = false;
 };
 
-const loadUserData = async () => {
-  loading.value = true;
-  
-  try {
-    const user = authService.getCurrentUser();
-    
-    if (!user) {
-      router.push('/auth');
-      return;
-    }
-
-    userName.value = user.displayName?.trim() || 'Usuário';
-    userEmail.value = user.email || '';
-    userPhotoURL.value = user.photoURL || '';
-
-    const userData = await userService.getUserProgress(user.uid);
-    
-    if (userData) {
-      userStats.value = {
-        totalPoints: userData.totalPoints ?? 0,
-        quizzesCompleted: userData.quizzesCompleted ?? 0,
-        achievements: getAchievementsCount(userData.achievements),
-        streak: userData.currentStreak ?? 0
-      };
-
-      userLevel.value = Math.floor((userData.totalPoints ?? 0) / 100) + 1;
-    }
-  } catch (error) {
-    console.error('Error loading user data:', error);
-    showSnackbar('Erro ao carregar dados do perfil', 'error');
-  } finally {
-    loading.value = false;
-  }
-};
-
 const editProfile = () => {
   showSnackbar('Função em desenvolvimento', 'info');
 };
@@ -337,10 +295,6 @@ const openSettings = () => {
 const navigateToAchievements = () => {
   router.push('/achievements');
 };
-
-onMounted(() => {
-  loadUserData();
-});
 </script>
 
 <style src="/src/css/pages/profile.scss" scoped></style>

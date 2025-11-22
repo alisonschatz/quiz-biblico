@@ -11,6 +11,17 @@
   transform: translateY(-6px);
 }
 
+@mixin badge-base {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.25rem 0.75rem;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
 .ranking-page {
   min-height: 100%;
   width: 100%;
@@ -26,6 +37,11 @@
 
 .header-section {
   padding: 40px 16px 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
   
   @media (min-width: 640px) { padding: 48px 16px 40px; }
   @media (min-width: 768px) { padding: 56px 24px 48px; }
@@ -82,6 +98,47 @@
   line-height: 1.4;
 }
 
+.refresh-btn {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  background: linear-gradient(135deg, #8b5e34 0%, #a89175 100%);
+  color: white;
+  border: none;
+  border-radius: 12px;
+  font-weight: 600;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 2px 8px rgba(139, 94, 52, 0.2);
+
+  &:hover:not(:disabled) {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(139, 94, 52, 0.3);
+    background: linear-gradient(135deg, #8b5e34 0%, #b09a7f 100%);
+  }
+
+  &:active:not(:disabled) {
+    transform: translateY(0);
+  }
+
+  &:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+  }
+}
+
+.refresh-icon {
+  width: 20px;
+  height: 20px;
+  transition: transform 0.5s ease;
+
+  &.spinning {
+    animation: spin 1s linear infinite;
+  }
+}
+
 .podium-section {
   padding: 0 16px 40px;
   
@@ -122,6 +179,38 @@
     @include card-hover;
   }
 
+  &.is-current-user {
+    border: 2px solid rgba(139, 94, 52, 0.35);
+    box-shadow: 0 4px 16px rgba(139, 94, 52, 0.2);
+
+    &::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(135deg, rgba(139, 94, 52, 0.05) 0%, rgba(168, 145, 117, 0.05) 100%);
+      border-radius: inherit;
+      pointer-events: none;
+    }
+
+    &:hover {
+      border-color: rgba(139, 94, 52, 0.45);
+      box-shadow: 0 8px 24px rgba(139, 94, 52, 0.25);
+    }
+
+    .current-user-badge {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      @include badge-base;
+      background: linear-gradient(135deg, rgba(139, 94, 52, 0.12), rgba(168, 145, 117, 0.12));
+      color: var(--primary);
+      border: 1px solid rgba(139, 94, 52, 0.25);
+      box-shadow: 0 2px 6px rgba(139, 94, 52, 0.15);
+      z-index: 10;
+      font-size: 0.7rem;
+    }
+  }
+
   &.first-place {
     order: 1;
     border: 2px solid rgba(251, 191, 36, 0.25);
@@ -129,6 +218,20 @@
     
     &:hover {
       box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1), 0 0 0 1px rgba(251, 191, 36, 0.15) inset;
+    }
+
+    &.is-current-user {
+      border: 2px solid rgba(139, 94, 52, 0.35);
+      box-shadow: 0 4px 16px rgba(139, 94, 52, 0.2), 0 4px 16px rgba(251, 191, 36, 0.15);
+
+      &::before {
+        background: linear-gradient(135deg, rgba(139, 94, 52, 0.05) 0%, rgba(251, 191, 36, 0.05) 100%);
+      }
+
+      &:hover {
+        border-color: rgba(139, 94, 52, 0.45);
+        box-shadow: 0 8px 24px rgba(139, 94, 52, 0.25), 0 4px 16px rgba(251, 191, 36, 0.2);
+      }
     }
 
     @media (min-width: 640px) {
@@ -221,6 +324,61 @@
     font-size: clamp(16px, 4vw, 18px);
     font-weight: 800;
     color: var(--white);
+  }
+}
+
+.podium-avatar-container {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+  
+  @media (min-width: 640px) { width: 100px; height: 100px; }
+  @media (min-width: 768px) { width: 110px; height: 110px; }
+
+  &::before {
+    content: '';
+    position: absolute;
+    inset: -4px;
+    border-radius: 50%;
+    padding: 4px;
+    background: linear-gradient(135deg, transparent, rgba(255, 255, 255, 0.2));
+    -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    mask:linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    opacity: 0.5;
+    z-index: 1;
+  }
+}
+
+.podium-avatar {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid rgba(255, 255, 255, 0.9);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  position: relative;
+  z-index: 2;
+  
+  .first-place & {
+    border-color: rgba(251, 191, 36, 0.6);
+    box-shadow: 0 4px 16px rgba(251, 191, 36, 0.4);
+  }
+  
+  .second-place & {
+    border-color: rgba(209, 213, 219, 0.6);
+    box-shadow: 0 4px 16px rgba(156, 163, 175, 0.3);
+  }
+  
+  .third-place & {
+    border-color: rgba(217, 119, 6, 0.6);
+    box-shadow: 0 4px 16px rgba(217, 119, 6, 0.3);
   }
 }
 
@@ -410,6 +568,27 @@
     transform: translateX(8px);
   }
 
+  &.is-current-user {
+    position: relative;
+    border: 2px solid rgba(139, 94, 52, 0.3);
+    box-shadow: 0 4px 16px rgba(139, 94, 52, 0.15);
+
+    &::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(135deg, rgba(139, 94, 52, 0.05) 0%, rgba(168, 145, 117, 0.05) 100%);
+      border-radius: inherit;
+      pointer-events: none;
+    }
+
+    &:hover {
+      border-color: rgba(139, 94, 52, 0.4);
+      box-shadow: 0 8px 24px rgba(139, 94, 52, 0.2);
+      transform: translateX(12px);
+    }
+  }
+
   &:nth-child(-n+3) .rank-badge {
     background: linear-gradient(135deg, #8b5e34, #6d5d47);
     box-shadow: 0 4px 12px rgba(139, 94, 52, 0.3);
@@ -452,12 +631,67 @@
   }
 }
 
+.player-avatar-container {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  flex-shrink: 0;
+  overflow: hidden;
+  
+  @media (min-width: 640px) { width: 52px; height: 52px; }
+  @media (min-width: 768px) { width: 56px; height: 56px; }
+}
+
+.player-avatar {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border: 2px solid rgba(139, 94, 52, 0.2);
+  border-radius: 50%;
+  transition: all 0.3s ease;
+
+  .is-current-user & {
+    border-color: rgba(139, 94, 52, 0.4);
+  }
+}
+
+.player-avatar-placeholder {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, rgba(139, 94, 52, 0.12), rgba(168, 145, 117, 0.12));
+  border: 2px solid rgba(139, 94, 52, 0.2);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+
+  .is-current-user & {
+    border-color: rgba(139, 94, 52, 0.4);
+    background: linear-gradient(135deg, rgba(139, 94, 52, 0.18), rgba(168, 145, 117, 0.18));
+  }
+}
+
+.avatar-initial {
+  font-size: clamp(18px, 4.5vw, 24px);
+  font-weight: 700;
+  color: var(--primary);
+  text-transform: uppercase;
+}
+
 .player-info {
   flex: 1;
   min-width: 0;
   display: flex;
   flex-direction: column;
   gap: 8px;
+}
+
+.player-name-row {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
 }
 
 .player-name {
@@ -469,6 +703,8 @@
   text-overflow: ellipsis;
   white-space: nowrap;
   line-height: 1.2;
+  flex: 1;
+  min-width: 0;
 }
 
 .player-stats-row {
@@ -547,6 +783,20 @@
   white-space: nowrap;
 }
 
+.current-user-badge {
+  @include badge-base;
+  background: linear-gradient(135deg, rgba(139, 94, 52, 0.12), rgba(168, 145, 117, 0.12));
+  color: var(--primary);
+  border: 1px solid rgba(139, 94, 52, 0.25);
+  box-shadow: 0 2px 6px rgba(139, 94, 52, 0.15);
+  font-size: 0.7rem;
+
+  .ranking-card & {
+    position: relative;
+    flex-shrink: 0;
+  }
+}
+
 .empty-section {
   padding: 60px 16px 40px;
   
@@ -598,6 +848,30 @@
   color: var(--text-medium);
   margin: 0;
   max-width: 400px;
+}
+
+.start-quiz-btn {
+  margin-top: 1rem;
+  padding: 1rem 2rem;
+  background: linear-gradient(135deg, #8b5e34 0%, #a89175 100%);
+  color: white;
+  border: none;
+  border-radius: 12px;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 2px 8px rgba(139, 94, 52, 0.2);
+
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 16px rgba(139, 94, 52, 0.3);
+    background: linear-gradient(135deg, #8b5e34 0%, #b09a7f 100%);
+  }
+
+  &:active {
+    transform: translateY(0);
+  }
 }
 
 .loading-overlay-content {
@@ -658,5 +932,9 @@
   
   .ranking-card:hover {
     transform: translateX(12px);
+  }
+
+  .ranking-card.is-current-user:hover {
+    transform: translateX(16px);
   }
 }

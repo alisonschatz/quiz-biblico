@@ -7,9 +7,9 @@
     >
       <div class="user-avatar">
         <img
-          v-if="photoURL"
-          :src="photoURL"
-          :alt="`Foto de ${name}`"
+          v-if="authStore.userPhotoURL"
+          :src="authStore.userPhotoURL"
+          :alt="`Foto de ${authStore.userName}`"
           class="avatar-img"
         />
         <UserIcon v-else class="avatar-icon" />
@@ -27,16 +27,16 @@
             <div class="user-header-content">
               <div class="user-avatar-lg">
                 <img
-                  v-if="photoURL"
-                  :src="photoURL"
-                  :alt="`Foto de ${name}`"
+                  v-if="authStore.userPhotoURL"
+                  :src="authStore.userPhotoURL"
+                  :alt="`Foto de ${authStore.userName}`"
                   class="avatar-img-lg"
                 />
                 <UserIcon v-else class="avatar-icon-lg" />
               </div>
               <div class="user-info">
-                <div class="user-name">{{ name }}</div>
-                <div class="user-email">{{ email }}</div>
+                <div class="user-name">{{ authStore.userName }}</div>
+                <div class="user-email">{{ authStore.userEmail }}</div>
               </div>
             </div>
           </div>
@@ -81,6 +81,7 @@
 
 <script setup>
 import { ref, computed, onMounted, onUnmounted } from 'vue';
+import { useAuthStore } from '../stores/auth.store';
 import {
   UserIcon,
   TrophyIcon,
@@ -92,53 +93,34 @@ import {
   ArrowRightOnRectangleIcon
 } from '@heroicons/vue/24/solid';
 
-const props = defineProps({
-  name: {
-    type: String,
-    default: 'Usuário'
-  },
-  email: {
-    type: String,
-    default: ''
-  },
-  photoURL: {
-    type: String,
-    default: ''
-  },
-  userStats: {
-    type: Object,
-    default: () => ({
-      totalPoints: 0,
-      achievements: 0,
-      quizzesCompleted: 0
-    })
-  }
-});
-
 const emit = defineEmits(['profile', 'achievements', 'ranking', 'logout']);
 
+const authStore = useAuthStore();
 const isOpen = ref(false);
 
-const stats = computed(() => [
-  {
-    key: 'points',
-    icon: TrophyIcon,
-    value: props.userStats.totalPoints,
-    label: 'Pontos'
-  },
-  {
-    key: 'achievements',
-    icon: SparklesIcon,
-    value: props.userStats.achievements,
-    label: 'Conquistas'
-  },
-  {
-    key: 'quizzes',
-    icon: AcademicCapIcon,
-    value: props.userStats.quizzesCompleted,
-    label: 'Quiz Feitos'
-  }
-]);
+const stats = computed(() => {
+  const progress = authStore.userProgress || {};
+  return [
+    {
+      key: 'points',
+      icon: TrophyIcon,
+      value: progress.totalXp || 0,
+      label: 'Pontos'
+    },
+    {
+      key: 'achievements',
+      icon: SparklesIcon,
+      value: Array.isArray(progress.achievementsUnlocked) ? progress.achievementsUnlocked.length : 0,
+      label: 'Conquistas'
+    },
+    {
+      key: 'quizzes',
+      icon: AcademicCapIcon,
+      value: progress.questionsAnswered || 0,
+      label: 'Quiz Feitos'
+    }
+  ];
+});
 
 const menuItems = computed(() => [
   {
