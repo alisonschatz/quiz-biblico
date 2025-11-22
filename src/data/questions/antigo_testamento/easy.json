@@ -1,182 +1,623 @@
 [
   {
-    "question": "Qual é o primeiro livro da Bíblia?",
-    "options": ["Êxodo", "Gênesis", "Levítico", "Números"],
-    "correctAnswer": 1,
-    "category": "antigo_testamento",
-    "difficulty": "facil",
-    "explanation": "Gênesis é o primeiro livro da Bíblia e narra a criação do mundo, o jardim do Éden, os patriarcas e o início da história de Israel.",
-    "verseReference": "Gênesis 1:1"
-  },
-  {
-    "question": "Quem foi o primeiro homem criado por Deus?",
-    "options": ["Caim", "Abel", "Adão", "Enoque"],
+    "question": "Quem foi a primeira mulher criada por Deus?",
+    "options": ["Sara", "Raquel", "Eva", "Rebeca"],
     "correctAnswer": 2,
     "category": "antigo_testamento",
     "difficulty": "facil",
-    "explanation": "Adão foi formado do pó da terra e recebeu o fôlego de vida diretamente de Deus.",
-    "verseReference": "Gênesis 2:7"
+    "explanation": "Eva foi formada da costela de Adão para ser sua companheira.",
+    "verseReference": "Gênesis 2:21-22"
   },
   {
-    "question": "Quantos dias Deus levou para criar o mundo?",
+    "question": "Quais foram os dois primeiros filhos de Adão e Eva?",
+    "options": ["Caim e Abel", "Sete e Enoque", "Noé e Sem", "Abraão e Ló"],
+    "correctAnswer": 0,
+    "category": "antigo_testamento",
+    "difficulty": "facil",
+    "explanation": "Caim foi lavrador e Abel foi pastor de ovelhas. Caim matou seu irmão Abel por ciúmes.",
+    "verseReference": "Gênesis 4:1-8"
+  },
+  {
+    "question": "Quantos animais de cada espécie limpa Noé levou na arca?",
+    "options": ["Um casal", "Três casais", "Sete pares", "Dez pares"],
+    "correctAnswer": 2,
+    "category": "antigo_testamento",
+    "difficulty": "facil",
+    "explanation": "Dos animais limpos foram sete pares, e dos imundos um casal de cada espécie.",
+    "verseReference": "Gênesis 7:2"
+  },
+  {
+    "question": "Qual foi o presente que os irmãos de José encontraram em seus sacos?",
+    "options": ["Ouro", "Prata", "Joias", "Trigo"],
+    "correctAnswer": 1,
+    "category": "antigo_testamento",
+    "difficulty": "facil",
+    "explanation": "José secretamente devolveu a prata que seus irmãos haviam pago pelo trigo.",
+    "verseReference": "Gênesis 42:35"
+  },
+  {
+    "question": "Qual foi a primeira praga enviada sobre o Egito?",
+    "options": ["Rãs", "Piolhos", "Água em sangue", "Trevas"],
+    "correctAnswer": 2,
+    "category": "antigo_testamento",
+    "difficulty": "facil",
+    "explanation": "A água do Nilo e de todo o Egito foi transformada em sangue.",
+    "verseReference": "Êxodo 7:20"
+  },
+  {
+    "question": "O que Deus enviou do céu para alimentar os israelitas no deserto?",
+    "options": ["Pão e peixe", "Maná e codornizes", "Frutas e mel", "Grãos e água"],
+    "correctAnswer": 1,
+    "category": "antigo_testamento",
+    "difficulty": "facil",
+    "explanation": "Deus enviou maná todas as manhãs e codornizes à tarde para sustentar o povo.",
+    "verseReference": "Êxodo 16:13-15"
+  },
+  {
+    "question": "Quem foi o irmão de Moisés que o ajudou a falar com Faraó?",
+    "options": ["Josué", "Calebe", "Arão", "Hur"],
+    "correctAnswer": 2,
+    "category": "antigo_testamento",
+    "difficulty": "facil",
+    "explanation": "Arão serviu como porta-voz de Moisés diante de Faraó.",
+    "verseReference": "Êxodo 4:14-16"
+  },
+  {
+    "question": "Que animal a serpente de bronze representava no deserto?",
+    "options": ["Salvação", "Julgamento", "Cura", "Proteção"],
+    "correctAnswer": 2,
+    "category": "antigo_testamento",
+    "difficulty": "facil",
+    "explanation": "Quem olhasse para a serpente de bronze era curado das picadas de serpentes venenosas.",
+    "verseReference": "Números 21:8-9"
+  },
+  {
+    "question": "Quem sucedeu Moisés como líder de Israel?",
+    "options": ["Calebe", "Arão", "Josué", "Samuel"],
+    "correctAnswer": 2,
+    "category": "antigo_testamento",
+    "difficulty": "facil",
+    "explanation": "Josué foi escolhido e comissionado por Moisés para liderar Israel na conquista de Canaã.",
+    "verseReference": "Deuteronômio 31:7-8"
+  },
+  {
+    "question": "Quantos espias Moisés enviou para Canaã?",
+    "options": ["10", "12", "7", "40"],
+    "correctAnswer": 1,
+    "category": "antigo_testamento",
+    "difficulty": "facil",
+    "explanation": "Foram enviados 12 espias, um de cada tribo de Israel.",
+    "verseReference": "Números 13:1-2"
+  },
+  {
+    "question": "Qual juíza liderou Israel e profetizava debaixo de uma palmeira?",
+    "options": ["Ana", "Miriã", "Débora", "Hulda"],
+    "correctAnswer": 2,
+    "category": "antigo_testamento",
+    "difficulty": "facil",
+    "explanation": "Débora julgava Israel debaixo da Palmeira de Débora entre Ramá e Betel.",
+    "verseReference": "Juízes 4:4-5"
+  },
+  {
+    "question": "Quem pediu força a Deus pela última vez para derrubar as colunas do templo filisteu?",
+    "options": ["Gideão", "Sansão", "Jefté", "Samuel"],
+    "correctAnswer": 1,
+    "category": "antigo_testamento",
+    "difficulty": "facil",
+    "explanation": "Sansão, cego e aprisionado, pediu força uma última vez e derrubou o templo de Dagom.",
+    "verseReference": "Juízes 16:28-30"
+  },
+  {
+    "question": "Qual moabita se tornou bisavó do rei Davi?",
+    "options": ["Noemi", "Orfa", "Rute", "Tamar"],
+    "correctAnswer": 2,
+    "category": "antigo_testamento",
+    "difficulty": "facil",
+    "explanation": "Rute, a moabita, casou-se com Boaz e tornou-se ancestral de Davi.",
+    "verseReference": "Rute 4:17"
+  },
+  {
+    "question": "Qual profeta ungiu Davi como rei?",
+    "options": ["Elias", "Natã", "Samuel", "Gade"],
+    "correctAnswer": 2,
+    "category": "antigo_testamento",
+    "difficulty": "facil",
+    "explanation": "Samuel foi enviado por Deus à casa de Jessé para ungir Davi.",
+    "verseReference": "1 Samuel 16:13"
+  },
+  {
+    "question": "Quem era o melhor amigo do rei Davi?",
+    "options": ["Absalão", "Joabe", "Jônatas", "Natã"],
+    "correctAnswer": 2,
+    "category": "antigo_testamento",
+    "difficulty": "facil",
+    "explanation": "Jônatas, filho de Saul, fez aliança de amizade com Davi.",
+    "verseReference": "1 Samuel 18:1-4"
+  },
+  {
+    "question": "Quantos filhos de Jessé foram apresentados a Samuel antes de Davi?",
     "options": ["5", "6", "7", "8"],
+    "correctAnswer": 2,
+    "category": "antigo_testamento",
+    "difficulty": "facil",
+    "explanation": "Samuel viu sete filhos de Jessé antes que Davi, o oitavo, fosse chamado do campo.",
+    "verseReference": "1 Samuel 16:10"
+  },
+  {
+    "question": "Qual era a profissão de Davi antes de se tornar rei?",
+    "options": ["Soldado", "Pastor", "Ferreiro", "Carpinteiro"],
     "correctAnswer": 1,
     "category": "antigo_testamento",
     "difficulty": "facil",
-    "explanation": "Deus criou o céu, a terra e tudo neles em seis dias, e no sétimo dia repousou.",
-    "verseReference": "Gênesis 1"
+    "explanation": "Davi cuidava das ovelhas de seu pai Jessé.",
+    "verseReference": "1 Samuel 16:11"
   },
   {
-    "question": "Quem construiu a arca para sobreviver ao dilúvio?",
-    "options": ["Abraão", "Moisés", "José", "Noé"],
-    "correctAnswer": 3,
-    "category": "antigo_testamento",
-    "difficulty": "facil",
-    "explanation": "Noé foi considerado justo diante de Deus e recebeu instruções para construir a arca.",
-    "verseReference": "Gênesis 6:9-22"
-  },
-  {
-    "question": "Qual sinal Deus colocou no céu após o dilúvio?",
-    "options": ["Estrela", "Lua cheia", "Arco-íris", "Cometa"],
+    "question": "Quem foi o profeta que confrontou Davi sobre seu pecado com Bate-Seba?",
+    "options": ["Samuel", "Gade", "Natã", "Elias"],
     "correctAnswer": 2,
     "category": "antigo_testamento",
     "difficulty": "facil",
-    "explanation": "O arco-íris é o sinal da aliança eterna de Deus de nunca mais destruir a terra com um dilúvio.",
-    "verseReference": "Gênesis 9:13"
+    "explanation": "Natã contou a parábola do homem rico e da cordeirinha para confrontar Davi.",
+    "verseReference": "2 Samuel 12:1-7"
   },
   {
-    "question": "Quem foi o pai de Isaque?",
-    "options": ["Noé", "Jacó", "Abraão", "Ismael"],
-    "correctAnswer": 2,
-    "category": "antigo_testamento",
-    "difficulty": "facil",
-    "explanation": "Abraão gerou Isaque em sua velhice, cumprindo a promessa de Deus de um filho da aliança.",
-    "verseReference": "Gênesis 21:1-3"
-  },
-  {
-    "question": "Qual foi o nome dado a Jacó após lutar com Deus?",
-    "options": ["Benjamim", "Esaú", "Israel", "José"],
-    "correctAnswer": 2,
-    "category": "antigo_testamento",
-    "difficulty": "facil",
-    "explanation": "Deus mudou o nome de Jacó para Israel, que significa 'aquele que luta com Deus'.",
-    "verseReference": "Gênesis 32:28"
-  },
-  {
-    "question": "Quantos filhos teve Jacó?",
-    "options": ["10", "11", "12", "13"],
-    "correctAnswer": 2,
-    "category": "antigo_testamento",
-    "difficulty": "facil",
-    "explanation": "Os 12 filhos de Jacó tornaram-se as 12 tribos de Israel.",
-    "verseReference": "Gênesis 49"
-  },
-  {
-    "question": "Quem interpretou os sonhos do Faraó no Egito?",
-    "options": ["Moisés", "Davi", "José", "Daniel"],
-    "correctAnswer": 2,
-    "category": "antigo_testamento",
-    "difficulty": "facil",
-    "explanation": "José, vendido como escravo, foi elevado ao cargo de governador após interpretar os sonhos sobre 7 anos de fartura e 7 de fome.",
-    "verseReference": "Gênesis 41"
-  },
-  {
-    "question": "Quem liderou o Êxodo do Egito?",
-    "options": ["Josué", "Samuel", "Davi", "Moisés"],
-    "correctAnswer": 3,
-    "category": "antigo_testamento",
-    "difficulty": "facil",
-    "explanation": "Moisés foi chamado por Deus na sarça ardente para libertar Israel da escravidão no Egito.",
-    "verseReference": "Êxodo 3"
-  },
-  {
-    "question": "Quantos mandamentos foram dados a Moisés no Monte Sinai?",
-    "options": ["5", "7", "10", "12"],
-    "correctAnswer": 2,
-    "category": "antigo_testamento",
-    "difficulty": "facil",
-    "explanation": "Os Dez Mandamentos são a base da Lei dada por Deus ao povo de Israel.",
-    "verseReference": "Êxodo 20:1-17"
-  },
-  {
-    "question": "Qual milagre ocorreu no Mar Vermelho?",
-    "options": ["Água virou vinho", "Fogo desceu do céu", "Mar se abriu", "Sol parou"],
-    "correctAnswer": 2,
-    "category": "antigo_testamento",
-    "difficulty": "facil",
-    "explanation": "Deus abriu o Mar Vermelho para que os israelitas passassem em seco, escapando do exército egípcio.",
-    "verseReference": "Êxodo 14:21-22"
-  },
-  {
-    "question": "Quem derrubou as muralhas de Jericó?",
-    "options": ["Sansão", "Gideão", "Josué", "Elias"],
-    "correctAnswer": 2,
-    "category": "antigo_testamento",
-    "difficulty": "facil",
-    "explanation": "Sob a liderança de Josué, os israelitas marcharam ao redor de Jericó e as muralhas caíram após tocarem trombetas e gritarem.",
-    "verseReference": "Josué 6"
-  },
-  {
-    "question": "Qual juiz usou uma queixada de jumento para matar 1.000 filisteus?",
-    "options": ["Débora", "Gideão", "Sansão", "Jefté"],
-    "correctAnswer": 2,
-    "category": "antigo_testamento",
-    "difficulty": "facil",
-    "explanation": "Sansão, dotado de força sobrenatural, derrotou os filisteus com uma queixada de jumento após sua vitória em Leí.",
-    "verseReference": "Juízes 15:15"
-  },
-  {
-    "question": "Quem foi o primeiro rei de Israel?",
-    "options": ["Davi", "Salomão", "Saul", "Roboão"],
-    "correctAnswer": 2,
-    "category": "antigo_testamento",
-    "difficulty": "facil",
-    "explanation": "Saul foi ungido por Samuel como o primeiro rei, embora tenha desobedecido a Deus e perdido o reino.",
-    "verseReference": "1 Samuel 10:1"
-  },
-  {
-    "question": "Quem matou o gigante Golias?",
-    "options": ["Josué", "Sansão", "Davi", "Eliézer"],
-    "correctAnswer": 2,
-    "category": "antigo_testamento",
-    "difficulty": "facil",
-    "explanation": "Davi, ainda jovem pastor, derrotou Golias com uma funda e uma pedra, confiando no nome do Senhor.",
-    "verseReference": "1 Samuel 17:49-50"
-  },
-  {
-    "question": "Qual profeta foi levado ao céu em um carro de fogo?",
-    "options": ["Isaías", "Jeremias", "Elias", "Ezequiel"],
-    "correctAnswer": 2,
-    "category": "antigo_testamento",
-    "difficulty": "facil",
-    "explanation": "Elias não morreu, mas foi arrebatado ao céu em um redemoinho, com carruagem e cavalos de fogo.",
-    "verseReference": "2 Reis 2:11"
-  },
-  {
-    "question": "Qual rei construiu o Primeiro Templo em Jerusalém?",
-    "options": ["Davi", "Salomão", "Ezequias", "Josias"],
+    "question": "Qual filho de Davi se rebelou contra ele?",
+    "options": ["Salomão", "Absalão", "Adonias", "Amnon"],
     "correctAnswer": 1,
     "category": "antigo_testamento",
     "difficulty": "facil",
-    "explanation": "Salomão, filho de Davi, construiu o templo conforme o plano revelado por Deus a seu pai.",
-    "verseReference": "1 Reis 6:1-2"
+    "explanation": "Absalão liderou uma rebelião contra seu pai Davi e tomou Jerusalém.",
+    "verseReference": "2 Samuel 15:10-14"
   },
   {
-    "question": "Qual livro começa com: 'No princípio, criou Deus os céus e a terra'?",
-    "options": ["Êxodo", "Levítico", "Gênesis", "Deuteronômio"],
+    "question": "O que Salomão pediu a Deus quando lhe foi oferecido qualquer pedido?",
+    "options": ["Riquezas", "Poder", "Sabedoria", "Longa vida"],
     "correctAnswer": 2,
     "category": "antigo_testamento",
     "difficulty": "facil",
-    "explanation": "Essa é a primeira frase da Bíblia, no livro de Gênesis.",
-    "verseReference": "Gênesis 1:1"
+    "explanation": "Salomão pediu sabedoria para governar o povo, e Deus ficou satisfeito com o pedido.",
+    "verseReference": "1 Reis 3:9-12"
   },
   {
-    "question": "O que está escrito nos Dez Mandamentos sobre o Dia do Senhor?",
-    "options": ["Trabalhar nele", "Ignorá-lo", "Santificá-lo", "Comemorar com festas"],
+    "question": "Qual profeta desafiou os profetas de Baal no Monte Carmelo?",
+    "options": ["Eliseu", "Isaías", "Elias", "Jeremias"],
     "correctAnswer": 2,
     "category": "antigo_testamento",
     "difficulty": "facil",
-    "explanation": "O quarto mandamento ordena que se lembre do Dia do Senhor para o santificar — descansar e adorar.",
-    "verseReference": "Êxodo 20:8"
+    "explanation": "Elias desafiou 450 profetas de Baal, e o fogo de Deus desceu do céu.",
+    "verseReference": "1 Reis 18:20-39"
+  },
+  {
+    "question": "Quantas vezes Naamã teve que mergulhar no rio Jordão para ser curado?",
+    "options": ["3", "5", "7", "10"],
+    "correctAnswer": 2,
+    "category": "antigo_testamento",
+    "difficulty": "facil",
+    "explanation": "Eliseu instruiu Naamã a mergulhar sete vezes no Jordão para ser curado da lepra.",
+    "verseReference": "2 Reis 5:10"
+  },
+  {
+    "question": "Qual rei mandou jogar Daniel na cova dos leões?",
+    "options": ["Nabucodonosor", "Belsazar", "Dario", "Ciro"],
+    "correctAnswer": 2,
+    "category": "antigo_testamento",
+    "difficulty": "facil",
+    "explanation": "O rei Dario foi enganado pelos inimigos de Daniel e teve que cumprir a lei.",
+    "verseReference": "Daniel 6:16"
+  },
+  {
+    "question": "Quem foram os três amigos de Daniel jogados na fornalha ardente?",
+    "options": ["Sadraque, Mesaque e Abede-Nego", "Sem, Cam e Jafé", "Pedro, Tiago e João", "Silas, Timóteo e Tito"],
+    "correctAnswer": 0,
+    "category": "antigo_testamento",
+    "difficulty": "facil",
+    "explanation": "Eles se recusaram a adorar a estátua de ouro do rei Nabucodonosor.",
+    "verseReference": "Daniel 3:12-30"
+  },
+  {
+    "question": "Qual cidade Deus destruiu com enxofre e fogo junto com Gomorra?",
+    "options": ["Jericó", "Sodoma", "Nínive", "Babilônia"],
+    "correctAnswer": 1,
+    "category": "antigo_testamento",
+    "difficulty": "facil",
+    "explanation": "Sodoma e Gomorra foram destruídas por causa de sua grande maldade.",
+    "verseReference": "Gênesis 19:24"
+  },
+  {
+    "question": "Quem olhou para trás e se transformou em estátua de sal?",
+    "options": ["A esposa de Ló", "A esposa de Noé", "Sara", "Raquel"],
+    "correctAnswer": 0,
+    "category": "antigo_testamento",
+    "difficulty": "facil",
+    "explanation": "A esposa de Ló desobedeceu a ordem de não olhar para trás ao fugir de Sodoma.",
+    "verseReference": "Gênesis 19:26"
+  },
+  {
+    "question": "Quantos anos Israel ficou escravizado no Egito?",
+    "options": ["40", "100", "400", "1000"],
+    "correctAnswer": 2,
+    "category": "antigo_testamento",
+    "difficulty": "facil",
+    "explanation": "Deus havia predito a Abraão que seus descendentes seriam escravizados por 400 anos.",
+    "verseReference": "Gênesis 15:13"
+  },
+  {
+    "question": "Qual foi a última praga enviada sobre o Egito?",
+    "options": ["Trevas", "Granizo", "Morte dos primogênitos", "Gafanhotos"],
+    "correctAnswer": 2,
+    "category": "antigo_testamento",
+    "difficulty": "facil",
+    "explanation": "A décima praga foi a morte de todos os primogênitos egípcios.",
+    "verseReference": "Êxodo 12:29"
+  },
+  {
+    "question": "O que os israelitas colocaram nas portas para se proteger da última praga?",
+    "options": ["Óleo", "Água", "Sangue de cordeiro", "Cinzas"],
+    "correctAnswer": 2,
+    "category": "antigo_testamento",
+    "difficulty": "facil",
+    "explanation": "O sangue do cordeiro pascal nas portas era sinal de proteção.",
+    "verseReference": "Êxodo 12:13"
+  },
+  {
+    "question": "Quantas tribos formavam o reino do norte de Israel após a divisão?",
+    "options": ["2", "10", "11", "12"],
+    "correctAnswer": 1,
+    "category": "antigo_testamento",
+    "difficulty": "facil",
+    "explanation": "Dez tribos formaram o Reino do Norte (Israel), separando-se de Judá e Benjamim.",
+    "verseReference": "1 Reis 12:20"
+  },
+  {
+    "question": "Qual profeta teve uma visão de um vale cheio de ossos secos?",
+    "options": ["Isaías", "Jeremias", "Ezequiel", "Daniel"],
+    "correctAnswer": 2,
+    "category": "antigo_testamento",
+    "difficulty": "facil",
+    "explanation": "Ezequiel viu os ossos secos ganharem vida, simbolizando a restauração de Israel.",
+    "verseReference": "Ezequiel 37:1-14"
+  },
+  {
+    "question": "Qual livro da Bíblia é uma coleção de 150 poemas e cânticos?",
+    "options": ["Provérbios", "Cantares", "Salmos", "Lamentações"],
+    "correctAnswer": 2,
+    "category": "antigo_testamento",
+    "difficulty": "facil",
+    "explanation": "O livro de Salmos contém cânticos de louvor, súplica e adoração.",
+    "verseReference": "Salmos"
+  },
+  {
+    "question": "Quem escreveu a maioria dos Salmos?",
+    "options": ["Moisés", "Salomão", "Davi", "Asafe"],
+    "correctAnswer": 2,
+    "category": "antigo_testamento",
+    "difficulty": "facil",
+    "explanation": "Aproximadamente 73 salmos são atribuídos ao rei Davi.",
+    "verseReference": "Salmos (superscripts)"
+  },
+  {
+    "question": "Qual livro começa com: 'Vaidade de vaidades, tudo é vaidade'?",
+    "options": ["Jó", "Provérbios", "Eclesiastes", "Cantares"],
+    "correctAnswer": 2,
+    "category": "antigo_testamento",
+    "difficulty": "facil",
+    "explanation": "Eclesiastes explora o significado da vida sob uma perspectiva de sabedoria.",
+    "verseReference": "Eclesiastes 1:2"
+  },
+  {
+    "question": "Quem perdeu tudo - família, riquezas e saúde - mas permaneceu fiel a Deus?",
+    "options": ["Abraão", "Jó", "José", "Elias"],
+    "correctAnswer": 1,
+    "category": "antigo_testamento",
+    "difficulty": "facil",
+    "explanation": "Jó sofreu tremendamente, mas não amaldiçoou a Deus.",
+    "verseReference": "Jó 1-2"
+  },
+  {
+    "question": "Qual profeta teve uma visão de serafins com seis asas?",
+    "options": ["Ezequiel", "Isaías", "Jeremias", "Daniel"],
+    "correctAnswer": 1,
+    "category": "antigo_testamento",
+    "difficulty": "facil",
+    "explanation": "Isaías viu serafins clamando 'Santo, Santo, Santo' no templo.",
+    "verseReference": "Isaías 6:2-3"
+  },
+  {
+    "question": "Qual profeta foi chamado ainda no ventre de sua mãe?",
+    "options": ["Isaías", "Jeremias", "Ezequiel", "Daniel"],
+    "correctAnswer": 1,
+    "category": "antigo_testamento",
+    "difficulty": "facil",
+    "explanation": "Deus disse a Jeremias: 'Antes que te formasse no ventre, te conheci'.",
+    "verseReference": "Jeremias 1:5"
+  },
+  {
+    "question": "Qual profeta escreveu sobre leões e águias em suas visões?",
+    "options": ["Isaías", "Daniel", "Joel", "Amós"],
+    "correctAnswer": 1,
+    "category": "antigo_testamento",
+    "difficulty": "facil",
+    "explanation": "Daniel teve visões de quatro animais representando impérios mundiais.",
+    "verseReference": "Daniel 7"
+  },
+  {
+    "question": "Qual foi a cidade onde Jonas foi enviado para pregar?",
+    "options": ["Babilônia", "Nínive", "Tiro", "Damasco"],
+    "correctAnswer": 1,
+    "category": "antigo_testamento",
+    "difficulty": "facil",
+    "explanation": "Jonas tentou fugir, mas Deus o enviou a Nínive, capital da Assíria.",
+    "verseReference": "Jonas 1:2"
+  },
+  {
+    "question": "Quantos dias Jonas ficou no ventre do grande peixe?",
+    "options": ["1 dia", "3 dias", "7 dias", "40 dias"],
+    "correctAnswer": 1,
+    "category": "antigo_testamento",
+    "difficulty": "facil",
+    "explanation": "Jonas ficou três dias e três noites no ventre do peixe.",
+    "verseReference": "Jonas 1:17"
+  },
+  {
+    "question": "Qual rainha visitou Salomão para testar sua sabedoria?",
+    "options": ["Rainha de Sabá", "Rainha Ester", "Rainha Jezabel", "Rainha Vasti"],
+    "correctAnswer": 0,
+    "category": "antigo_testamento",
+    "difficulty": "facil",
+    "explanation": "A rainha de Sabá veio com perguntas difíceis e ficou maravilhada com a sabedoria de Salomão.",
+    "verseReference": "1 Reis 10:1-10"
+  },
+  {
+    "question": "Qual profeta multiplicou o azeite da viúva?",
+    "options": ["Elias", "Eliseu", "Samuel", "Natã"],
+    "correctAnswer": 1,
+    "category": "antigo_testamento",
+    "difficulty": "facil",
+    "explanation": "Eliseu multiplicou o azeite para que a viúva pudesse pagar suas dívidas.",
+    "verseReference": "2 Reis 4:1-7"
+  },
+  {
+    "question": "Qual animal falou com Balaão?",
+    "options": ["Serpente", "Jumenta", "Cordeiro", "Pomba"],
+    "correctAnswer": 1,
+    "category": "antigo_testamento",
+    "difficulty": "facil",
+    "explanation": "Deus abriu a boca da jumenta de Balaão para adverti-lo.",
+    "verseReference": "Números 22:28"
+  },
+  {
+    "question": "Qual era o fruto proibido no Jardim do Éden segundo a tradição?",
+    "options": ["Uva", "Figo", "Maçã", "A Bíblia não especifica"],
+    "correctAnswer": 3,
+    "category": "antigo_testamento",
+    "difficulty": "facil",
+    "explanation": "A Bíblia menciona apenas 'o fruto da árvore do conhecimento do bem e do mal'.",
+    "verseReference": "Gênesis 2:17"
+  },
+  {
+    "question": "Onde Moisés foi sepultado?",
+    "options": ["No Monte Sinai", "Em Moabe", "Em Canaã", "No Egito"],
+    "correctAnswer": 1,
+    "category": "antigo_testamento",
+    "difficulty": "facil",
+    "explanation": "Deus sepultou Moisés em um vale de Moabe, e ninguém conhece o local exato.",
+    "verseReference": "Deuteronômio 34:6"
+  },
+  {
+    "question": "Quem foi deixado para trás quando Elias foi levado ao céu?",
+    "options": ["Eliseu", "Geazi", "Obadias", "Jonas"],
+    "correctAnswer": 0,
+    "category": "antigo_testamento",
+    "difficulty": "facil",
+    "explanation": "Eliseu viu Elias ser arrebatado e recebeu porção dobrada de seu espírito.",
+    "verseReference": "2 Reis 2:9-15"
+  },
+  {
+    "question": "Qual era a cidade natal de Jesus mencionada em profecias do Antigo Testamento?",
+    "options": ["Nazaré", "Jerusalém", "Belém", "Cafarnaum"],
+    "correctAnswer": 2,
+    "category": "antigo_testamento",
+    "difficulty": "facil",
+    "explanation": "O profeta Miqueias profetizou que o Messias nasceria em Belém.",
+    "verseReference": "Miqueias 5:2"
+  },
+  {
+    "question": "Qual foi o sinal que Deus deu a Gideão usando um velo de lã?",
+    "options": ["Fogo do céu", "Orvalho no velo", "Sangue no velo", "Vento forte"],
+    "correctAnswer": 1,
+    "category": "antigo_testamento",
+    "difficulty": "facil",
+    "explanation": "Deus fez o velo ficar molhado enquanto o chão permanecia seco, e depois inverteu o sinal.",
+    "verseReference": "Juízes 6:36-40"
+  },
+  {
+    "question": "Quantos guerreiros Gideão usou para derrotar os midianitas?",
+    "options": ["300", "1.000", "10.000", "32.000"],
+    "correctAnswer": 0,
+    "category": "antigo_testamento",
+    "difficulty": "facil",
+    "explanation": "Deus reduziu o exército de Gideão para 300 homens para mostrar Seu poder.",
+    "verseReference": "Juízes 7:7"
+  },
+  {
+    "question": "Qual profeta foi alimentado por corvos?",
+    "options": ["Eliseu", "Elias", "Samuel", "Jeremias"],
+    "correctAnswer": 1,
+    "category": "antigo_testamento",
+    "difficulty": "facil",
+    "explanation": "Elias foi sustentado por corvos junto ao ribeiro de Querite durante a seca.",
+    "verseReference": "1 Reis 17:4-6"
+  },
+  {
+    "question": "Qual foi o último livro do Antigo Testamento a ser escrito?",
+    "options": ["Zacarias", "Malaquias", "Esdras", "Neemias"],
+    "correctAnswer": 1,
+    "category": "antigo_testamento",
+    "difficulty": "facil",
+    "explanation": "Malaquias é considerado o último profeta do Antigo Testamento.",
+    "verseReference": "Malaquias"
+  },
+  {
+    "question": "Quem disse: 'Eis-me aqui, envia-me a mim'?",
+    "options": ["Moisés", "Jeremias", "Isaías", "Ezequiel"],
+    "correctAnswer": 2,
+    "category": "antigo_testamento",
+    "difficulty": "facil",
+    "explanation": "Isaías respondeu assim quando Deus perguntou quem Ele deveria enviar.",
+    "verseReference": "Isaías 6:8"
+  },
+  {
+    "question": "Qual era o nome da mãe de Samuel?",
+    "options": ["Ana", "Sara", "Rebeca", "Raquel"],
+    "correctAnswer": 0,
+    "category": "antigo_testamento",
+    "difficulty": "facil",
+    "explanation": "Ana era estéril e orou fervorosamente por um filho, prometendo dedicá-lo a Deus.",
+    "verseReference": "1 Samuel 1:20"
+  },
+  {
+    "question": "Quantos anos o povo de Israel vagou no deserto?",
+    "options": ["7 anos", "40 anos", "70 anos", "400 anos"],
+    "correctAnswer": 1,
+    "category": "antigo_testamento",
+    "difficulty": "facil",
+    "explanation": "Por causa da incredulidade, Israel vagou 40 anos até que a geração rebelde morresse.",
+    "verseReference": "Números 14:33-34"
+  },
+  {
+    "question": "Quem foi vendido como escravo por seus próprios irmãos?",
+    "options": ["Benjamim", "José", "Judá", "Simeão"],
+    "correctAnswer": 1,
+    "category": "antigo_testamento",
+    "difficulty": "facil",
+    "explanation": "Os irmãos de José o venderam por inveja para mercadores ismaelitas.",
+    "verseReference": "Gênesis 37:28"
+  },
+  {
+    "question": "Qual era o nome do jardim onde Adão e Eva viviam?",
+    "options": ["Jardim de Getsêmani", "Jardim do Éden", "Jardim de Salomão", "Jardim do Rei"],
+    "correctAnswer": 1,
+    "category": "antigo_testamento",
+    "difficulty": "facil",
+    "explanation": "O Jardim do Éden foi o primeiro lar da humanidade.",
+    "verseReference": "Gênesis 2:8"
+  },
+  {
+    "question": "Qual imperador ordenou o retorno dos judeus a Jerusalém?",
+    "options": ["Nabucodonosor", "Dario", "Ciro", "Xerxes"],
+    "correctAnswer": 2,
+    "category": "antigo_testamento",
+    "difficulty": "facil",
+    "explanation": "Ciro, rei da Pérsia, decretou que os judeus podiam retornar e reconstruir o templo.",
+    "verseReference": "Esdras 1:1-4"
+  },
+  {
+    "question": "Quantos livros tem o Antigo Testamento na tradição protestante?",
+    "options": ["27", "39", "46", "66"],
+    "correctAnswer": 1,
+    "category": "antigo_testamento",
+    "difficulty": "facil",
+    "explanation": "O cânon protestante do Antigo Testamento contém 39 livros.",
+    "verseReference": "Cânon Bíblico"
+  },
+  {
+    "question": "Quem reconstruiu os muros de Jerusalém?",
+    "options": ["Esdras", "Neemias", "Zorobabel", "Josué"],
+    "correctAnswer": 1,
+    "category": "antigo_testamento",
+    "difficulty": "facil",
+    "explanation": "Neemias liderou a reconstrução dos muros em 52 dias, apesar da oposição.",
+    "verseReference": "Neemias 6:15"
+  },
+  {
+    "question": "Qual era a bebida favorita que Esaú trocou por sua primogenitura?",
+    "options": ["Vinho", "Água", "Sopa de lentilhas", "Leite"],
+    "correctAnswer": 2,
+    "category": "antigo_testamento",
+    "difficulty": "facil",
+    "explanation": "Esaú desprezou sua primogenitura vendendo-a por um prato de lentilhas.",
+    "verseReference": "Gênesis 25:29-34"
+  },
+  {
+    "question": "Quem foi jogado em uma cisterna pelos irmãos?",
+    "options": ["Benjamim", "José", "Davi", "Daniel"],
+    "correctAnswer": 1,
+    "category": "antigo_testamento",
+    "difficulty": "facil",
+    "explanation": "Os irmãos jogaram José em uma cisterna antes de vendê-lo.",
+    "verseReference": "Gênesis 37:24"
+  },
+  {
+    "question": "Qual foi o pecado de Adão e Eva?",
+    "options": ["Mentiram", "Roubaram", "Desobedeceram a Deus", "Mataram"],
+    "correctAnswer": 2,
+    "category": "antigo_testamento",
+    "difficulty": "facil",
+    "explanation": "Eles comeram do fruto proibido, desobedecendo a ordem direta de Deus.",
+    "verseReference": "Gênesis 3:6"
+  },
+  {
+    "question": "Qual é o livro mais longo do Antigo Testamento?",
+    "options": ["Gênesis", "Salmos", "Isaías", "Jeremias"],
+    "correctAnswer": 1,
+    "category": "antigo_testamento",
+    "difficulty": "facil",
+    "explanation": "Salmos tem 150 capítulos e é o livro mais longo em número de capítulos.",
+    "verseReference": "Salmos"
+  },
+  {
+    "question": "Quem disse: 'Eis que o Senhor nosso Deus nos fez ver a sua glória'?",
+    "options": ["Josué", "Moisés", "O povo de Israel", "Arão"],
+    "correctAnswer": 2,
+    "category": "antigo_testamento",
+    "difficulty": "facil",
+    "explanation": "O povo respondeu assim após ver a glória de Deus no Monte Sinai.",
+    "verseReference": "Deuteronômio 5:24"
+  },
+  {
+    "question": "Qual foi a primeira coisa que Deus criou?",
+    "options": ["Luz", "Céu", "Terra", "Água"],
+    "correctAnswer": 0,
+    "category": "antigo_testamento",
+    "difficulty": "facil",
+    "explanation": "Deus disse 'Haja luz' e houve luz no primeiro dia da criação.",
+    "verseReference": "Gênesis 1:3"
+  },
+  {
+    "question": "Quem foi a esposa de Isaque?",
+    "options": ["Raquel", "Lia", "Rebeca", "Sara"],
+    "correctAnswer": 2,
+    "category": "antigo_testamento",
+    "difficulty": "facil",
+    "explanation": "Rebeca foi escolhida como esposa para Isaque pelo servo de Abraão.",
+    "verseReference": "Gênesis 24:67"
+  },
+  {
+    "question": "Qual era o trabalho de Zacarias, pai de João Batista, mencionado em profecias?",
+    "options": ["Profeta", "Rei", "Sacerdote", "Escriba"],
+    "correctAnswer": 2,
+    "category": "antigo_testamento",
+    "difficulty": "facil",
+    "explanation": "Zacarias pertencia à ordem sacerdotal, cumprindo as profecias sobre o precursor do Messias.",
+    "verseReference": "Lucas 1:5 (contexto do AT)"
+  },
+  {
+    "question": "Qual era o nome do irmão gêmeo de Jacó?",
+    "options": ["José", "Judá", "Esaú", "Benjamim"],
+    "correctAnswer": 2,
+    "category": "antigo_testamento",
+    "difficulty": "facil",
+    "explanation": "Esaú nasceu primeiro, mas Jacó segurava seu calcanhar.",
+    "verseReference": "Gênesis 25:25-26"
+  },
+  {
+    "question": "O que Caim respondeu quando Deus perguntou onde estava Abel?",
+    "options": ["Não sei", "Ele morreu", "Acaso sou eu guardador do meu irmão?", "Ele se foi"],
+    "correctAnswer": 2,
+    "category": "antigo_testamento",
+    "difficulty": "facil",
+    "explanation": "Caim respondeu com insolência após assassinar seu irmão.",
+    "verseReference": "Gênesis 4:9"
   }
 ]

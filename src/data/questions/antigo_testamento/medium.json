@@ -1,182 +1,677 @@
 [
   {
-    "question": "Quem foi o sumo sacerdote que entrou no Santo dos Santos uma vez por ano?",
-    "options": ["Moisés", "Arão", "Josué", "Samuel"],
+    "question": "Qual foi o nome do filho de Davi que tentou usurpar o trono antes de Salomão?",
+    "options": ["Absalão", "Adonias", "Amnon", "Tamar"],
     "correctAnswer": 1,
     "category": "antigo_testamento",
     "difficulty": "medio",
-    "explanation": "Arão, irmão de Moisés, foi o primeiro sumo sacerdote. Ele entrava no Santo dos Santos no Dia da Expiação (Yom Kippur), após sacrifícios e purificações.",
-    "verseReference": "Levítico 16:2-34"
+    "explanation": "Adonias se autoproclamou rei, mas Natã e Bate-Seba intercederam por Salomão.",
+    "verseReference": "1 Reis 1:5-53"
   },
   {
-    "question": "Qual foi o nome da esposa de Abraão antes da mudança de nome?",
-    "options": ["Raquel", "Lia", "Sarai", "Rute"],
+    "question": "Quantos dias durou a viagem dos magos do oriente mencionada em profecias?",
+    "options": ["3 dias", "40 dias", "A Bíblia não especifica", "12 dias"],
     "correctAnswer": 2,
     "category": "antigo_testamento",
     "difficulty": "medio",
-    "explanation": "Deus mudou seu nome de Sarai para Sara ao confirmar a aliança e prometer um filho.",
-    "verseReference": "Gênesis 17:15"
+    "explanation": "As profecias do AT sobre a estrela não especificam a duração da viagem dos magos.",
+    "verseReference": "Números 24:17; Mateus 2"
   },
   {
-    "question": "Quantos anos viveu Matusalém, o homem mais velho da Bíblia?",
-    "options": ["897", "912", "969", "1000"],
-    "correctAnswer": 2,
-    "category": "antigo_testamento",
-    "difficulty": "medio",
-    "explanation": "Matusalém viveu 969 anos, morrendo no ano do dilúvio.",
-    "verseReference": "Gênesis 5:27"
-  },
-  {
-    "question": "Quem foi o único juiz mulher em Israel?",
-    "options": ["Ester", "Débora", "Hulda", "Ana"],
+    "question": "Qual profeta foi arrastado para o Egito contra sua vontade?",
+    "options": ["Isaías", "Jeremias", "Ezequiel", "Daniel"],
     "correctAnswer": 1,
     "category": "antigo_testamento",
     "difficulty": "medio",
-    "explanation": "Débora era profetisa e juíza; liderou Israel e orientou Baraque na vitória contra Sísera.",
-    "verseReference": "Juízes 4:4-5"
+    "explanation": "Após a queda de Jerusalém, Jeremias foi levado à força para o Egito pelo remanescente rebelde.",
+    "verseReference": "Jeremias 43:6-7"
   },
   {
-    "question": "Qual tribo de Israel não recebeu herança territorial?",
-    "options": ["Judá", "Efraim", "Levi", "Benjamim"],
-    "correctAnswer": 2,
-    "category": "antigo_testamento",
-    "difficulty": "medio",
-    "explanation": "A tribo de Levi foi separada para o serviço sacerdotal; o Senhor era sua herança, e receberam cidades espalhadas entre as demais tribos.",
-    "verseReference": "Josué 13:14"
-  },
-  {
-    "question": "O que Jacó deu a José que provocou ciúmes nos irmãos?",
-    "options": ["Um anel", "Uma espada", "Uma túnica de várias cores", "Um cajado"],
-    "correctAnswer": 2,
-    "category": "antigo_testamento",
-    "difficulty": "medio",
-    "explanation": "A túnica distintiva simbolizava o favor especial de Jacó por José, o filho da sua velhice.",
-    "verseReference": "Gênesis 37:3"
-  },
-  {
-    "question": "Qual foi o nome do monte onde Moisés recebeu os Dez Mandamentos?",
-    "options": ["Monte Sião", "Monte Carmelo", "Monte Nebo", "Monte Sinai"],
-    "correctAnswer": 3,
-    "category": "antigo_testamento",
-    "difficulty": "medio",
-    "explanation": "Também chamado de Horebe, foi no Monte Sinai que Deus entregou a Lei a Moisés.",
-    "verseReference": "Êxodo 19:11"
-  },
-  {
-    "question": "Quem foi o rei que construiu palácios com marfim e teve 700 esposas e 300 concubinas?",
-    "options": ["Davi", "Roboão", "Acabe", "Salomão"],
-    "correctAnswer": 3,
-    "category": "antigo_testamento",
-    "difficulty": "medio",
-    "explanation": "Salomão, apesar de sua sabedoria, se desviou por causa das mulheres estrangeiras, levando-o à idolatria.",
-    "verseReference": "1 Reis 11:1-8"
-  },
-  {
-    "question": "Qual profeta foi engolido por um grande peixe e pregou em Nínive?",
-    "options": ["Isaías", "Jonas", "Naum", "Oseias"],
+    "question": "Quem foi o rei assírio que sitiou Jerusalém durante o reinado de Ezequias?",
+    "options": ["Salmaneser", "Senaqueribe", "Nabucodonosor", "Assuero"],
     "correctAnswer": 1,
     "category": "antigo_testamento",
     "difficulty": "medio",
-    "explanation": "Jonas fugiu da missão de Deus, foi lançado ao mar e engolido por um grande peixe. Após 3 dias, foi vomitado e cumpriu sua missão.",
-    "verseReference": "Jonas 1-3"
+    "explanation": "Senaqueribe cercou Jerusalém, mas um anjo do Senhor matou 185.000 soldados assírios.",
+    "verseReference": "2 Reis 19:35-36"
   },
   {
-    "question": "Qual foi o pecado de Acã que trouxe derrota a Israel em Ai?",
-    "options": ["Adorar Baal", "Matar um israelita", "Roubar objetos dedicados ao Senhor", "Desobedecer a Josué"],
-    "correctAnswer": 2,
-    "category": "antigo_testamento",
-    "difficulty": "medio",
-    "explanation": "Acã roubou uma capa babilônica, prata e ouro que deveriam ser consagrados ao Senhor após a queda de Jericó — o que violou o 'banimento' (herem).",
-    "verseReference": "Josué 7:1, 20-21"
-  },
-  {
-    "question": "Quem foi o rei etíope que atacou Judá com um exército de um milhão de homens?",
-    "options": ["Tiraca", "Zerá", "Senaqueribe", "Nabucodonosor"],
+    "question": "Qual foi o crime de Uzá que resultou em sua morte?",
+    "options": ["Roubar ouro", "Tocar na arca", "Blasfemar", "Desobedecer a Davi"],
     "correctAnswer": 1,
     "category": "antigo_testamento",
     "difficulty": "medio",
-    "explanation": "Zerá, o etíope, liderou um grande exército contra o rei Asa, mas foi derrotado por intervenção divina.",
-    "verseReference": "2 Crônicas 14:9-13"
+    "explanation": "Uzá tocou a arca da aliança para estabilizá-la, violando a lei que proibia tocar objetos sagrados.",
+    "verseReference": "2 Samuel 6:6-7"
   },
   {
-    "question": "Qual rei de Judá foi curado de uma doença terminal após orar, e teve sua vida prolongada em 15 anos?",
-    "options": ["Ezequias", "Josias", "Amazias", "Uzias"],
+    "question": "Quantos capítulos tem o livro de Isaías?",
+    "options": ["50", "56", "66", "72"],
+    "correctAnswer": 2,
+    "category": "antigo_testamento",
+    "difficulty": "medio",
+    "explanation": "Isaías tem 66 capítulos, divididos tematicamente em duas seções principais.",
+    "verseReference": "Isaías"
+  },
+  {
+    "question": "Qual profeta teve uma visão de um cesto de frutas de verão?",
+    "options": ["Amós", "Oseias", "Joel", "Obadias"],
     "correctAnswer": 0,
     "category": "antigo_testamento",
     "difficulty": "medio",
-    "explanation": "Ezequias orou quando Isaías anunciou sua morte iminente. Deus ouviu e acrescentou 15 anos à sua vida; como sinal, fez a sombra retroceder 10 graus.",
-    "verseReference": "2 Reis 20:1-6"
+    "explanation": "Deus mostrou a Amós um cesto de frutas maduras simbolizando que Israel estava maduro para julgamento.",
+    "verseReference": "Amós 8:1-2"
   },
   {
-    "question": "Qual foi o nome do sacerdote que encontrou o Livro da Lei no templo durante a reforma de Josias?",
-    "options": ["Eli", "Hilquias", "Sofonias", "Jeconias"],
+    "question": "Quem foi o rei que rasgou suas vestes ao ouvir a leitura da Lei?",
+    "options": ["Davi", "Salomão", "Josias", "Ezequias"],
+    "correctAnswer": 2,
+    "category": "antigo_testamento",
+    "difficulty": "medio",
+    "explanation": "Josias rasgou suas vestes ao descobrir quanto Israel havia se desviado da Lei de Deus.",
+    "verseReference": "2 Reis 22:11"
+  },
+  {
+    "question": "Qual era o nome do sogro de Moisés?",
+    "options": ["Jetro", "Eleazar", "Itamar", "Hofni"],
+    "correctAnswer": 0,
+    "category": "antigo_testamento",
+    "difficulty": "medio",
+    "explanation": "Jetro, sacerdote de Midiã, deu conselhos administrativos sábios a Moisés.",
+    "verseReference": "Êxodo 18:1"
+  },
+  {
+    "question": "Quantos filhos teve Jessé, pai de Davi?",
+    "options": ["6", "7", "8", "10"],
+    "correctAnswer": 2,
+    "category": "antigo_testamento",
+    "difficulty": "medio",
+    "explanation": "Jessé tinha oito filhos, sendo Davi o caçula.",
+    "verseReference": "1 Samuel 16:10-11"
+  },
+  {
+    "question": "Qual foi a primeira cidade conquistada por Israel em Canaã?",
+    "options": ["Ai", "Jericó", "Hebrom", "Betel"],
     "correctAnswer": 1,
     "category": "antigo_testamento",
     "difficulty": "medio",
-    "explanation": "Hilquias encontrou o Livro da Lei (provavelmente Deuteronômio) durante obras no templo, desencadeando uma grande reforma espiritual.",
-    "verseReference": "2 Reis 22:8"
+    "explanation": "Jericó foi a primeira cidade conquistada após atravessar o Jordão.",
+    "verseReference": "Josué 6"
   },
   {
-    "question": "Quem foi o profeta que caminhou nu e descalço por três anos como sinal contra Egito e Cuxe?",
-    "options": ["Miquéias", "Isaías", "Ezequiel", "Oséias"],
+    "question": "Quem foi o profeta que confrontou o rei Acabe sobre a vinha de Nabote?",
+    "options": ["Eliseu", "Elias", "Micaías", "Obadias"],
     "correctAnswer": 1,
     "category": "antigo_testamento",
     "difficulty": "medio",
-    "explanation": "Isaías obedeceu a Deus e andou assim como profecia simbólica da humilhação que viria sobre os egípcios e etíopes.",
-    "verseReference": "Isaías 20:2-4"
+    "explanation": "Elias denunciou Acabe e Jezabel pelo assassinato de Nabote para roubar sua vinha.",
+    "verseReference": "1 Reis 21:17-24"
   },
   {
-    "question": "Qual cidade foi conhecida como 'a cidade dos gigantes' e teve Anaque como ancestral?",
-    "options": ["Jericó", "Hebrom", "Laque", "Eclã"],
+    "question": "Qual foi o sinal dado ao rei Acaz sobre o nascimento do Messias?",
+    "options": ["Uma estrela", "Uma virgem conceberá", "Um anjo aparecerá", "Um terremoto"],
     "correctAnswer": 1,
     "category": "antigo_testamento",
     "difficulty": "medio",
-    "explanation": "Hebrom era associada aos enaqueus (gigantes), e Calebe a conquistou aos 85 anos.",
-    "verseReference": "Josué 14:12-15; Números 13:22"
+    "explanation": "Isaías profetizou que uma virgem conceberia e daria à luz um filho chamado Emanuel.",
+    "verseReference": "Isaías 7:14"
   },
   {
-    "question": "Quem foi o rei que consultou uma necromante em Endor?",
-    "options": ["Davi", "Saul", "Acabe", "Roboão"],
+    "question": "Quantos anos Abraão tinha quando Isaque nasceu?",
+    "options": ["75", "90", "100", "120"],
+    "correctAnswer": 2,
+    "category": "antigo_testamento",
+    "difficulty": "medio",
+    "explanation": "Abraão tinha 100 anos quando nasceu Isaque, filho da promessa.",
+    "verseReference": "Gênesis 21:5"
+  },
+  {
+    "question": "Qual profeta menor escreveu sobre o 'dia do Senhor' como gafanhotos devoradores?",
+    "options": ["Joel", "Amós", "Obadias", "Miqueias"],
+    "correctAnswer": 0,
+    "category": "antigo_testamento",
+    "difficulty": "medio",
+    "explanation": "Joel usou uma praga de gafanhotos como metáfora do julgamento vindouro.",
+    "verseReference": "Joel 1:4; 2:25"
+  },
+  {
+    "question": "Quem foi o general de Davi que matou Absalão?",
+    "options": ["Abner", "Joabe", "Amasa", "Benaia"],
     "correctAnswer": 1,
     "category": "antigo_testamento",
     "difficulty": "medio",
-    "explanation": "Saul, desesperado e abandonado por Deus, buscou a pitonisa de Endor para invocar o espírito de Samuel — ato estritamente proibido.",
-    "verseReference": "1 Samuel 28:7-15"
+    "explanation": "Joabe desobedeceu a ordem de Davi e matou Absalão com três dardos.",
+    "verseReference": "2 Samuel 18:14"
   },
   {
-    "question": "Qual foi o nome do monte de onde Moisés viu a Terra Prometida, mas não entrou?",
-    "options": ["Monte Sinai", "Monte Nebo", "Monte Hor", "Monte Ebal"],
+    "question": "Qual rei de Israel casou-se com Jezabel?",
+    "options": ["Jeroboão", "Acabe", "Jeú", "Jorão"],
     "correctAnswer": 1,
     "category": "antigo_testamento",
     "difficulty": "medio",
-    "explanation": "Deus levou Moisés ao cume do monte Nebo, mostrou-lhe toda a terra, e ali ele morreu.",
-    "verseReference": "Deuteronômio 34:1-5"
+    "explanation": "Acabe casou com Jezabel, princesa fenícia, que trouxe o culto a Baal para Israel.",
+    "verseReference": "1 Reis 16:31"
   },
   {
-    "question": "Quem foi o israelita que se casou com uma moabita chamada Rute?",
-    "options": ["Boaz", "Elimeleque", "Noemi", "Quiliom"],
+    "question": "Quantos salmos são atribuídos a Asafe?",
+    "options": ["7", "12", "15", "50"],
+    "correctAnswer": 1,
+    "category": "antigo_testamento",
+    "difficulty": "medio",
+    "explanation": "Doze salmos (50, 73-83) são atribuídos a Asafe, líder de louvor de Davi.",
+    "verseReference": "Salmos 50, 73-83"
+  },
+  {
+    "question": "Qual foi o nome da mãe do rei Salomão?",
+    "options": ["Abigail", "Mical", "Bate-Seba", "Tamar"],
+    "correctAnswer": 2,
+    "category": "antigo_testamento",
+    "difficulty": "medio",
+    "explanation": "Bate-Seba, anteriormente esposa de Urias, tornou-se mãe de Salomão.",
+    "verseReference": "2 Samuel 12:24"
+  },
+  {
+    "question": "Quem sucedeu Elias como profeta?",
+    "options": ["Jonas", "Oseias", "Eliseu", "Amós"],
+    "correctAnswer": 2,
+    "category": "antigo_testamento",
+    "difficulty": "medio",
+    "explanation": "Eliseu recebeu porção dobrada do espírito de Elias e realizou muitos milagres.",
+    "verseReference": "2 Reis 2:9-15"
+  },
+  {
+    "question": "Qual era o nome da irmã de Moisés?",
+    "options": ["Débora", "Miriã", "Ana", "Sara"],
+    "correctAnswer": 1,
+    "category": "antigo_testamento",
+    "difficulty": "medio",
+    "explanation": "Miriã era profetisa e ajudou a salvar Moisés quando bebê.",
+    "verseReference": "Êxodo 15:20"
+  },
+  {
+    "question": "Quantos anos Noé tinha quando o dilúvio começou?",
+    "options": ["500", "600", "700", "950"],
+    "correctAnswer": 1,
+    "category": "antigo_testamento",
+    "difficulty": "medio",
+    "explanation": "Noé tinha 600 anos quando as águas do dilúvio vieram sobre a terra.",
+    "verseReference": "Gênesis 7:6"
+  },
+  {
+    "question": "Qual foi o nome do filho de Davi que estuprou sua meia-irmã Tamar?",
+    "options": ["Absalão", "Amnon", "Adonias", "Quileabe"],
+    "correctAnswer": 1,
+    "category": "antigo_testamento",
+    "difficulty": "medio",
+    "explanation": "Amnon cometeu este crime horrível, sendo posteriormente morto por Absalão.",
+    "verseReference": "2 Samuel 13:1-29"
+  },
+  {
+    "question": "Quem foi o escriba que acompanhou Neemias na reconstrução?",
+    "options": ["Baruque", "Esdras", "Sofonias", "Seraías"],
+    "correctAnswer": 1,
+    "category": "antigo_testamento",
+    "difficulty": "medio",
+    "explanation": "Esdras, sacerdote e escriba, trabalhou junto com Neemias na restauração espiritual.",
+    "verseReference": "Neemias 8:1-9"
+  },
+  {
+    "question": "Qual livro poético explora o sofrimento do justo?",
+    "options": ["Salmos", "Provérbios", "Jó", "Eclesiastes"],
+    "correctAnswer": 2,
+    "category": "antigo_testamento",
+    "difficulty": "medio",
+    "explanation": "Jó questiona por que os justos sofrem e explora a soberania de Deus.",
+    "verseReference": "Jó"
+  },
+  {
+    "question": "Quantas vezes por dia Daniel orava em direção a Jerusalém?",
+    "options": ["1", "2", "3", "7"],
+    "correctAnswer": 2,
+    "category": "antigo_testamento",
+    "difficulty": "medio",
+    "explanation": "Daniel tinha o costume de orar três vezes ao dia com as janelas abertas.",
+    "verseReference": "Daniel 6:10"
+  },
+  {
+    "question": "Qual foi o pecado de Davi que levou à morte de 70.000 israelitas?",
+    "options": ["Adultério", "Recenseamento do povo", "Idolatria", "Assassinato"],
+    "correctAnswer": 1,
+    "category": "antigo_testamento",
+    "difficulty": "medio",
+    "explanation": "Davi ordenou um censo motivado por orgulho, confiando em números em vez de em Deus.",
+    "verseReference": "2 Samuel 24:10-15"
+  },
+  {
+    "question": "Quem foi o rei de Judá que reinou apenas três meses?",
+    "options": ["Jeoaquim", "Joaquim", "Zedequias", "Joacaz"],
     "correctAnswer": 3,
     "category": "antigo_testamento",
     "difficulty": "medio",
-    "explanation": "Quiliom, filho de Noemi e Elimeleque, casou-se com Rute em Moabe. Após sua morte, Rute seguiu Noemi e casou-se com Boaz.",
-    "verseReference": "Rute 1:4; 4:13"
+    "explanation": "Joacaz reinou apenas três meses antes de ser deposto pelo Faraó Neco.",
+    "verseReference": "2 Reis 23:31"
   },
   {
-    "question": "Qual profeta teve visões com criaturas vivas, rodas e um trono de safira?",
-    "options": ["Isaías", "Daniel", "Ezequiel", "Zacarias"],
+    "question": "Qual profeta casou-se por ordem de Deus e teve filhos com nomes proféticos?",
+    "options": ["Isaías", "Oseias", "Jeremias", "Ezequiel"],
+    "correctAnswer": 1,
+    "category": "antigo_testamento",
+    "difficulty": "medio",
+    "explanation": "Oseias deu a seus filhos nomes como 'Lo-Rua (Não compade cida)', simbolizando o julgamento de Israel.",
+    "verseReference": "Oseias 1:4-9"
+  },
+  {
+    "question": "Quantos anos os israelitas serviriam no exílio babilônico segundo Jeremias?",
+    "options": ["40", "50", "70", "100"],
     "correctAnswer": 2,
     "category": "antigo_testamento",
     "difficulty": "medio",
-    "explanation": "Ezequiel, junto ao rio Quebar, teve uma visão majestosa da glória de Deus — com querubins, rodas cheias de olhos e o trono divino.",
-    "verseReference": "Ezequiel 1"
+    "explanation": "Jeremias profetizou 70 anos de cativeiro, cumpridos desde 586 a.C. até 516 a.C.",
+    "verseReference": "Jeremias 25:11-12"
   },
   {
-    "question": "Quantas pragas foram enviadas sobre o Egito antes do Êxodo?",
-    "options": ["7", "9", "10", "12"],
+    "question": "Qual era a ocupação de Amós antes de ser profeta?",
+    "options": ["Sacerdote", "Escriba", "Boieiro e cultivador de sicômoros", "Soldado"],
     "correctAnswer": 2,
     "category": "antigo_testamento",
     "difficulty": "medio",
-    "explanation": "As 10 pragas demonstraram o poder de Yahweh sobre os deuses do Egito e culminaram na libertação de Israel.",
-    "verseReference": "Êxodo 7-12"
+    "explanation": "Amós era pastor e colhedor de sicômoros antes de Deus chamá-lo para profetizar.",
+    "verseReference": "Amós 7:14-15"
+  },
+  {
+    "question": "Quem foi a rainha que salvou o trono de Judá escondendo o menino Joás?",
+    "options": ["Ester", "Jezabel", "Jeoseba", "Atalia"],
+    "correctAnswer": 2,
+    "category": "antigo_testamento",
+    "difficulty": "medio",
+    "explanation": "Jeoseba escondeu Joás por seis anos enquanto Atalia usurpava o trono.",
+    "verseReference": "2 Reis 11:2-3"
+  },
+  {
+    "question": "Qual foi a porção dobrada que Eliseu pediu de Elias?",
+    "options": ["Riquezas", "Poder", "Espírito", "Sabedoria"],
+    "correctAnswer": 2,
+    "category": "antigo_testamento",
+    "difficulty": "medio",
+    "explanation": "Eliseu pediu porção dobrada do espírito de Elias, como direito de primogênito espiritual.",
+    "verseReference": "2 Reis 2:9"
+  },
+  {
+    "question": "Quantos provérbios Salomão escreveu segundo o livro de Reis?",
+    "options": ["1.000", "3.000", "5.000", "10.000"],
+    "correctAnswer": 1,
+    "category": "antigo_testamento",
+    "difficulty": "medio",
+    "explanation": "Salomão compôs três mil provérbios, demonstrando sua sabedoria.",
+    "verseReference": "1 Reis 4:32"
+  },
+  {
+    "question": "Qual era o nome do rio onde Naamã foi curado?",
+    "options": ["Eufrates", "Nilo", "Jordão", "Quebar"],
+    "correctAnswer": 2,
+    "category": "antigo_testamento",
+    "difficulty": "medio",
+    "explanation": "Naamã mergulhou sete vezes no rio Jordão conforme instrução de Eliseu.",
+    "verseReference": "2 Reis 5:10-14"
+  },
+  {
+    "question": "Quem foi o profeta que teve visões sobre quatro impérios representados por metais?",
+    "options": ["Ezequiel", "Daniel", "Zacarias", "Joel"],
+    "correctAnswer": 1,
+    "category": "antigo_testamento",
+    "difficulty": "medio",
+    "explanation": "Daniel interpretou o sonho de Nabucodonosor sobre a estátua com cabeça de ouro, peito de prata, ventre de bronze e pernas de ferro.",
+    "verseReference": "Daniel 2:31-45"
+  },
+  {
+    "question": "Qual juiz fez um voto imprudente que custou a vida de sua filha?",
+    "options": ["Sansão", "Gideão", "Jefté", "Abimeleque"],
+    "correctAnswer": 2,
+    "category": "antigo_testamento",
+    "difficulty": "medio",
+    "explanation": "Jefté prometeu sacrificar o primeiro que saísse de sua casa, e foi sua filha.",
+    "verseReference": "Juízes 11:30-40"
+  },
+  {
+    "question": "Quantos filhos Jó teve após sua restauração?",
+    "options": ["7", "10", "14", "20"],
+    "correctAnswer": 1,
+    "category": "antigo_testamento",
+    "difficulty": "medio",
+    "explanation": "Deus restaurou Jó com o dobro de tudo, incluindo 10 filhos (7 filhos e 3 filhas).",
+    "verseReference": "Jó 42:13"
+  },
+  {
+    "question": "Qual era o nome do vale onde Davi matou Golias?",
+    "options": ["Vale de Elá", "Vale de Jezreel", "Vale de Aijalom", "Vale de Siquém"],
+    "correctAnswer": 0,
+    "category": "antigo_testamento",
+    "difficulty": "medio",
+    "explanation": "O confronto ocorreu no vale de Elá, entre os acampamentos de Israel e dos filisteus.",
+    "verseReference": "1 Samuel 17:2"
+  },
+  {
+    "question": "Quem foi o rei que teve lepra por tentar oferecer incenso no templo?",
+    "options": ["Acaz", "Uzias", "Jotão", "Manassés"],
+    "correctAnswer": 1,
+    "category": "antigo_testamento",
+    "difficulty": "medio",
+    "explanation": "Uzias invadiu a função sacerdotal e foi ferido com lepra até sua morte.",
+    "verseReference": "2 Crônicas 26:16-21"
+  },
+  {
+    "question": "Qual profeta predisse a destruição de Tiro?",
+    "options": ["Isaías", "Jeremias", "Ezequiel", "Todos os três"],
+    "correctAnswer": 3,
+    "category": "antigo_testamento",
+    "difficulty": "medio",
+    "explanation": "Isaías, Jeremias e Ezequiel profetizaram contra Tiro, cumprido por Nabucodonosor e Alexandre.",
+    "verseReference": "Isaías 23; Jeremias 27:3; Ezequiel 26-28"
+  },
+  {
+    "question": "Quantas pedras Davi escolheu do ribeiro para enfrentar Golias?",
+    "options": ["1", "3", "5", "7"],
+    "correctAnswer": 2,
+    "category": "antigo_testamento",
+    "difficulty": "medio",
+    "explanation": "Davi escolheu cinco pedras lisas, mas precisou apenas de uma.",
+    "verseReference": "1 Samuel 17:40"
+  },
+  {
+    "question": "Qual rei cortou o rolo de Jeremias e o queimou?",
+    "options": ["Jeoaquim", "Joaquim", "Zedequias", "Josias"],
+    "correctAnswer": 0,
+    "category": "antigo_testamento",
+    "difficulty": "medio",
+    "explanation": "Jeoaquim desprezou a palavra de Deus, cortando e queimando o rolo profético.",
+    "verseReference": "Jeremias 36:23"
+  },
+  {
+    "question": "Quem foi o escriba de Jeremias que escreveu suas profecias?",
+    "options": ["Gedalias", "Baruque", "Seraías", "Ebed-Meleque"],
+    "correctAnswer": 1,
+    "category": "antigo_testamento",
+    "difficulty": "medio",
+    "explanation": "Baruque, filho de Nerias, serviu como escriba fiel de Jeremias.",
+    "verseReference": "Jeremias 36:4"
+  },
+  {
+    "question": "Qual foi o sinal de aliança entre Deus e Abraão?",
+    "options": ["Sacrifícios", "Circuncisão", "Altar de pedras", "Arco-íris"],
+    "correctAnswer": 1,
+    "category": "antigo_testamento",
+    "difficulty": "medio",
+    "explanation": "A circuncisão foi estabelecida como sinal eterno da aliança abraâmica.",
+    "verseReference": "Gênesis 17:10-11"
+  },
+  {
+    "question": "Quantos anos Sara tinha quando Isaque nasceu?",
+    "options": ["70", "80", "90", "100"],
+    "correctAnswer": 2,
+    "category": "antigo_testamento",
+    "difficulty": "medio",
+    "explanation": "Sara tinha 90 anos, muito além da idade de conceber naturalmente.",
+    "verseReference": "Gênesis 17:17"
+  },
+  {
+    "question": "Qual profeta teve uma visão de um homem com um cordel de medir?",
+    "options": ["Ezequiel", "Zacarias", "Amós", "Habacuque"],
+    "correctAnswer": 1,
+    "category": "antigo_testamento",
+    "difficulty": "medio",
+    "explanation": "Zacarias viu visões sobre a restauração de Jerusalém, incluindo o homem medindo a cidade.",
+    "verseReference": "Zacarias 2:1-5"
+  },
+  {
+    "question": "Quem foi o rei que escondeu 100 profetas em cavernas?",
+    "options": ["Davi", "Acabe", "Obadias", "Josafá"],
+    "correctAnswer": 2,
+    "category": "antigo_testamento",
+    "difficulty": "medio",
+    "explanation": "Obadias, administrador do palácio de Acabe, protegeu os profetas de Jezabel.",
+    "verseReference": "1 Reis 18:4"
+  },
+  {
+    "question": "Qual foi a duração do reinado de Davi em Hebrom antes de reinar sobre todo Israel?",
+    "options": ["3 anos", "5 anos", "7 anos e meio", "10 anos"],
+    "correctAnswer": 2,
+    "category": "antigo_testamento",
+    "difficulty": "medio",
+    "explanation": "Davi reinou em Hebrom sobre Judá por sete anos e seis meses.",
+    "verseReference": "2 Samuel 5:5"
+  },
+  {
+    "question": "Quem foi o pai de João Batista mencionado nas profecias?",
+    "options": ["Elizeu", "Eleazar", "Zacarias", "Hilquias"],
+    "correctAnswer": 2,
+    "category": "antigo_testamento",
+    "difficulty": "medio",
+    "explanation": "Zacarias era sacerdote da ordem de Abias, cumprindo as expectativas messiânicas.",
+    "verseReference": "Lucas 1:5 (contexto profético do AT)"
+  },
+  {
+    "question": "Qual livro profético menor tem apenas um capítulo?",
+    "options": ["Obadias", "Filemom", "Judas", "Ageu"],
+    "correctAnswer": 0,
+    "category": "antigo_testamento",
+    "difficulty": "medio",
+    "explanation": "Obadias é o menor livro do AT com apenas 21 versículos em um capítulo.",
+    "verseReference": "Obadias"
+  },
+  {
+    "question": "Quantos capítulos tem o livro de Ester?",
+    "options": ["8", "10", "12", "15"],
+    "correctAnswer": 1,
+    "category": "antigo_testamento",
+    "difficulty": "medio",
+    "explanation": "Ester contém 10 capítulos narrando a salvação dos judeus na Pérsia.",
+    "verseReference": "Ester"
+  },
+  {
+    "question": "Qual profeta teve filhos com nomes 'Maher-Salal-Hás-Baz' e 'Sear-Jasube'?",
+    "options": ["Oseias", "Isaías", "Jeremias", "Ezequiel"],
+    "correctAnswer": 1,
+    "category": "antigo_testamento",
+    "difficulty": "medio",
+    "explanation": "Isaías deu a seus filhos nomes proféticos: 'Rápido-despojo-presa-segura' e 'Um-remanescente-voltará'.",
+    "verseReference": "Isaías 7:3; 8:3"
+  },
+  {
+    "question": "Qual era o nome da mulher cananeia que escondeu os espias israelitas?",
+    "options": ["Débora", "Jael", "Raabe", "Tamar"],
+    "correctAnswer": 2,
+    "category": "antigo_testamento",
+    "difficulty": "medio",
+    "explanation": "Raabe, uma prostituta de Jericó, protegeu os espias e foi salva com sua família.",
+    "verseReference": "Josué 2:1-21"
+  },
+  {
+    "question": "Quantos anos José tinha quando foi vendido como escravo?",
+    "options": ["13", "17", "20", "25"],
+    "correctAnswer": 1,
+    "category": "antigo_testamento",
+    "difficulty": "medio",
+    "explanation": "José tinha 17 anos quando seus irmãos o venderam.",
+    "verseReference": "Gênesis 37:2"
+  },
+  {
+    "question": "Qual rei de Judá começou a reinar aos 8 anos de idade?",
+    "options": ["Josias", "Joás", "Manassés", "Josafá"],
+    "correctAnswer": 1,
+    "category": "antigo_testamento",
+    "difficulty": "medio",
+    "explanation": "Joás tinha apenas 8 anos quando foi coroado após sair do esconderijo.",
+    "verseReference": "2 Reis 11:21"
+  },
+  {
+    "question": "Qual era o nome da cidade onde Abraão encontrou Melquisedeque?",
+    "options": ["Ur", "Harã", "Salém", "Betel"],
+    "correctAnswer": 2,
+    "category": "antigo_testamento",
+    "difficulty": "medio",
+    "explanation": "Melquisedeque, rei de Salém (Jerusalém) e sacerdote de Deus, abençoou Abraão.",
+    "verseReference": "Gênesis 14:18"
+  },
+  {
+    "question": "Quem foi a esposa de Acabe que matou os profetas do Senhor?",
+    "options": ["Atalia", "Jezabel", "Herodias", "Vasti"],
+    "correctAnswer": 1,
+    "category": "antigo_testamento",
+    "difficulty": "medio",
+    "explanation": "Jezabel perseguiu violentamente os profetas de Yahweh, promovendo Baal.",
+    "verseReference": "1 Reis 18:4"
+  },
+  {
+    "question": "Quantos dias a glória de Deus cobriu o Monte Sinai antes de chamar Moisés?",
+    "options": ["3", "6", "7", "40"],
+    "correctAnswer": 1,
+    "category": "antigo_testamento",
+    "difficulty": "medio",
+    "explanation": "A nuvem cobriu o monte por seis dias, e no sétimo Deus chamou Moisés.",
+    "verseReference": "Êxodo 24:16"
+  },
+  {
+    "question": "Qual foi o preço que Davi pagou pela eira de Araúna?",
+    "options": ["30 siclos de prata", "50 siclos de ouro", "50 siclos de prata", "100 siclos de ouro"],
+    "correctAnswer": 1,
+    "category": "antigo_testamento",
+    "difficulty": "medio",
+    "explanation": "Davi comprou a eira por 50 siclos de ouro para construir um altar.",
+    "verseReference": "1 Crônicas 21:25"
+  },
+  {
+    "question": "Quem foi a mulher que matou Sísera com uma estaca de tenda?",
+    "options": ["Débora", "Jael", "Raabe", "Hulda"],
+    "correctAnswer": 1,
+    "category": "antigo_testamento",
+    "difficulty": "medio",
+    "explanation": "Jael matou o general Sísera enquanto ele dormia em sua tenda.",
+    "verseReference": "Juízes 4:21"
+  },
+  {
+    "question": "Qual rei mandou lançar Jeremias em uma cisterna lamacenta?",
+    "options": ["Jeoaquim", "Joaquim", "Zedequias", "Nabucodonosor"],
+    "correctAnswer": 2,
+    "category": "antigo_testamento",
+    "difficulty": "medio",
+    "explanation": "Os príncipes convenceram Zedequias a lançar Jeremias na cisterna por suas profecias.",
+    "verseReference": "Jeremias 38:6"
+  },
+  {
+    "question": "Quantos anos Isaías profetizou?",
+    "options": ["Durante 4 reis", "Durante 5 reis", "20 anos", "30 anos"],
+    "correctAnswer": 0,
+    "category": "antigo_testamento",
+    "difficulty": "medio",
+    "explanation": "Isaías profetizou durante os reinados de Uzias, Jotão, Acaz e Ezequias.",
+    "verseReference": "Isaías 1:1"
+  },
+  {
+    "question": "Qual era o nome do servo de Eliseu que ficou leproso por ganância?",
+    "options": ["Eliézer", "Geazi", "Elcana", "Elias"],
+    "correctAnswer": 1,
+    "category": "antigo_testamento",
+    "difficulty": "medio",
+    "explanation": "Geazi mentiu e aceitou presentes de Naamã, recebendo sua lepra como castigo.",
+    "verseReference": "2 Reis 5:20-27"
+  },
+  {
+    "question": "Quem foi o último juiz de Israel antes da monarquia?",
+    "options": ["Sansão", "Eli", "Samuel", "Gideão"],
+    "correctAnswer": 2,
+    "category": "antigo_testamento",
+    "difficulty": "medio",
+    "explanation": "Samuel serviu como último juiz e ungiu os dois primeiros reis de Israel.",
+    "verseReference": "1 Samuel 7:15"
+  },
+  {
+    "question": "Qual profeta teve uma visão de ossos secos ganhando vida?",
+    "options": ["Isaías", "Jeremias", "Ezequiel", "Daniel"],
+    "correctAnswer": 2,
+    "category": "antigo_testamento",
+    "difficulty": "medio",
+    "explanation": "Ezequiel viu o vale de ossos secos simbolizando a restauração de Israel.",
+    "verseReference": "Ezequiel 37:1-14"
+  },
+  {
+    "question": "Quantos dias Ester jejuou antes de ir ao rei sem ser chamada?",
+    "options": ["1", "3", "7", "40"],
+    "correctAnswer": 1,
+    "category": "antigo_testamento",
+    "difficulty": "medio",
+    "explanation": "Ester e os judeus jejuaram por três dias e noites antes de sua audiência arriscada.",
+    "verseReference": "Ester 4:16"
+  },
+  {
+    "question": "Qual era o nome do primo de Ester que a criou?",
+    "options": ["Hamã", "Mardoqueu", "Assuero", "Bigtan"],
+    "correctAnswer": 1,
+    "category": "antigo_testamento",
+    "difficulty": "medio",
+    "explanation": "Mardoqueu adotou Ester após a morte de seus pais.",
+    "verseReference": "Ester 2:7"
+  },
+  {
+    "question": "Qual era o nome hebraico de Daniel?",
+    "options": ["Beltessazar", "Sadraque", "Abede-Nego", "Daniel nunca mudou"],
+    "correctAnswer": 3,
+    "category": "antigo_testamento",
+    "difficulty": "medio",
+    "explanation": "Daniel manteve seu nome hebraico; Beltessazar era seu nome babilônico.",
+    "verseReference": "Daniel 1:7"
+  },
+  {
+    "question": "Quantos anos tinha Josias quando começou a buscar o Deus de Davi?",
+    "options": ["8", "12", "16", "20"],
+    "correctAnswer": 2,
+    "category": "antigo_testamento",
+    "difficulty": "medio",
+    "explanation": "Aos 16 anos (oitavo ano de reinado), Josias começou a buscar a Deus.",
+    "verseReference": "2 Crônicas 34:3"
+  },
+  {
+    "question": "Qual profeta falou sobre 'espadas em arados'?",
+    "options": ["Isaías", "Miqueias", "Joel", "Isaías e Miqueias"],
+    "correctAnswer": 3,
+    "category": "antigo_testamento",
+    "difficulty": "medio",
+    "explanation": "Tanto Isaías quanto Miqueias profetizaram sobre converter armas em ferramentas.",
+    "verseReference": "Isaías 2:4; Miqueias 4:3"
+  },
+  {
+    "question": "Quem foi o rei de Judá que purificou o templo e restaurou a Páscoa?",
+    "options": ["Ezequias", "Josias", "Asa", "Josafá"],
+    "correctAnswer": 0,
+    "category": "antigo_testamento",
+    "difficulty": "medio",
+    "explanation": "Ezequias liderou uma grande reforma religiosa e celebrou a Páscoa magnificamente.",
+    "verseReference": "2 Crônicas 29-30"
+  },
+  {
+    "question": "Qual era o nome do rio onde Ezequiel teve suas visões?",
+    "options": ["Jordão", "Eufrates", "Quebar", "Nilo"],
+    "correctAnswer": 2,
+    "category": "antigo_testamento",
+    "difficulty": "medio",
+    "explanation": "Ezequiel estava entre os exilados junto ao rio Quebar na Babilônia.",
+    "verseReference": "Ezequiel 1:1"
+  },
+  {
+    "question": "Quantos anos durou a construção do Primeiro Templo?",
+    "options": ["3", "7", "13", "20"],
+    "correctAnswer": 1,
+    "category": "antigo_testamento",
+    "difficulty": "medio",
+    "explanation": "Salomão levou sete anos para construir o templo do Senhor.",
+    "verseReference": "1 Reis 6:38"
+  },
+  {
+    "question": "Qual profeta previu que o Messias nasceria em Belém?",
+    "options": ["Isaías", "Jeremias", "Miqueias", "Zacarias"],
+    "correctAnswer": 2,
+    "category": "antigo_testamento",
+    "difficulty": "medio",
+    "explanation": "Miqueias profetizou especificamente sobre Belém Efrata como local de nascimento.",
+    "verseReference": "Miqueias 5:2"
   }
 ]
