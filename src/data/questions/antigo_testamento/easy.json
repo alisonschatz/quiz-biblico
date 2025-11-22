@@ -619,5 +619,59 @@
     "difficulty": "facil",
     "explanation": "Caim respondeu com insolência após assassinar seu irmão.",
     "verseReference": "Gênesis 4:9"
+  },
+  {
+    "question": "Qual profeta foi engolido por um grande peixe?",
+    "options": ["Elias", "Eliseu", "Jonas", "Amós"],
+    "correctAnswer": 2,
+    "category": "antigo_testamento",
+    "difficulty": "facil",
+    "explanation": "Jonas foi engolido por um grande peixe após tentar fugir da missão que Deus lhe havia dado.",
+    "verseReference": "Jonas 1:17"
+  },
+  {
+    "question": "Quem interpretou os sonhos de Faraó?",
+    "options": ["Moisés", "José", "Arão", "Daniel"],
+    "correctAnswer": 1,
+    "category": "antigo_testamento",
+    "difficulty": "facil",
+    "explanation": "José interpretou os sonhos das sete vacas gordas e magras, prevendo sete anos de fartura seguidos de sete anos de fome.",
+    "verseReference": "Gênesis 41:25-32"
+  },
+  {
+    "question": "Com que instrumento Davi acalmava o rei Saul?",
+    "options": ["Flauta", "Harpa", "Trombeta", "Tambor"],
+    "correctAnswer": 1,
+    "category": "antigo_testamento",
+    "difficulty": "facil",
+    "explanation": "Davi tocava harpa para acalmar Saul quando um espírito maligno o atormentava.",
+    "verseReference": "1 Samuel 16:23"
+  },
+  {
+    "question": "Quantos mandamentos Deus deu a Moisés no Monte Sinai?",
+    "options": ["5", "7", "10", "12"],
+    "correctAnswer": 2,
+    "category": "antigo_testamento",
+    "difficulty": "facil",
+    "explanation": "Os Dez Mandamentos foram escritos por Deus em tábuas de pedra.",
+    "verseReference": "Êxodo 20:1-17"
+  },
+  {
+    "question": "Qual gigante foi derrotado por Davi com uma funda?",
+    "options": ["Ogue", "Golias", "Anaque", "Zanzumins"],
+    "correctAnswer": 1,
+    "category": "antigo_testamento",
+    "difficulty": "facil",
+    "explanation": "Davi, ainda jovem pastor, derrotou o gigante filisteu Golias com apenas uma pedra e uma funda.",
+    "verseReference": "1 Samuel 17:49-50"
+  },
+  {
+    "question": "Qual era a cor do manto especial que Jacó deu a José?",
+    "options": ["Vermelho", "Azul", "De várias cores", "Branco"],
+    "correctAnswer": 2,
+    "category": "antigo_testamento",
+    "difficulty": "facil",
+    "explanation": "Jacó fez uma túnica de várias cores para José, demonstrando seu favoritismo, o que causou inveja nos outros irmãos.",
+    "verseReference": "Gênesis 37:3"
   }
 ]
