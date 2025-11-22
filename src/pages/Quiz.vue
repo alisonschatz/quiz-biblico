@@ -7,7 +7,7 @@
       </div>
     </div>
 
-    <div v-else-if="!quizComplete" class="quiz-container">
+    <div v-else-if="!quizStore.quizComplete" class="quiz-container">
       <header class="quiz-header">
         <button class="header-btn back-button" @click="goBack">
           <ArrowLeftIcon class="btn-icon" />
@@ -15,64 +15,70 @@
         <div class="header-stats">
           <div class="stat-chip stat-score">
             <TrophyIcon class="chip-icon" />
-            <span class="chip-value">{{ score }}</span>
+            <span class="chip-value">{{ quizStore.score }}</span>
           </div>
           <div class="stat-chip stat-xp">
             <BoltIcon class="chip-icon" />
-            <span class="chip-value">{{ xpEarned }}</span>
+            <span class="chip-value">{{ quizStore.xpEarned }}</span>
           </div>
         </div>
       </header>
 
       <div class="progress-section">
         <div class="progress-info">
-          <span class="progress-label">Questão {{ currentQuestionIndex + 1 }} de {{ questions.length }}</span>
-          <span class="progress-percentage">{{ progressPercentage }}%</span>
+          <span class="progress-label">Questão {{ quizStore.currentQuestionIndex + 1 }} de {{ quizStore.questions.length }}</span>
+          <span class="progress-percentage">{{ quizStore.progressPercentage }}%</span>
         </div>
         <div class="progress-track">
-          <div class="progress-fill" :style="{ width: `${progressPercentage}%` }"></div>
+          <div class="progress-fill" :style="{ width: `${quizStore.progressPercentage}%` }"></div>
         </div>
       </div>
 
       <transition name="question-slide" mode="out-in">
         <div
-          v-if="currentQuestion"
-          :key="currentQuestionIndex"
+          v-if="quizStore.currentQuestion"
+          :key="quizStore.currentQuestionIndex"
           class="question-section"
         >
           <div class="question-card">
-            <div class="difficulty-badge" :class="`difficulty-${currentQuestion.difficulty}`">
-              <SparklesIcon class="difficulty-icon" />
-              <span>{{ difficultyLabel }}</span>
+            <div class="question-meta">
+              <div class="difficulty-badge" :class="`difficulty-${quizStore.difficultyClass}`">
+                <SparklesIcon class="difficulty-icon" />
+                <span>{{ quizStore.difficultyLabel }}</span>
+              </div>
+              <div class="category-badge">
+                <TagIcon class="category-icon" />
+                <span>{{ quizStore.categoryLabel }}</span>
+              </div>
             </div>
 
-            <h2 class="question-text">{{ currentQuestion.question }}</h2>
+            <h2 class="question-text">{{ quizStore.currentQuestion.question }}</h2>
 
             <div class="options-list">
               <button
-                v-for="(option, index) in currentQuestion.options"
+                v-for="(option, index) in quizStore.currentQuestion.options"
                 :key="index"
                 :class="[
                   'option-button',
                   {
-                    selected: selectedOption === index,
-                    correct: showResult && index === currentQuestion.correctAnswer,
-                    incorrect: showResult && selectedOption === index && index !== currentQuestion.correctAnswer,
-                    disabled: showResult
+                    selected: quizStore.selectedOption === index,
+                    correct: quizStore.showResult && index === quizStore.currentQuestion.correctAnswer,
+                    incorrect: quizStore.showResult && quizStore.selectedOption === index && index !== quizStore.currentQuestion.correctAnswer,
+                    disabled: quizStore.showResult
                   }
                 ]"
-                @click="selectOption(index)"
-                :disabled="showResult"
+                @click="quizStore.selectOption(index)"
+                :disabled="quizStore.showResult"
               >
                 <span class="option-letter">{{ String.fromCharCode(65 + index) }}</span>
                 <span class="option-text">{{ option }}</span>
                 <transition name="icon-pop">
                   <CheckCircleIcon
-                    v-if="showResult && index === currentQuestion.correctAnswer"
+                    v-if="quizStore.showResult && index === quizStore.currentQuestion.correctAnswer"
                     class="result-icon icon-correct"
                   />
                   <XCircleIcon
-                    v-else-if="showResult && selectedOption === index && index !== currentQuestion.correctAnswer"
+                    v-else-if="quizStore.showResult && quizStore.selectedOption === index && index !== quizStore.currentQuestion.correctAnswer"
                     class="result-icon icon-incorrect"
                   />
                 </transition>
@@ -80,13 +86,13 @@
             </div>
 
             <button
-              v-if="!showResult"
+              v-if="!quizStore.showResult"
               class="action-btn confirm-btn"
-              :disabled="selectedOption === null || isProcessing"
+              :disabled="quizStore.selectedOption === null || quizStore.isProcessing"
               @click="confirmAnswer"
             >
-              <span>{{ isProcessing ? 'Processando...' : 'Confirmar Resposta' }}</span>
-              <ArrowRightIcon v-if="!isProcessing" class="btn-icon" />
+              <span>{{ quizStore.isProcessing ? 'Processando...' : 'Confirmar Resposta' }}</span>
+              <ArrowRightIcon v-if="!quizStore.isProcessing" class="btn-icon" />
               <div v-else class="btn-spinner"></div>
             </button>
           </div>
@@ -108,7 +114,7 @@
 
           <div class="score-display">
             <span class="score-label">Pontuação</span>
-            <span class="score-value">{{ score }} / {{ questions.length }}</span>
+            <span class="score-value">{{ quizStore.score }} / {{ quizStore.questions.length }}</span>
           </div>
 
           <div class="metrics-grid">
@@ -118,7 +124,7 @@
               </div>
               <div class="metric-info">
                 <span class="metric-label">Precisão</span>
-                <span class="metric-value">{{ accuracy }}%</span>
+                <span class="metric-value">{{ quizStore.accuracy }}%</span>
               </div>
             </div>
             <div class="metric-card metric-xp">
@@ -127,7 +133,7 @@
               </div>
               <div class="metric-info">
                 <span class="metric-label">XP Ganho</span>
-                <span class="metric-value">+{{ xpEarned }}</span>
+                <span class="metric-value">+{{ quizStore.xpEarned }}</span>
               </div>
             </div>
             <div class="metric-card metric-time">
@@ -136,7 +142,7 @@
               </div>
               <div class="metric-info">
                 <span class="metric-label">Tempo</span>
-                <span class="metric-value">{{ formattedTime }}</span>
+                <span class="metric-value">{{ quizStore.formattedTime }}</span>
               </div>
             </div>
             <div class="metric-card metric-streak">
@@ -145,7 +151,7 @@
               </div>
               <div class="metric-info">
                 <span class="metric-label">Sequência</span>
-                <span class="metric-value">{{ currentStreak }}</span>
+                <span class="metric-value">{{ quizStore.currentStreak }}</span>
               </div>
             </div>
           </div>
@@ -162,7 +168,6 @@
       </div>
     </div>
 
-    <!-- Snackbar -->
     <transition name="snackbar-slide">
       <div v-if="snackbar.show" :class="['snackbar', `snackbar-${snackbar.type}`]">
         <component :is="snackbar.icon" class="snackbar-icon" />
@@ -174,8 +179,9 @@
 </template>
 
 <script setup>
-import { ref, computed, onMounted, onUnmounted } from 'vue';
+import { ref, onMounted, onUnmounted } from 'vue';
 import { useRouter } from 'vue-router';
+import { useQuizStore } from '../stores/quiz.store';
 import authService from '/src/services/auth.service';
 import userService from '/src/services/user.service';
 import quizService from '/src/services/quiz.service';
@@ -194,48 +200,21 @@ import {
   ClockIcon,
   FireIcon,
   HomeIcon,
-  ArrowPathIcon
+  ArrowPathIcon,
+  TagIcon
 } from '@heroicons/vue/24/solid';
 
 const router = useRouter();
+const quizStore = useQuizStore();
 
 const loading = ref(true);
-const questions = ref([]);
-const currentQuestionIndex = ref(0);
-const score = ref(0);
-const xpEarned = ref(0);
-const quizComplete = ref(false);
 const progress = ref(null);
-const selectedOption = ref(null);
-const showResult = ref(false);
-const isProcessing = ref(false);
-const startTime = ref(null);
-const elapsedTime = ref(0);
-const timerInterval = ref(null);
-const currentStreak = ref(0);
 
 const snackbar = ref({
   show: false,
   message: '',
   type: 'success',
   icon: CheckCircleIcon
-});
-
-const currentQuestion = computed(() => questions.value[currentQuestionIndex.value]);
-const progressPercentage = computed(() =>
-  questions.value.length ? Math.round(((currentQuestionIndex.value + 1) / questions.value.length) * 100) : 0
-);
-const accuracy = computed(() =>
-  questions.value.length ? Math.round((score.value / questions.value.length) * 100) : 0
-);
-const difficultyLabel = computed(() =>
-  ({ easy: 'Fácil', medium: 'Médio', hard: 'Difícil' }[currentQuestion.value?.difficulty] || 'Médio')
-);
-const isLastQuestion = computed(() => currentQuestionIndex.value === questions.value.length - 1);
-const formattedTime = computed(() => {
-  const mins = Math.floor(elapsedTime.value / 60);
-  const secs = elapsedTime.value % 60;
-  return `${mins}:${secs.toString().padStart(2, '0')}`;
 });
 
 const showSnackbar = (message, type = 'success') => {
@@ -246,18 +225,6 @@ const showSnackbar = (message, type = 'success') => {
 
 const hideSnackbar = () => (snackbar.value.show = false);
 
-const startTimer = () => {
-  startTime.value = Date.now();
-  timerInterval.value = setInterval(() => {
-    elapsedTime.value = Math.floor((Date.now() - startTime.value) / 1000);
-  }, 1000);
-};
-
-const stopTimer = () => {
-  if (timerInterval.value) clearInterval(timerInterval.value);
-  timerInterval.value = null;
-};
-
 const loadQuiz = async () => {
   try {
     const user = authService.getCurrentUser();
@@ -267,10 +234,11 @@ const loadQuiz = async () => {
 
     const userProgress = await userService.getUserProgress(user.uid);
     progress.value = userProgress;
-    currentStreak.value = userProgress.currentStreak || 0;
+    quizStore.setCurrentStreak(userProgress.currentStreak || 0);
 
-    questions.value = await quizService.getRandomQuestions(10);
-    startTimer();
+    const questions = await quizService.getRandomQuestions(10);
+    quizStore.setQuestions(questions);
+    quizStore.startTimer();
   } catch (error) {
     console.error('Erro ao carregar quiz:', error);
     showSnackbar('Erro ao carregar perguntas', 'error');
@@ -279,39 +247,30 @@ const loadQuiz = async () => {
   }
 };
 
-const selectOption = (index) => {
-  if (!showResult.value) selectedOption.value = index;
-};
-
 const confirmAnswer = () => {
-  if (selectedOption.value === null || showResult.value || isProcessing.value) return;
+  if (quizStore.selectedOption === null || quizStore.showResult || quizStore.isProcessing) return;
 
-  isProcessing.value = true;
-  showResult.value = true;
-  const correct = selectedOption.value === currentQuestion.value.correctAnswer;
+  quizStore.startProcessing();
+  const correct = quizStore.selectedOption === quizStore.currentQuestion.correctAnswer;
 
   if (correct) {
-    score.value++;
-    const xp = quizService.calculateXP(currentQuestion.value.difficulty);
-    xpEarned.value += xp;
+    const xp = quizService.calculateXP(quizStore.currentQuestion.difficulty);
+    quizStore.answerCorrect(xp);
     confetti({ particleCount: 80, spread: 70, origin: { y: 0.6 } });
   }
 
   setTimeout(() => {
-    isProcessing.value = false;
-    if (isLastQuestion.value) {
+    quizStore.finishProcessing();
+    if (quizStore.isLastQuestion) {
       completeQuiz();
     } else {
-      currentQuestionIndex.value++;
-      selectedOption.value = null;
-      showResult.value = false;
+      quizStore.nextQuestion();
     }
   }, 1500);
 };
 
 const completeQuiz = async () => {
-  stopTimer();
-  quizComplete.value = true;
+  quizStore.completeQuiz();
   confetti({ particleCount: 150, spread: 100, origin: { y: 0.6 } });
 
   try {
@@ -319,7 +278,7 @@ const completeQuiz = async () => {
     if (!user) return;
 
     const p = progress.value;
-    const newTotalXP = p.totalXp + xpEarned.value;
+    const newTotalXP = p.totalXp + quizStore.xpEarned;
     const newLevel = quizService.calculateLevel(newTotalXP);
     const today = new Date().toISOString().split('T')[0];
     const lastPlayed = p.lastPlayed;
@@ -330,12 +289,12 @@ const completeQuiz = async () => {
       newStreak = diffDays === 1 ? p.currentStreak + 1 : diffDays > 1 ? 1 : p.currentStreak;
     }
 
-    currentStreak.value = newStreak;
+    quizStore.setCurrentStreak(newStreak);
     const updated = {
       totalXp: newTotalXP,
       level: newLevel,
-      questionsAnswered: p.questionsAnswered + questions.value.length,
-      correctAnswers: p.correctAnswers + score.value,
+      questionsAnswered: p.questionsAnswered + quizStore.questions.length,
+      correctAnswers: p.correctAnswers + quizStore.score,
       currentStreak: newStreak,
       bestStreak: Math.max(p.bestStreak, newStreak),
       lastPlayed: today
@@ -367,26 +326,19 @@ const completeQuiz = async () => {
 };
 
 const restartQuiz = () => {
-  currentQuestionIndex.value = 0;
-  score.value = 0;
-  xpEarned.value = 0;
-  quizComplete.value = false;
-  selectedOption.value = null;
-  showResult.value = false;
-  isProcessing.value = false;
-  elapsedTime.value = 0;
+  quizStore.resetQuiz();
   loadQuiz();
 };
 
 const goBack = () => {
-  stopTimer();
+  quizStore.stopTimer();
   router.push('/');
 };
 
 const goHome = () => router.push('/');
 
 onMounted(() => loadQuiz());
-onUnmounted(() => stopTimer());
+onUnmounted(() => quizStore.stopTimer());
 </script>
 
 <style src="/src/css/pages/quiz.scss" scoped></style>
